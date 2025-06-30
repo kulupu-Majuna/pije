@@ -1,0 +1,49 @@
+---
+import type { HTMLAttributes } from 'astro/types';
+
+
+// const slotNames = Object.keys(Astro.slots);
+// const renderedSlots = Object.fromEntries(await Promise.all(slotNames.map(async slot => [slot, await Astro.slots.render(slot)]))) as Record<(typeof slotNames)[number], any>;
+
+type Props = { from?: number, till?: number }
+
+const { from, till } = Astro.props;
+
+const readableName = (i : number) => i.toString()
+---
+<style is:global>
+del.unset, ins.unset {
+  text-decoration: none;
+  background: none;
+  color: inherit;
+}
+del, .del.del {
+  text-decoration: line-through;
+  background-color: #fbb;
+  color: rgb(var(--gray));
+}
+ins, .ins.ins {
+  text-decoration: none;
+  background-color: #d4fcbc;
+}
+</style>
+{
+  till === undefined ?
+    from === undefined ?
+      <slot />
+    :
+      <ins data-from={from} title={`added ${readableName(from)}`}>
+        <slot />
+      </ins>
+  :
+    from === undefined ?
+      <del data-till={till} title={`removed ${readableName(till)}`}>
+        <slot />
+      </del>
+    :
+      <del data-from={from} data-till={till} title={`added ${readableName(from)}, removed ${readableName(till)}`}>
+        <ins>
+          <slot />
+        </ins>
+      </del>
+}

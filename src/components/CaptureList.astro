@@ -1,0 +1,88 @@
+---
+import Range from './Range.astro';
+
+type Props = {
+  capture_groups: string[][]
+}
+
+const { capture_groups } = Astro.props;
+const pathname = Astro.url.pathname.replace(import.meta.env.BASE_URL, '');
+const subpath = pathname.match(/[^\/]+/g);
+
+function URLtoDate(url : string) {
+  if (url.startsWith("https://web.archive.org/web/")) {
+    const snowflake = url.slice("https://web.archive.org/web/".length).split('/')[0]
+    const fields = { // components of the snowflake
+      year: 4,
+      month: 2,
+      day: 2 
+    }
+    let i = 0; // number of chars of snowflake parsed so far.
+    const {year, month, day} = Object.fromEntries(Object.entries(fields).map(([key, length]) => [key, +snowflake.slice(i, i+=length)]))
+    return new Date(year, month, day)
+day
+  } else {
+    throw URIError(`Unknown archive format: '${url}'`)
+  }
+}
+
+const dates = capture_groups.map(row => row.map(URLtoDate));
+---
+<style>
+  ol { margin: 0; }
+  ul { 
+    display: flex; 
+    padding: 0;
+  }
+  ul li { list-style: none; }
+  ul li + li::before { 
+    content: "~"; 
+    padding-inline: 0.5em;
+  }
+</style>
+Viewing page between: <Range values={capture_groups.map(row => row.map(x => +URLtoDate(x)))} />
+<!-- <input type="range" min={+dates[0][0]} max={+dates.at(-1)!.at(-1)! + 1_000_000_000 * (dates.reduce((count,row) => count+row.length, 0) - 1)} list="capturedates"> -->
+<!-- <br> -->
+<details id="capture_versions">
+  <summary>(<span>{capture_groups.length}</span> distinct versions)</summary>
+  <ol>
+  {capture_groups.map(group => (
+    <li><ul>
+      {group.map(capture_url => (
+        <li>
+          <a href={capture_url}>
+            {URLtoDate(capture_url).toLocaleDateString("en-NZ", {year: "numeric", month: "long", day: "numeric"})}
+          </a>
+        </li>
+      ))}
+    </ul></li>
+  ))}
+  </ol>
+</details>
+
+<script>
+const slider = document.querySelector('#slider')!;
+var mincache : number, maxcache : number;
+slider.addEventListener('input', ()=>{
+  const min = +slider.dataset.left;
+  const max = +slider.dataset.right;
+  if (mincache === min && maxcache === max)
+    return;
+  mincache = min;
+  maxcache = max;
+  document.querySelectorAll("ins, del").forEach(elm => {
+    const from = +(elm.dataset.from ?? 0);
+    const till = +(elm.dataset.till ?? Infinity);
+    if (till < min) elm.style.display = 'none';
+    else if (max < from) elm.style.display = 'none';
+    else {
+      elm.style.display = ''
+      elm.classList.add('unset')
+      elm.classList.remove('ins')
+      elm.classList.remove('del')
+      if (min < from) elm.classList.add('ins')
+      if (till <= max) elm.classList.add('del')
+    }
+  })
+})
+</script>

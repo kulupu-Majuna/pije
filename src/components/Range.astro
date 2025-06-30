@@ -1,0 +1,76 @@
+---
+import type { HTMLAttributes } from 'astro/types';
+import 'nouislider/dist/nouislider.css';
+
+type Props = {
+  values: number[][],
+  onchangefn : string,
+};
+
+const { values, onchangefn } = Astro.props;
+const min = values[0][0];
+const max = values.at(-1).at(-1);
+---
+<style is:global>
+    .noUi-target {
+        display: inline-block;
+        width: 80%;
+        margin-left: 2em;
+        margin-bottom: 1.25em;
+        margin-top: 2.5em;
+    }
+    .noUi-tooltip {
+        font-size: 0.8em;
+    }
+    .noUi-pips .noUi-value-horizontal {
+        /* -webkit-transform: translate(-50%, 25px); */
+        /* transform: translate(-50%, 25px); */
+        /* writing-mode: vertical-lr; */
+        font-size: 0em;
+    }
+    .noUi-pips .noUi-marker::after {
+        content: " ";
+        display: block;
+        width: 18px;
+        margin-left: -8px;
+        height: 15px;
+    }
+    .noUi-pips .noUi-marker:hover + .noUi-value-horizontal {
+        font-size: 0.7em;
+    }
+</style>
+<div id="slider" data-min={min} data-max={max} data-values={JSON.stringify(values)} data-onchange={onchangefn}></div>
+
+<script>
+import noUiSlider from 'nouislider';
+var slider = document.getElementById('slider')!;
+const [min, max] = [+slider.dataset.min!, +slider.dataset.max!]
+const values : number[][] = JSON.parse(slider!.dataset.values!);
+const leadingValues = values.map(x=>x[0]).flat()
+const trailingValues = values.map(x=>x[x.length-1]).flat()
+const allValues = values.flat()
+
+const format = (value : number) => (new Date(value)).toLocaleDateString("en-NZ", {year: "numeric", month: "long", day: "numeric"})
+
+noUiSlider.create(slider, {
+    start: [min, max],
+    connect: true,
+    format: {from: n => +n, to: format},
+    tooltips: [true, true],
+    range: {min, max},
+    pips: {
+        mode: 'values',
+        values: allValues,
+        filter: n => leadingValues.includes(n) ? 1 : allValues.includes(n) ? 2 : -1,
+        format: {to: format},
+    }
+});
+
+slider.noUiSlider.on('update', ()=>{
+    const [numeric_min, numeric_max] = slider.noUiSlider.get(true);
+    slider.dataset.left = trailingValues.findIndex(time => numeric_min <= time).toString()
+    slider.dataset.right = leadingValues.findLastIndex(time => time <= numeric_max).toString()
+    slider.dispatchEvent(new InputEvent("input"))
+})
+
+</script>
