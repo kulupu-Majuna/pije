@@ -1,0 +1,141 @@
+---
+title: toki pi nasin sewi
+description: "[Warning: Includes hate speech] Translations of various religions' most important texts. Currently contains these translations: the Shma, the Babel Text, the Ten Commandments, the Lord's Prayer, the Islamic Declaration of Faith, a quote by Buddha, and the Five Fundamental Beliefs of Creativity."
+captures:
+  -
+    - https://web.archive.org/web/20050126142159/http://tokipona.nytka.org:80/text/tokisewi.html
+    - https://web.archive.org/web/20050208234307/http://tokipona.nytka.org:80/text/tokisewi.html
+---
+
+>  Please note that the English translations provided here are NOT the
+> original texts. Instead, they are mild paraphrases of the Toki Pona text.
+
+## toki pi nanpa wan - The Shma
+<span class="translation">jan Isale o kute e ni! jan sewi wan pi mi mute li lawa!</span>  
+<span class="alt">Israel, hear this! Our one G-d leads!</span>
+
+## ma tomo Pape - Babel Text
+
+> If you would like to see the original English text as it appears in the Bible, go [here](http://omniglot.com/babel/english.htm).
+
+<!-- <table> -->
+<div class="translation">
+
+jan ali li kepeken e toki wan sama.  
+jan li kama tan nasin pi kama suno li kama tawa ma Sinale li awen lon ni.  
+jan li toki e ni: "o kama! mi mute o pali e kiwen. o seli e ona."  
+jan mute li toki e ni: "o kama! mi mute o pali e tomo mute e tomo palisa suli. sewi pi tomo palisa li lon sewi kon. nimi pi mi mute o kama suli! mi wile ala e ni: mi mute li lon ma ante mute."  
+jan sewi Jawe li kama anpa li lukin e ma tomo e tomo palisa.  
+jan sewi Jawe li toki e ni: jan li lon ma wan li kepeken e toki sama li pali e tomo palisa. tenpo ni la ona mute li ken pali e ijo ike mute.  
+mi wile tawa anpa li wile pakala e toki pi jan mute ni. mi wile e ni: jan li sona ala e toki pi jan ante.  
+jan sewi Jawe li kama e ni: jan li lon ma mute li ken ala pali e tomo.  
+nimi pi ma tomo ni li Pape tan ni: jan sewi Jawe li pakala e toki pi jan ali. tan ma tomo Pape la jan sewi Jawe li tawa e jan tawa ma mute. 
+</div><div class="alt">
+
+Everyone used the same, common language.  
+People came from the road of the sun's approach and came to Shinar and stayed there.  
+People said this: "Come! Let's make bricks. Let's warm them."  
+Many people said this: "Come! Let's make many building and a big tower. The top of the tower will be in heaven. May our name become important! I don't want this: We are in many different lands."  
+The Lord came down and saw the city and the tower.  
+And the Lord said this: The people are in one area and use the same language and have made a tower. Now they can do many bad things.  
+I want to go down and want to destroy the language of these many people. I want this: People don't understand the language of other people.  
+The Lord caused this: People are in many lands and can't build buildings.  
+The name of this city is Babel because of this: the Lord destroyed the language of everyone. From the city Babel, the Lord moved people to many lands.
+</div>
+
+## toki lawa mute - The Ten Commandments
+
+<div class="translation">
+
+mi taso li jan sewi sina.  
+o pali ala e ijo sewi lili. o sewi ala e ona.  
+o kepeken sewi e nimi mi.  
+tenpo suno sewi li suli.  
+mama sina li lawa e sina.  
+o moli ala.  
+o unpa ike ala.  
+o kama ala jo ike e ijo.  
+o toki e lon.  
+o wile ala e ijo pi jan ante. 	
+</div><div class="alt">
+
+Only I am your god.  
+Don't make little religious objects. Don't worship them.  
+Use religiously my name.  
+The holy day is important.  
+Your parents are in control of you.  
+Don't kill.  
+Have sex not evilly.  
+Don't come to have things evilly.  
+Tell the truth.  
+Don't want other people's things.  
+</div>
+
+## mama pi mi mute - The Lord's Prayer
+
+<div class="translation">
+
+mama pi mi mute o, sina lon sewi kon.  
+nimi sina li sewi.  
+ma sina o kama.  
+jan o pali e wile sina lon sewi kon en lon ma.  
+o pana e moku pi tenpo suno ni tawa mi mute.  
+o weka e pali ike mi. sama la o weka e pali ike pi jan ante.  
+o kama e ni: mi wile ala ike.  
+o lawa e mi tan ike.  
+tenpo ali la ma en ken en pona li pi sina. Amen.
+</div><div class="alt">
+
+Our father, You are in heaven.  
+Your name is holy.  
+May your kingdom come.  
+May people do your will in heaven and in the world.  
+Give the food of today to us.  
+Remove my bad deeds. Similarly, remove the bad deeds of other people.  
+Cause this: I don't want evilly.  
+Lead me from evil.  
+Always the land and the ability and the greatness is of you. Amen.
+</div>
+
+## toki sona pi nasin sewi Silami - Islamic Declaration of Faith
+
+<span class="translation">jan sewi wan taso li jan sewi. jan Muwama li jan pali ona li jan toki ona.</span>  
+<span class="alt">Only one god is God (Allah). Muhammad is his servant and his messenger.</span> 
+ 
+
+## toki pi jan Puta - A Quote by Buddha
+
+<span class="translation">ilo suno wan li ken pana e suno tawa ilo suno mute mute. wawa pi ilo suno li kama ala lili. jan li pona tawa jan mute la pona li kama ala lili.</span>   
+<span class="alt">One candle can give light to thousands of candles. The strength of the candle doesn't become decreased. When someone is good to many people, the goodness doesn't become smaller. </span>
+ 
+
+## toki sewi pi jan walo - Five Fundamental Beliefs of Creativity
+
+<div class="translation">
+
+mi mute li sona e ni: kulupu jan li nasin sewi.  
+
+mi mute li sona e ni: jan walo li pona mute. jan ante li ike.  
+
+mi mute li sona e ni: jan li pona tawa jan walo la jan ni li pona. jan li pakala e jan walo la jan ni li ike mute.  
+
+mi mute li sona e ni: nasin li pona tawa jan walo la ona li pona mute. nasin li ike tawa jan walo la ona li ike mute.  
+
+mi mute li sona e ni: nasin pali li nasin sewi taso pi jan walo. ona taso li ken sewi e jan walo.  
+
+mi mute li wile sewi. mi mute li pali tan ni.   
+utala sewi pi kulupu jan a!
+</div><div class="alt">
+ We know that race is religion.
+
+We know that white people are very good. Other people are evil.
+
+We know that if a person is good to the white people, that person is good. If a person harms the white people, that person is very evil.
+
+We know that if a path is good for the white people, it is the ultimate good. If a path is bad for the white people, it is the ultimate evil.
+
+We know that Creativity is the only religion for the white people. Only it can raise the white people.
+
+We must be victorious. We work because of this.  
+O holy war of the races! 
+</div>

@@ -19,7 +19,7 @@ function URLtoDate(url : string) {
     }
     let i = 0; // number of chars of snowflake parsed so far.
     const {year, month, day} = Object.fromEntries(Object.entries(fields).map(([key, length]) => [key, +snowflake.slice(i, i+=length)]))
-    return new Date(year, month, day)
+    return new Date(year, month-1, day)
 day
   } else {
     throw URIError(`Unknown archive format: '${url}'`)
@@ -73,7 +73,7 @@ slider.addEventListener('input', ()=>{
   document.querySelectorAll("ins, del").forEach(elm => {
     const from = +(elm.dataset.from ?? 0);
     const till = +(elm.dataset.till ?? Infinity);
-    if (till < min) elm.style.display = 'none';
+    if (till <= min) elm.style.display = 'none';
     else if (max < from) elm.style.display = 'none';
     else {
       elm.style.display = ''

@@ -1,0 +1,51 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+
+
+import { getCollection } from 'astro:content';
+const posts = (await getCollection('archive'));
+const sum = (a : number, b : number) => a+b
+const total_captures = posts.map(post => post.data.captures.map(group=>group.length).reduce(sum)).reduce(sum)
+const unique_captures = posts.map(post => post.data.captures.length).reduce(sum)
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>lipu pi jan Pije</h1>
+			<p>
+				This site is an archive of <a href="https://sona.pona.la/wiki/jan_Pije">jan Pije</a>'s website, which was active 2001-2020.
+			</p>
+
+			<h2>Source</h2>
+			<p>
+				The archive data is sourced from <a href="https://archive.org/">the Internet Archive</a>'s Wayback Machine. Each page lists its specific sources.
+			</p>
+			<p>
+				The original website was hosted under various domains:
+			</p>
+			<ol>
+				<li>http://www.angelfire.com/cantina/tokipona/ (200? - 2003)</li>
+				<li>http://www.geocities.com/tokipona (2003 - 2004)</li>
+				<li>http://tokipona.nytka.org/ (2004 - 2005)</li>
+				<li>http://toki.co.nr (2005-2018, as a redirect)</li>
+				<li>http://tokipona.esperanto-jeunes.org/ (2005 - 2006)</li>
+				<li>http://toki.dm7.net/ (2006 - 2006)</li>
+				<li>http://bknight0.myweb.uga.edu/toki (2006 - 2012)</li>
+				<li>http://tokipona.net/tp/janpije/ (2012 - 2020)</li>
+			</ol>
+			<p>
+				Currently only the first three have been incorporated into this site, totalling {unique_captures} versions of {posts.length} pages captured {total_captures} times. 
+			</p>
+		</main>
+		<Footer />
+	</body>
+</html>

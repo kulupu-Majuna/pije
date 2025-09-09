@@ -52,15 +52,15 @@ main {
 
 img {
 	max-width: 100%;
+	display: block;
 	margin-inline: auto;
-}
-img:not([src]) {
-	min-width: 10em;
-	width: max-content;
-	min-height: 6em;
 	text-align: center;
 	align-content: center;
-	display: block;
+	min-width: 10em;
+	min-height: 6em;
+}
+img:not([src]) {
+	width: max-content;
 	border: dashed rgb(var(--black)) 1px; 
 	background-color: white;
 	background-image: url("/images/broken-image.jpg");
@@ -71,4 +71,45 @@ img:not([src]) {
 }
 img:not([src])::after {
 	content: "missing image"
+}
+
+h1 img {
+	display: inline;
+}
+
+blockquote {
+	font-size: 0.75em;
+	text-align: center;
+}
+
+.original {
+  color: #ff6666;
+}
+.translation {
+  font-style: italic;
+}
+.alt {
+  color: #3399ff;
+}
+
+h3, h4 {
+	text-decoration: underline;
+}
+
+li > p {
+	display: inline;
+}
+
+nav ul {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0 1em;
+	justify-content: center;
+	margin: 0.5em 0;
+}
+nav > p {
+	display: none;
+}
+nav li {
+	list-style: none;
 }

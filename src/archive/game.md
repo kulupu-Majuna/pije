@@ -1,0 +1,104 @@
+---
+title: TP Video Games
+description: A collection of NES and SNES ROMs with text translated into toki pona
+captures:
+  -
+    - https://web.archive.org/web/20040708083332/http://www.geocities.com/tokipona/game/game.html
+    - https://web.archive.org/web/20041111094918/http://www.geocities.com/tokipona/game/game.html
+    - https://web.archive.org/web/20041124085558/http://www.geocities.com/tokipona/game/game.html
+    - https://web.archive.org/web/20041209124959/http://tokipona.nytka.org:80/game/game.html
+    - https://web.archive.org/web/20050204035115/http://tokipona.nytka.org:80/game/game.html
+---
+
+![](/images/game.jpg)
+
+## What is Emulation?
+As far as we're concerned, emulation is a way for you to play video games from systems like Nintendo on your computer. In order to play the video games, you must have two things: a ROM for the game you want to play; and an emulator to make the ROM run.
+
+## NES Video Games
+**Get an emulator**: My favorite NES emulator for Windows is [Nestron](http://nestron.emuunlim.com/files.htm). To download it, scroll to the heading that says _Files/Downloads_. There are also [other NES emulators for Windows](http://www.zophar.net/nes.html).. If you don't use Windows, check out some [NES emulators for Unix/Linux](http://www.zophar.net/unix/nes.html) or some [NES emulators for Mac](http://www.zophar.net/mac/nes.html).
+
+**Get ROMs**: Once you have an emulator, open up the emulator and load one of the ROMs available for download below. The Toki Pona ROMs we have for the NES so far are: Jaws, The Legend of Zelda, Super Mario Brothers, Super Mario Brothers 2, Super Mario Brothers 3, Teenage Mutant Ninja Turtles 2, Toki, Zelda 2, and Duck Hunt.
+
+<img />
+
+> [Download this game]()
+
+Jaws is a neat game made in 1987 for the movie of the same name. To beat the game, you have to build strength by fighting lots of evil fish. As you gain strength, it becomes easier and easier to attack Jaws. Once you wear Jaws' strength down you go to a final fight with him where you have to stab him with your ship. It's a tough game if you don't cheat. -- As for cheating, you can use [Game Genie codes](https://web.archive.org/web/20040708083332/http://www.gamegenie.com/cheats/gamegenie/nes/jaws.shtml).
+
+<img />
+
+> [Download this game]()
+
+Ahh, wonderful Zelda! This game, made in 1986, definitely is a part of video game history. It's the first widely used game that had a battery so that players could save their game progress. -- In the game itself, you're the hero and you have to save Princess Zelda, who has been kidnapped by the evil Ganon. However, to save her, you must collect the pieces of a sacred triangle that has been shattered. -- You might find the [Game Genie codes](https://web.archive.org/web/20040708083332/http://www.gamegenie.com/cheats/gamegenie/nes/legend_of_zelda.shtml) helpful.
+
+
+<img />
+
+> [Download this game]()
+
+This game has a pretty simple plot: You're Mario and you have to save the princess from the evil guy, Bowser. If you want, you can use [Game Genie codes](https://web.archive.org/web/20040708083332/http://www.gamegenie.com/cheats/gamegenie/nes/super_mario_bros.shtml). -- I'd also like to thank Stephen for pointing out an error that I had overlooked in my translation of the game.
+
+
+<img />
+
+> [Download this game]()
+
+The plot for this story doesn't even really make sense. Mario has a dream and then just tromps off into the wilderness with no foreseeable end. At any rate, it's still a fun game, and in this one you can play as Mario, Luigi, Toad, or the Princess. Maybe some [Game Genie codes](https://web.archive.org/web/20040708083332/http://www.gamegenie.com/cheats/gamegenie/nes/super_mario_bros_2.shtml) will help you. -- There were two parts of this game that I couldn't manage to translate: On the Bonus Chance screen, if you get a match, it reads `SINA PO1A` rather than `SINA PONA`. Also, at the end of the game, I couldn't find the hex code for the word `C A S T`. If you are a game hacker and can give some insight, I'd be most appreciative.
+
+
+<img />
+
+> [Download this game]()
+
+Yep, yep. This game was really cool back in the day. It's even been recently rereleased for the Gameboy Advance. I have many fond memories from when I was little of using cheat codes to start on world four (my favorite). Speaking of cheat codes, you can use the [Game Genie codes](https://web.archive.org/web/20040708083332/http://www.gamegenie.com/cheats/gamegenie/nes/super_mario_bros_3.shtml). And if you get bored, there are some really fun (but not too useful) [weird Game Genie codes](https://web.archive.org/web/20040708083332/http://www.nww.silius.net/ggw/smb3.html) for this game.
+
+<img />
+
+> [Download this game]()
+
+This is a side-scrolling game where you, playing as any one of the Turtles, fight a bunch of the Foot clan, rescue April and Splinter, and blow up Shredder's Technodrome. The Ninja Turtles were my idols when I was a kid, and so naturally I have to pay homage to them with a Toki Pona translation of the game! Swing by and check out the [Game Genie codes](https://web.archive.org/web/20040708083332/http://www.gamegenie.com/cheats/gamegenie/nes/tmnt_2-the_arcade_game.shtml) for this game. -- Unfortunately, I could not figure out how to change the big `G A M E O V E R` text. If you know how I might go about this, please contact me.
+<img />
+
+> [Download this game]()
+
+This game wasn't really wildly popular like most of the other games that Pije has translated. But, as you've probably noticed, its name shares a connection with our beloved conlang. :) -- There are a few [Game Genie codes](https://web.archive.org/web/20040708083332/http://www.gamegenie.com/cheats/gamegenie/nes/toki.shtml).
+
+<img />
+
+> [Download this game]()
+
+This game, the less successful sequel to _The Legend of Zelda_, is pretty cool once you get into it, but it's nearly impossible to beat. If you don't use Game Genie codes, plan on locking yourself in a room for the next four or five years, and you **might** be able to beat this game in that time. -- The story goes like this: Zelda has been put under a spell and won't wake up unless someone brings a missing piece of the Triforce. Unfortunately for you, that piece has been sealed away. To break the seal, you have to distribute crystals to six palaces throughout the kingdom. And it's not easy. Welcome to hell--er, I mean Hyrule.
+
+<img />
+
+> [Download this game]()
+
+This game has a pretty simple plot: You're Mario and you have to save the princess from the evil guy, Bowser. If you want, you can use [Game Genie codes](https://web.archive.org/web/20040708083332/http://www.gamegenie.com/cheats/gamegenie/nes/super_mario_bros.shtml). -- I'd also like to thank Stephen for pointing out an error that I had overlooked in my translation of the game.
+
+
+<img />
+
+> [Download this game]()
+
+Duck Hunt. To play this game on the original NES, you plug in a little gun into the front of the NES, and your shots on the gun get registered and will shoot down the ducks flying around on the screen. It's pretty fun. Nowadays on the computer you just use your mouse to kill the ducks. Not all emulators support this feature, so you will have to get one with **zapper support**, such as the [FCE Ultra](https://web.archive.org/web/20040708083332/http://fceultra.sourceforge.net/releases/). If you want to play this game but are having a hard time getting it to work right, let me know.
+
+## SNES Video Games
+**Get an emulator**: All the games listed above are games for the original Nintendo, which was eventually replaced by the Super Nintendo. Because Super Nintendo games are different, you need a different type of emulator to play them.  
+- [SNES emulators for Windows](http://www.zophar.net/snes.html). I recommend SNES9X.
+- [SNES emulators for Unix/Linux](http://www.zophar.net/unix/snes.html)
+- [SNES emulators for Mac](http://www.zophar.net/mac/snes.html)
+
+**Get a ROM**: Right now, the only SNES game translated to Toki Pona is Super Mario World.
+
+
+<img />
+
+> [Download this game]()
+
+This game has always been really fun for me. It offers 96 levels of fun that only Mario can give and is packed with extra secrets and side events. -- For your enjoyment I have included a savefile that should work with any SNES emulator; the game is completely beaten so that you can play any level you want. Simply keep the two files from the ZIP together in the same folder. -- You might want to use [Game Genie codes](https://web.archive.org/web/20040708083332/http://www.gamewinners.com/gamegenie.php?game=blssmarioworld.htm). -- Much to my chagrin, I couldn't translate the `MARIO START!` message you see when starting a level. Similarly, I couldn't translate the `TIME UP!` and `GAME OVER` messages either.
+
+
+---
+
+A word of caution: Translating video games is a very difficult and very tedious process. At times, it's basically impossible to change something the way you want it because of problems with space or simply how the game is programmed. Therefore, while I have tried my best, at times there are phrases and other such things in the game which aren't ideal usage of Toki Pona. Just know that, in every situation, I have poured my time and deliberation to make each translation be as accurate as I could manage with what is given to me and with what I know.

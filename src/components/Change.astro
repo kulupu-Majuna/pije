@@ -12,8 +12,11 @@ const { from, till } = Astro.props;
 const readableName = (i : number) => i.toString()
 ---
 <style is:global>
+ins, del {
+  display: inline-block;
+}
 del.unset, ins.unset {
-  text-decoration: none;
+  text-decoration: inherit;
   background: none;
   color: inherit;
 }
@@ -23,8 +26,14 @@ del, .del.del {
   color: rgb(var(--gray));
 }
 ins, .ins.ins {
-  text-decoration: none;
+  text-decoration: inherit;
   background-color: #d4fcbc;
+}
+.ins .del {
+  background-color: #d4fcbc;
+}
+.ins.del {
+  text-decoration: line-through;
 }
 </style>
 {
@@ -32,16 +41,16 @@ ins, .ins.ins {
     from === undefined ?
       <slot />
     :
-      <ins data-from={from} title={`added ${readableName(from)}`}>
+      <ins class="ins" data-from={from} title={`added ${readableName(from)}`}>
         <slot />
       </ins>
   :
     from === undefined ?
-      <del data-till={till} title={`removed ${readableName(till)}`}>
+      <del class="del" data-till={till} title={`removed ${readableName(till)}`}>
         <slot />
       </del>
     :
-      <del data-from={from} data-till={till} title={`added ${readableName(from)}, removed ${readableName(till)}`}>
+      <del class="ins del" data-from={from} data-till={till} title={`added ${readableName(from)}, removed ${readableName(till)}`}>
         <ins>
           <slot />
         </ins>

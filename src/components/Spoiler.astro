@@ -1,0 +1,26 @@
+<style>
+details {
+  display: inline;
+  margin-left: 1em;
+}
+summary {
+  border: solid 1px currentColor;
+  border-radius: 0.4em;
+  padding: 0 0.2em;
+  cursor: pointer;
+  background-color: #white;
+  color: black;
+}
+summary:hover { background-color: #eee; }
+summary:active { background-color: #ddd; }
+summary::marker {
+  content: ""
+}
+details:open summary {
+  display: none;
+}
+</style>
+<details>
+  <summary>Check your answer</summary>
+  <slot />
+</details>

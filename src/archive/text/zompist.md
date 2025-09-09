@@ -1,0 +1,289 @@
+---
+title: The Zompist Phrasebook in Toki Pona
+description: If you've ever read the handy-dandy Zompist phrasebook, you should be happy to know that now you can use all of those phrases in Toki Pona as well.
+captures:
+  -
+    - https://web.archive.org/web/20050127060325/http://tokipona.nytka.org:80/text/zompist.html
+    - https://web.archive.org/web/20050208235610/http://tokipona.nytka.org:80/text/zompist.html
+---
+**The Zompist Phrasebook**  
+_by Mark Rosenfelder_  
+[Zompist.com](http://zompist.com/)
+
+_Toki Pona translation by Pije_
+
+The author and translators disclaim all responsibility for the results of use of these expressions under field conditions. Use in a well-ventilated area. Do not expose to open flame. No user-serviceable parts inside. If swallowed, do not induce vomiting.
+
+---
+
+## General Expressions
+
+<span class="original">I wish to complain.</span>  
+<span class="translation">ni li ike. mi wile toki tawa jan lawa.</span>
+
+<span class="original">It's better in the States.</span>  
+<span class="translation">ni li pona lili lon ma ni. ona li pona mute lon ma Mewika.</span>
+
+<span class="original">How much is that in real money?</span>  
+<span class="translation">sina wile e mani pi mute seme? mi kepeken e mani pi ma mi. mani sina li nasa.</span>
+
+<span class="original">Don't you speak English?</span>  
+<span class="translation">sina toki e toki Inli anu seme?</span>
+
+---
+
+## At the hotel
+
+<span class="original">Do all your maids smoke?</span>  
+<span class="translation">jan pali ali li kepeken ala kepeken e palisa kasi jaki?</span>
+
+<span class="original">I'm coming, you silly runt!</span>  
+<span class="translation">jan nasa o, mi kama!</span>
+
+<span class="original">How do I get Letterman?</span>  
+<span class="translation">mi wile lukin e sitelen tawa pi jan Letterman.</span>
+
+<span class="original">If you go to the USA, you'll find that a dime is a lot of money.</span>  
+<span class="translation">mani ni li lili. taso sina tawa ma Mewika la sina ken kama jo e ijo mute kepeken ona.</span>
+
+<span class="original">There's a corpse on the bed. Please change the sheets.</span>  
+<span class="translation">jan moli li lon supa lape mi. o pana e len sin.</span>
+
+<span class="original">The bellboy won't score me any coke.</span>  
+<span class="translation">jan pali li pana ala e ko wawa tawa mi.</span>
+
+---
+
+## Making friends
+
+<span class="original">Just a small glass, please</span>  
+<span class="translation">mi wile e telo lili.</span>
+
+<span class="original">My God, I didn't mean microscopic.</span>  
+<span class="translation">a! sina pana e telo lili lili lili!</span>
+
+<span class="original">I understand your language perfectly.</span>  
+<span class="translation">mi toki e toki pona sama jan Lojban nasa.</span>
+
+<span class="original">Has your nose always been that way?</span>  
+<span class="translation">nena sina li pakala. tenpo ali la ona li sama ala sama ni?</span>
+
+<span class="original">I may be drunk, but tomorrow morning I shall be sober, and you will still be ugly.</span>  
+<span class="translation">mi nasa. taso tenpo suno kama la mi pona. sina ike lukin kin.</span>
+
+<span class="original">So you've been to _____? You must know my Aunt Meredith.</span>  
+<span class="translation">sina tawa ma _____. sina sona e pata Mewete pi mama mi.</span>
+
+<span class="original">Stupid uncultured lout.</span>  
+<span class="translation">sina jan nasa li kama tan ma nasa.</span>
+
+<span class="original">Did your face get that way in the war?</span>  
+<span class="translation">tenpo utala la jan li pakala ala pakala e sinpin sina?</span>
+
+<span class="original">Don't "imperialist pig" me, my good man.</span>  
+<span class="translation">o toki ala e ni: "sina jan Mewika ike."</span>
+
+<span class="original">I would very much like to meet you again when you are sober.</span>  
+<span class="translation">sina nasa. sina pona la mi wile toki tawa sina.</span>
+
+<span class="original">No, I've always enjoyed simple-minded ethnic humor.</span>  
+<span class="translation">toki musi ike nasa li pona tawa mi.</span>
+
+<span class="original">That's not all! I have two more photo albums!</span>  
+<span class="translation">mi pini ala! mi jo e sitelen sin mute!</span>
+
+<span class="original">Did you hear the one about the Polish guy who called the travel agency and asked, "I want to know how long it takes to fly from here to Warsaw," and the receptionist says, "Just a minute", and the Polish guy says, "Thanks, goodbye."?</span>  
+<span class="translation">jan Lojban li wile tawa ma ante. ona li toki e ni: "mi wile tawa ma Kanata tan ma ni. tenpo pi mute seme la mi awen lon tomo tawa kon?" jan li toki e ni tawa jan Lojban: "tenpo lili la o awen." jan Lojban li toki e ni: "a. pona. mi tawa."</span>
+
+<span class="original">Do you have highways in your country?</span>  
+<span class="translation">nasin suli li lon ala lon ma sina?</span>
+
+---
+
+## A little romance
+
+<span class="original">I love you, will you marry me?</span>  
+<span class="translation">mi olin e sina. mi mute o wan.</span>
+
+<span class="original">Girls with big mazongas usually can't rhumba so well.</span>  
+<span class="translation">meli li jo e nena sike suli la ona li ken ala tawa musi.</span>
+
+<span class="original">You're very pretty for a foreigner.</span>  
+<span class="translation">jan mute pi ma ante li ike lukin. taso sina pona lukin.</span>
+
+<span class="original">Kiss me, my fool.</span>  
+<span class="translation">jan nasa mi o pilin e uta mi kepeken uta sina.</span>
+
+<span class="original">All right, all right, let's meet your parents.</span>  
+<span class="translation">pona. pona. mi ken tawa mama sina.</span>
+
+<span class="original">Your mascara is peeling.</span>  
+<span class="translation">ko sina pi pona lukin li tawa weka.</span>
+
+<span class="original">That's got to be silicon.</span>  
+<span class="translation">jan li suli ala suli e nena sike?</span>
+
+<span class="original">I've never thought that 'impotent' means you can't have a good time.</span>  
+<span class="translation">mi wawa ala. taso mi ken musi kin.</span>
+
+<span class="original">I admire you above all for your purity of spirit and your appreciation of the arts.</span>  
+<span class="translation">sina wile moku lili e palisa mi la ni li pona.</span>
+
+---
+
+## Sightseeing
+
+<span class="original">What a stench.</span>  
+<span class="translation">jaki!</span>
+
+<span class="original">Is this the way to Red Square?</span>  
+<span class="translation">mi wile tawa ma pi jan Lenin. mi ken ala ken tawa lon nasin ni?</span>
+
+<span class="original">Where can I find the dissidents?</span>  
+<span class="translation">jan li toki e ni: nasin pi ma ni li ike. jan ni li lon seme?</span>
+
+<span class="original">Is that Notre Dame or the Louvre?</span>  
+<span class="translation">ni li tomo Notre Dame anu tomo Louvre?</span>
+
+<span class="original">Back home we'd call this a village.</span>  
+<span class="translation">jan pi ma mi li toki e ni: ma tomo sina li lili.</span>
+
+<span class="original">Your country has such lovely dirt.</span>  
+<span class="translation">jaki pi ma sina li pona lukin.</span>
+
+<span class="original">I don't suppose there's anything but churches here.</span>  
+<span class="translation">tomo taso pi nasin sewi li lon.</span>
+
+<span class="original">I bet those machine guns are fake.</span>  
+<span class="translation">ilo moli sina li ken ala moli e ijo.</span>
+
+<span class="original">Are all of your jails this filthy?</span>  
+<span class="translation">tomo awen ali li jaki ala jaki?</span>
+
+<span class="original">Yessir, you folks certainly have made a mess of this country.</span>  
+<span class="translation">jan pi ma ni li pakala e ma ni.</span>
+
+<span class="original">You wouldn't have these ghettos if you people were willing to work.</span>  
+<span class="translation">jan pi ma ni li pali la ona li jo ala e tomo ike.</span>
+
+<span class="original">Could I see some merchandise that the rats haven't found?</span>  
+<span class="translation">soweli li moku e ijo ni. sina jo ala jo e ijo sin?</span>
+
+<span class="original">It's nothing compared to our shopping centers.</span>  
+<span class="translation">ni li lili.</span>
+
+---
+
+## Travel
+
+<span class="original">Follow that car.</span>  
+<span class="translation">tomo tawa ni li tawa weka. o tawa ona!</span>
+
+<span class="original">Slow down, you cretin!</span>  
+<span class="translation">a! tenpo lili la sina tawa mute! mi wile ala e ni.</span>
+
+<span class="original">My wife fell overboard about ten miles back.</span>  
+<span class="translation">meli mi li tawa anpa tan tomo tawa telo ni.</span>
+
+<span class="original">Make sure my seat isn't next to any Lojban-speakers.</span>  
+<span class="translation">mi wile ala e ni: mi lon poka pi jan Lojban.</span>
+
+<span class="original">Is this tin can insured?</span>  
+<span class="translation">jan li ken pakala e poki lili ni. sina ken ala ken pona e ona?</span>
+
+<span class="original">Where can I rent a camel?</span>  
+<span class="translation">mi wile jo e soweli tawa. mi wile tawa seme?</span>
+
+<span class="original">Officer, this is an outrage.</span>  
+<span class="translation">ni li ike!</span>
+
+<span class="original">How about a little contribution for the Policemen's Ball?</span>  
+<span class="translation">mi ken pana e mani tawa sina.</span>
+
+<span class="original">I'm a personal friend of the Ambassador.</span>  
+<span class="translation">mi sona e jan suli pi ma ante. mi jan pona ona.</span>
+
+<span class="original">Oh, sure, you're going to shoot me, right?</span>  
+<span class="translation">sina wile moli e mi!?! a a a!</span>
+
+---
+
+## Understanding directions
+
+<span class="original">Yonder. Hither and thither.</span>  
+<span class="translation">o tawa weka.</span>
+
+<span class="original">Down the street. Around the block. Past the river.</span>  
+<span class="translation">sina tawa weka la mi moli e sina!</span>
+
+<span class="original">Across the bridge. Two blocks down. Go that way.</span>  
+<span class="translation">o tawa kepeken tomo tawa.</span>
+
+<span class="original">Where is the Cathedral?</span>  
+<span class="translation">tomo unpa li lon seme?</span>
+
+<span class="original">I know I'm naked, could you just tell me how to get back to the hotel?</span>  
+<span class="translation">mi sona e ni: mi jo ala e len. tomo mi li lon seme?</span>
+
+<span class="original">I must compliment you on your understanding of our language.</span>  
+<span class="translation">jan nasa pi ma ante o, sina sona e toki mi anu seme?</span>
+
+<span class="original">This is the third time I've told you, so listen up this time.</span>  
+<span class="translation">tenpo pini la mi toki e ni tawa sina. o kute!</span>
+
+---
+
+## At the restaurant
+
+<span class="original">One order of fermé le mercredi, please.</span>
+<span class="translation">mi wile e "tenpo pimeja la tomo ni li open ala".</span>
+
+<span class="original">Two beers, please. -- Two beers for me too.</span>  
+<span class="translation">o pana e telo nasa tu. -- mi wile kin e telo nasa tu.</span>
+
+<span class="original">I'm sorry, we don't serve tourists here.</span>  
+<span class="translation">mi mute li pana ala e ijo tawa jan pi ma ante.</span>
+
+<span class="original">Could I have some clean water?</span>  
+<span class="translation">telo ni li jaki. mi wile e telo pona.</span>
+
+<span class="original">Can I have fries with that?</span>  
+<span class="translation">mi wile e moku sin.</span>
+
+<span class="original">Waiter, there's a fly in my soup.</span>  
+<span class="translation">pipi li lon moku mi.</span>
+
+<span class="original">You call this beer?</span>  
+<span class="translation">sina toki ala toki e ni?: ni li telo nasa.</span>
+
+<span class="original">Stop laughing and bring me the bill.</span>  
+<span class="translation">o pana ala e kon pi pilin pona. sina wile e mani pi mute seme?</span>
+
+<span class="original">I know I ate it, but I didn't order it.</span>  
+<span class="translation">mi moku e ona. taso mi toki ala e ni: mi wile e ona.</span>
+
+---
+
+## Intellectual exchanges
+
+<span class="original">Impressed as I am with the New Wave in cinematography, I must say that this particular film seemed both pretentious and unsatisfying, and that the director's imagery, though compelling, is no substitute for a true cinematic message.</span>  
+<span class="translation">sitelen tawa ni li ike.</span>
+
+<span class="original">Well, you see, we thought at the time that a limited engagement in Vietnam was necessary to prevent the rise of Soviet Communism.</span>  
+<span class="translation">jan lawa pi ma Mewika li wile ala e ni: jan Sowije li tawa ma mute. mi mute li utala lon ma Wije tan ni.</span>
+
+<span class="original">I just don't know what Charles saw in that horse-faced girl.</span>  
+<span class="translation">meli li lukin sama soweli. jan Sawa li wile e ona tan seme?</span>
+
+<span class="original">Have you ever considered that we might be insulted because you haven't learned English?</span>  
+<span class="translation">sina sona ala e toki Inli. ni li ike tawa mi mute.</span>
+
+<span class="original">If I died tonight I'd be saved, but you would burn in hell.</span>  
+<span class="translation">mi moli la mi tawa ma sewi pona. taso sina moli la sina tawa ma ike.</span>
+
+<span class="original">Has there been any real intellectual life in your country since    (person's name)   ?</span>  
+<span class="translation">jan ____ li sona e ijo mute. taso jan ante ali pi ma sina li nasa. </span>
+
+---
+
+[See the phrasebook in other languages at Zompist.com](https://web.archive.org/web/20050127060325/http://www.zompist.com/phrases.html)

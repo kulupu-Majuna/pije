@@ -38,6 +38,7 @@ const max = values.at(-1).at(-1);
     .noUi-pips .noUi-marker:hover + .noUi-value-horizontal {
         font-size: 0.7em;
     }
+    .noUi-pips-horizontal { height: 0; }
 </style>
 <div id="slider" data-min={min} data-max={max} data-values={JSON.stringify(values)} data-onchange={onchangefn}></div>
 
@@ -69,6 +70,7 @@ noUiSlider.create(slider, {
 slider.noUiSlider.on('update', ()=>{
     const [numeric_min, numeric_max] = slider.noUiSlider.get(true);
     slider.dataset.left = trailingValues.findIndex(time => numeric_min <= time).toString()
+    slider.dataset.left = leadingValues.findLastIndex(time => time <= numeric_min).toString()
     slider.dataset.right = leadingValues.findLastIndex(time => time <= numeric_max).toString()
     slider.dispatchEvent(new InputEvent("input"))
 })
