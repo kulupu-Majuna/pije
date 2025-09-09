@@ -5,6 +5,7 @@ captures:
   -
     - https://web.archive.org/web/20041209223706/http://tokipona.nytka.org:80/image/boudreaux.html
     - https://web.archive.org/web/20050213005850/http://tokipona.nytka.org:80/image/boudreaux.html
+    - "@20050212/https://archive.today/EFif3"
 ---
 
 Back in spring 2004, a picture was found on the internet; it showed a U.S. Marine with two Iraqi boys, one of whom was holding a sign which read "Lcpl Boudreaux killed my dad then he knocked up my sister."
@@ -13,4 +14,4 @@ Boudreaux claims that the sign originally said "Welcome Marines", and that the p
 
 If you want to, you can see ![the sign in English](https://web.archive.org/web/20041209223706/http://www.cair-net.org/images/lcpl11.jpg). For fun, I've translated the sign into Toki Pona:
 
-<img />
+![](/images/boudreaux.jpg)

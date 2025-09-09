@@ -10,8 +10,7 @@ const pathname = Astro.url.pathname.replace(import.meta.env.BASE_URL, '');
 const subpath = pathname.match(/[^\/]+/g);
 
 function URLtoDate(url : string) {
-  if (url.startsWith("https://web.archive.org/web/")) {
-    const snowflake = url.slice("https://web.archive.org/web/".length).split('/')[0]
+  function parseSnowflake(snowflake : string) {
     const fields = { // components of the snowflake
       year: 4,
       month: 2,
@@ -20,10 +19,18 @@ function URLtoDate(url : string) {
     let i = 0; // number of chars of snowflake parsed so far.
     const {year, month, day} = Object.fromEntries(Object.entries(fields).map(([key, length]) => [key, +snowflake.slice(i, i+=length)]))
     return new Date(year, month-1, day)
-day
+  }
+  if (url.startsWith("https://web.archive.org/web/")) {
+    return parseSnowflake(url.slice("https://web.archive.org/web/".length).split('/')[0])
+  } else if (url.startsWith("@")) {
+    return parseSnowflake(url.slice('@'.length).split('/')[0])      
   } else {
     throw URIError(`Unknown archive format: '${url}'`)
   }
+}
+function URLtoHref(url : string) {
+  if (url.startsWith('@')) return url.split('/').slice(1).join('/')
+  else return url
 }
 
 const dates = capture_groups.map(row => row.map(URLtoDate));
@@ -50,7 +57,7 @@ Viewing page between: <Range values={capture_groups.map(row => row.map(x => +URL
     <li><ul>
       {group.map(capture_url => (
         <li>
-          <a href={capture_url}>
+          <a href={URLtoHref(capture_url)}>
             {URLtoDate(capture_url).toLocaleDateString("en-NZ", {year: "numeric", month: "long", day: "numeric"})}
           </a>
         </li>

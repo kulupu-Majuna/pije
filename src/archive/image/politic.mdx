@@ -5,13 +5,24 @@ captures:
   -
     - https://web.archive.org/web/20050107144747/http://tokipona.nytka.org:80/image/politic.html
     - https://web.archive.org/web/20050213011554/http://tokipona.nytka.org:80/image/politic.html
+  -
+    - "@20050212/https://archive.today/wYZfp"
 ---
+import Change from '@components/Change.astro'
 
-<img />
+![](/images/politic1.jpg)
 
 > Bill Clinton, former US president 
  
-
+<Change till={1}>
 <img />
 
 >  Ariel Sharon, prime minister of Israel  
+</Change>
+
+
+<Change from={1}>
+<img />
+
+> George Bush... or Curious George?
+</Change>

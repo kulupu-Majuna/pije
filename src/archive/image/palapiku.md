@@ -4,9 +4,10 @@ description: This animation is a small tribute to Palapiku (For those of who you
 captures:
   -
     - https://web.archive.org/web/20050213010857/http://tokipona.nytka.org:80/image/palapiku.html
+    - "@20050212/https://archive.today/IEg6R"
 ---
 
-<img />
+![](/images/palapiku.jpg)
 
 This animation features a short eulogy for Palapiku (both spoken aloud and written on the screen for you to see), as well as a few other stylish introductory and closing techniques.
 

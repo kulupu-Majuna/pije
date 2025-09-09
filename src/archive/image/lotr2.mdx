@@ -5,16 +5,22 @@ captures:
   -
     - https://web.archive.org/web/20050104030822/http://tokipona.nytka.org:80/image/lotr2.html
     - https://web.archive.org/web/20050213010415/http://tokipona.nytka.org:80/image/lotr2.html
+  -
+    - "@20050212/https://archive.today/InE3s"
 ---
+import Change from '@components/Change.astro'
 
+<Change till={1}>
 Below, you should see the Toki Pona version of the movie ad. If you'd like to see the original English version, simply roll your mouse onto the image and wait a moment as the picture loads. Furthermore, if you'd like to visit the official movie website, simply click on the image.
+</Change>
 
 <a href="http://www.lordoftherings.net/">
-<img alt="Two Towers Movie Poster" />
+![Two Towers Movie Poster](/images/posterlotr2.jpg)
 
-<img alt="Two Towers Movie Poster" />
+<Change till={1}>![Two Towers Movie Poster](/images/lotr2eng.jpg)</Change>
 </a>
 
+<Change till={1}>
 > If you didn't notice, the translation of  
 > <u>The Lord of the Rings</u>, *jan lawa pi  
 > sike wawa*, rhymes. :)
@@ -23,3 +29,8 @@ Below, you should see the Toki Pona version of the movie ad. If you'd like to se
 The above images are copyright of their respective owners.
 Use of these images was purely for entertainment; no copyright
 infringement was intended. 
+</Change>
+
+<Change from={1}>
+[See original poster](/images/lotr2eng.jpg)
+</Change>

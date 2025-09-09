@@ -5,15 +5,16 @@ captures:
   -
     - https://web.archive.org/web/20050109100027/http://tokipona.nytka.org:80/image/shirt.html
     - https://web.archive.org/web/20050213011455/http://tokipona.nytka.org:80/image/shirt.html
+    - "@20050212/https://archive.today/rdKZq"
 ---
 
-<img />
+![](/images/shirt.jpg)
 
 Below is a shot of the front. As you can see, it has a big picture of the Toki
 Pona smiley dude and under his picture it says "toki pona li toki pona"
 (Toki Pona is a good language).
 
-<img />
+![](/images/shirtfront.jpg)
 
 
 Next is the shot of the back, and in English it reads:
@@ -23,5 +24,4 @@ Next is the shot of the back, and in English it reads:
 > is a language of nature. Learn it!"  
 > &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; --Pije
 
-<img />
-
+![](/images/shirtback.jpg)
