@@ -5,6 +5,8 @@ captures:
   -
     - https://web.archive.org/web/20050117185834/http://tokipona.nytka.org:80/text/hista.html
     - https://web.archive.org/web/20050204110215/http://tokipona.nytka.org:80/text/hista.html
+    - https://web.archive.org/web/20070314081512/http://tokipona.esperanto-jeunes.org:80/text/hista.html
+    - https://web.archive.org/web/20070312023510/http://tokipona.esperanto-jeunes.org:80/text/hista.html
 ---
 
 <img />
@@ -35,15 +37,16 @@ tenpo suli la ala li kama. suno li tawa sewi. suno li tawa anpa. tenpo suli la a
 tenpo mute li pini. kasi ni li ante mute mute li suli. kala li kama kin. -- tenpo li pini la pipi en soweli en ijo sin mute li kama:
 
 <img />
-<img />
- 
+
+![](/images/hist04.jpg) 
 
 ## ijo mute li moli.
-<img />
+
+![](/images/hist05.jpg)
 
 akesi suli li lon. ona li wawa. taso kiwen suli li kama tan sewi li moli e akesi suli ali e ijo sin mute.
 
-<img />
+![](/images/hist06.jpg)
 
 kiwen li pakala e ijo mute. jaki li tawa sewi li awen lon kon. jaki ni li kama e ni: kasi li ken ala kepeken e suno. kasi li moli. soweli li ken ala moku e kasi li moli. ijo mute li moli. pipi lili taso en soweli lili li lon.
 
@@ -53,6 +56,6 @@ kiwen li pakala e ijo mute. jaki li tawa sewi li awen lon kon. jaki ni li kama e
 
 akesi suli li moli la soweli li ken suli. ni li pona tan ni: jan li soweli! o lukin e sitelen ni:
 
-<img />
+![](/images/hist07.jpg)
 
 jan li lon! pona! jan li pali e seme? sina wile sona la o tawa [lipu ni](histb). 

@@ -4,9 +4,10 @@ description: Gender, Adverbs and Negation
 captures:
   -
     - https://web.archive.org/web/20050214121111/http://tokipona.nytka.org:80/about/lesson/tp6.html
+    - https://web.archive.org/web/20070316193333/http://tokipona.esperanto-jeunes.org:80/about/lesson/tp6.html
 ---
 
-# <img alt="***" /> Lesson Six <img alt="***" />
+# ![***](/images/Sonja/swirl.gif) Lesson Six ![***](/images/Sonja/swirl.gif)
 
 ## Vocabulary
 |              |                                                 |

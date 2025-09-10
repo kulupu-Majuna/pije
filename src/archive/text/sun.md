@@ -5,9 +5,11 @@ captures:
   -
     - https://web.archive.org/web/20050125014428/http://tokipona.nytka.org:80/text/sun.html
     - https://web.archive.org/web/20050208232220/http://tokipona.nytka.org:80/text/sun.html
+    - https://web.archive.org/web/20070312023345/http://tokipona.esperanto-jeunes.org:80/text/sun.html
+    - https://web.archive.org/web/20070314081338/http://tokipona.esperanto-jeunes.org:80/text/sun.html
 ---
 
-<img />
+![](/images/sun.jpg)
 
 > 8 February 2004 
 
@@ -26,6 +28,6 @@ captures:
 <span class="original">Please don't take my sunshine away.</span>  
 <span class="translation">o weka ala e suno mi.</span>
 
-<img />
+![](/images/sunsheet.jpg)
 
->  Download a [MIDI of the tune]()
+>  Download a [MIDI of the tune](/files/sun.mid)

@@ -30,7 +30,24 @@ captures:
     - https://web.archive.org/web/20050228091120/http://tokipona.nytka.org:80/
     - "@20050228/https://web.archive.org/web/20190623193115/http://tokipona.atspace.org/"
     - https://web.archive.org/web/20050302100716/http://tokipona.nytka.org:80/
-
+  - #10: Last updated on 3 April 2005
+    - https://web.archive.org/web/20050408021016/http://tokipona.esperanto-jeunes.org:80/
+  - #11: Last updated on 28 August 2005
+    - https://web.archive.org/web/20050922003324/http://tokipona.esperanto-jeunes.org:80/
+  - #12: Last updated on 22 September 2005
+    - https://web.archive.org/web/20060106175321/http://tokipona.esperanto-jeunes.org:80/
+    - https://web.archive.org/web/20060202204130/http://tokipona.esperanto-jeunes.org:80/
+    - https://web.archive.org/web/20060708221735/http://tokipona.esperanto-jeunes.org:80/
+    - https://web.archive.org/web/20060812104023/http://tokipona.esperanto-jeunes.org:80/
+    - https://web.archive.org/web/20061128104344/http://tokipona.esperanto-jeunes.org:80/
+    - https://web.archive.org/web/20061117175231/http://tokipona.esperanto-jeunes.org:80/
+    - https://web.archive.org/web/20061210162037/http://tokipona.esperanto-jeunes.org:80/
+    - https://web.archive.org/web/20070302024732/http://tokipona.esperanto-jeunes.org:80/
+    - https://web.archive.org/web/20070518145914/http://tokipona.esperanto-jeunes.org:80/
+    - https://web.archive.org/web/20070520142751/http://tokipona.esperanto-jeunes.org:80/
+  - # 13: Last updated on 13 October 2007
+    - https://web.archive.org/web/20070927035615/http://tokipona.esperanto-jeunes.org:80/
+    - https://web.archive.org/web/20071026060500/http://bknight0.myweb.uga.edu/toki/
 ---
 import Change from '@components/Change.astro'
 
@@ -45,7 +62,7 @@ import Change from '@components/Change.astro'
 
 <Change from={5}>features</Change>
 - [Texts](/text)
-- [<Change till={5}>Images and Animations</Change><Change from={5}>Comics, Images, Animations</Change>](/image)
+- [<Change till={5}>Images and Animations</Change><Change from={5}>Comics, Images<Change till={13}>, Animations</Change></Change>](/image)
 - [Learn<Change till={5}>ing</Change> Toki Pona](/learn)
 - <Change from={1}>[<Change till={5}>Toki Pona</Change> Video Games](/game)</Change>
 - [Music](/music)
@@ -55,9 +72,9 @@ import Change from '@components/Change.astro'
 &nbsp;
 
 <Change from={5}>links</Change>
-- <Change from={3}>[tokipona.org](http://www.tokipona.org)</Change>
+- <Change from={3}>[<Change till={10}>tokipona.org</Change><Change from={10}>Official Site</Change>](http://www.tokipona.org)</Change>
 - <Change from={1} till={7}>[Toki Pona Wikipedia](https://web.archive.org/web/20040818081632/http://tokipona.wikipedia.org/wiki/lipu_lawa)</Change>
-- <Change from={7}>[Toki Pona Wikicities](https://web.archive.org/web/20050125090225/http://tokipona.wikicities.com/index.php/lipu_lawa)</Change>
+- <Change from={7}>[Toki Pona <Change till={11}>Wikicities</Change> <Change from={11}>Encyclopedia</Change>](https://web.archive.org/web/20050125090225/http://tokipona.wikicities.com/index.php/lipu_lawa)</Change>
 - <Change from={9}>[Yahoo Group](https://kulupu-majuna.github.io/yahoo/)</Change>
 - <Change from={1} till={9}>[Robert's Toki Pona Page](https://web.archive.org/web/20040818074846/http://rowa.giso.de/languages/toki-pona/)</Change> 
 - <Change from={2} till={9}>[Corey's Toki Pona Page](https://web.archive.org/web/20040901081704/http://www.tokipona.bravehost.com/)</Change>
@@ -75,23 +92,36 @@ import Change from '@components/Change.astro'
 <Change from={6}>
 
 info in other languages
-- [Català](https://web.archive.org/web/20041209075240/http://vicerveza.homeunix.net/~viric/tokipona/)
-- [Deutsch](https://web.archive.org/web/20041209075240/http://rowa.giso.de/languages/toki-pona/german/index.php)
-- [Esperanto](https://web.archive.org/web/20041209075240/http://www.tokipona.org/eo.html)
-- [français](https://web.archive.org/web/20041209075240/http://lvogel.free.fr/tokipona/)
-- Russian
+- [<Change till={12}>C</Change><Change from={12}>c</Change>atalà](https://web.archive.org/web/20041209075240/http://vicerveza.homeunix.net/~viric/tokipona/)
+- <Change till={11}>[Deutsch](https://web.archive.org/web/20041209075240/http://rowa.giso.de/languages/toki-pona/german/index.php)</Change>
+- <Change from={11}>[Deutsch](http://web.archive.org/web/20050922003324/http://www.tu-chemnitz.de/phil/leo/rahmen.php?seite=r_wiss/muench_tokipona.php)</Change>
+- <Change from={12}>[español](http://web.archive.org/web/20060106175321/http://www.eemadges.com/tokipona/)</Change>
+- [Esperanto]()
+- <Change till={13}>[français](https://web.archive.org/web/20041209075240/http://lvogel.free.fr/tokipona/)</Change>
+- <Change from={13}>[français](http://web.archive.org/web/20070624110930/http://pokipitokipona.free.fr/tawa.html)</Change>
+- <Change from={13}>[italiano](http://web.archive.org/web/20071028022413/http://www.roboart.it/toki%20pona%200.html)</Change>
+- <Change from={12}>[日本語](http://web.archive.org/web/20060106175321/http://www.geocities.jp/josuke_token_naito/tokipona/lesson/index.html)</Change>
+- <Change from={13}>[Nederlands](http://web.archive.org/web/20071026060500/http://www.futurologisch.nl/?p=38)</Change>
+- <Change till={11}>
+  Русский
   - [jan Sawiku](https://web.archive.org/web/20041209075240/http://www.lingvisto.org/tokipona/index.html)
   - [Dmitry Kirsanov](https://web.archive.org/web/20041209075240/http://ixite.ru/toki_pona)
+  </Change>
+- <Change from={11} till={13}>[Русский](http://web.archive.org/web/20050922003324/http://ixite.ru/toki_pona)</Change>
+- <Change from={13}>[Русский](https://ru.wikibooks.org/wiki/%D0%A2%D0%BE%D0%BA%D0%B8%D0%BF%D0%BE%D0%BD%D0%B0/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5)</Change>
 </Change>
 
 </nav>
 
 <Change from={6} till={7}><a href="/grinch"><img /></a></Change>
+<Change from={11} till={13}>[![](/images/sad.jpg)](http://web.archive.org/web/20050922160726/http://www.meetwithcindy.org/)</Change>
+
 <Change till={1}>toki! I hope you enjoy the material here on this site. However, keep in mind that I also have quite a few works and translations which, although they are very good and are great practice for Toki Pona, can't be put here on the internet for ... umm... various reasons. Email me if you're interested in getting a copy of some of these great works.</Change>
-<Change from={1}>toki! Although I am not <Change till={6}>the creator of Toki Pona</Change><Change from={6}>[the creator of Toki Pona](https://web.archive.org/web/20050125015233/http://en.wikipedia.org/wiki/Sonja_Elen_Kisa)</Change>, I am fluent in it and made this site of mine to help interest newcomers and keep things moving forward. Enjoy!</Change>
+<Change from={1}>toki! Although I am not <Change till={6}>the creator of Toki Pona</Change><Change from={6} till={11}>[the creator of Toki Pona](https://web.archive.org/web/20050125015233/http://en.wikipedia.org/wiki/Sonja_Elen_Kisa)</Change><Change from={11}>the creator of Toki Pona</Change>, I am fluent in it<Change till={13}> and</Change><Change from={13}>. I</Change> made this site <Change till={13}>of mine</Change> to <Change till={13}>help interest newcomers and keep things moving forward</Change><Change from={13}>encourage interest in the language</Change>. Enjoy <Change from={13}>the site</Change>!</Change>  
 
-<Change from={6}>This site is hosted by [nyTka](https://web.archive.org/web/20041217030101/http://www.nytka.org/). Finally, a host I can respect.</Change>
-
+<Change from={6} till={10}>This site is hosted by [nyTka](https://web.archive.org/web/20041217030101/http://www.nytka.org/). Finally, a host I can respect.</Change>
+<Change from={10} till={13}>This site is generously hosted by [esperanto-jeunes.org](https://web.archive.org/web/20050408021016/http://www.esperanto-jeunes.org/). If you think [tokipona.esperanto-jeunes.org](#) is too long, you can use [toki.co.nr](https://web.archive.org/web/20050408021016/http://toki.co.nr/) and it will redirect you here.</Change>
+<Change from={13}>If you think it's too hard to remember this site's URL, you can use [toki.co.nr](http://web.archive.org/web/20071026060500/http://toki.co.nr/) to redirect here. </Change>
 
 <Change till={1}>
 Don't forget that, if you have IRC, you can join the Toki Pona chat room.
@@ -99,7 +129,7 @@ If you use mIRC, click [here](irc://irc.freenode.net/tokipona) and choose _Proce
 If you don't use mIRC, connect to irc.freenode.net and then enter _/join tokipona_; or, you can download [mIRC](https://web.archive.org/web/20031119211118/http://mirc.com/get.html).
 </Change>
 
-Last updated: 
+<Change till={6}>Last updated:</Change><Change from={6}>Last updated on</Change>
 <Change till={1}>8 November 2003</Change>
 <Change from={1} till={2}>29 June 2004</Change>
 <Change from={2} till={3}>22 August 2004</Change>
@@ -110,3 +140,20 @@ Last updated:
 <Change from={7} till={8}>9 January 2005</Change>
 <Change from={8} till={9}>5 February 2005</Change>
 <Change from={9} till={10}>12 February 2005</Change>
+<Change from={10} till={11}>3 April 2005</Change>
+<Change from={11} till={12}>28 August 2005</Change>
+<Change from={12} till={13}>22 September 2005</Change>
+<Change from={13} till={14}>13 October 2007</Change>
+
+<Change from={7}>
+<footer>
+<Change till={13}>[![](/images/notepad.jpg)](https://web.archive.org/web/20050403154149/http://www.jdrn.com/notepad/)</Change>
+[![](/images/firefox.jpg)](https://web.archive.org/web/20050408021016/http://www.mozilla.org/products/firefox/)
+<Change from={13}>[![](/images/cc.png)](https://creativecommons.org/licenses/by-sa/2.5/)</Change>
+
+<Change from={13}>
+> © 2006-2007 Bryant Knight. All original material on this site is licensed under a [Creative Commons Attribution-ShareAlike 2.5 License](https://creativecommons.org/licenses/by-sa/2.5/). 
+
+</Change>
+</footer>
+</Change>

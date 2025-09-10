@@ -5,8 +5,11 @@ captures:
   -
     - https://web.archive.org/web/20041209223431/http://tokipona.nytka.org:80/about/why.html
     - https://web.archive.org/web/20050214065446/http://tokipona.nytka.org:80/about/why.html
+    - https://web.archive.org/web/20070311222720/http://tokipona.esperanto-jeunes.org:80/about/why.html
+    - https://web.archive.org/web/20070313204037/http://tokipona.esperanto-jeunes.org:80/about/why.html
 ---
-<img />
+
+![](/images/Sonja/why.jpg)
 
 ## Simple and Natural
 Modern languages are cluttered with complex methods to express the simplest things.

@@ -4,8 +4,10 @@ description: A poem by Agneau
 captures:
   -
     - https://web.archive.org/web/20050207144808/http://tokipona.nytka.org:80/text/olape.html
+    - https://web.archive.org/web/20070312023519/http://tokipona.esperanto-jeunes.org:80/text/olape.html
+    - https://web.archive.org/web/20070314081525/http://tokipona.esperanto-jeunes.org:80/text/olape.html
 ---
-<img />
+![](/images/olape.jpg)
 
 > written by Agneau
 

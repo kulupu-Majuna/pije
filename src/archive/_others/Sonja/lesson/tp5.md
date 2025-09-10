@@ -3,10 +3,11 @@ title: "Toki Pona: Lesson Five [original]"
 description: Combining Nouns II
 captures:
   -
-    - https://web.archive.org/web/20050214121219/http://tokipona.nytka.org:80/about/lesson/tp5new.html
+    - https://web.archive.org/web/20050214121504/http://tokipona.nytka.org/about/lesson/tp5.html
+    - https://web.archive.org/web/20070316193232/http://tokipona.esperanto-jeunes.org:80/about/lesson/tp5.html
 ---
 
-# <img alt="***" /> Lesson Five [original] <img alt="***" />
+# ![***](/images/Sonja/swirl.gif) Lesson Five [original] ![***](/images/Sonja/swirl.gif)
 
 ## Vocabulary
 |      |                                 |

@@ -5,7 +5,9 @@ captures:
   -
     - https://web.archive.org/web/20041209224024/http://tokipona.nytka.org:80/image/eofest.html
     - https://web.archive.org/web/20050213011509/http://tokipona.nytka.org:80/image/eofest.html
-    - "@20050212/https://archive.today/j1Qe6"
+    - "@20050228/https://archive.today/j1Qe6"
+    - https://web.archive.org/web/20070312012658/http://tokipona.esperanto-jeunes.org:80/image/eofest.html
+    - https://web.archive.org/web/20070314040813/http://tokipona.esperanto-jeunes.org:80/image/eofest.html
 ---
 
  Toki Pona has this occasional habit of popping up in unexpected places. It seems that Toki Pona has been taught a few times at a conference in Vermont: [message 288 of the Yahoo TP board](https://kulupu-majuna.github.io/yahoo/threads/t20). Just recently, at the end of 2003, someone informed me that Toki Pona had been taught at an Esperanto conference and showed me these pictures of the event:

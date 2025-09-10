@@ -4,6 +4,7 @@ description: "Answers to the practice questions in lesson 4 of Sonja's original 
 captures:
   -
     - https://web.archive.org/web/20050214190524/http://tokipona.nytka.org:80/about/lesson/ans4.html
+    - https://web.archive.org/web/20070320004810/http://tokipona.esperanto-jeunes.org:80/about/lesson/ans4.html
 ---
 
 # Lesson Four Answers

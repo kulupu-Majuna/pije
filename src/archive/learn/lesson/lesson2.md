@@ -4,6 +4,12 @@ description: Pronunciation & the Alphabet
 captures:
   -
     - https://web.archive.org/web/20050209041148/http://tokipona.nytka.org:80/lesson/lesson2.html
+    - https://web.archive.org/web/20060721142723/http://tokipona.esperanto-jeunes.org:80/lesson/lesson2.html
+    - https://web.archive.org/web/20060819174940/http://tokipona.esperanto-jeunes.org:80/lesson/lesson2.html
+    - https://web.archive.org/web/20060824173254/http://tokipona.esperanto-jeunes.org:80/lesson/lesson2.html
+    - https://web.archive.org/web/20060827004340/http://tokipona.esperanto-jeunes.org:80/lesson/lesson2.html
+    - https://web.archive.org/web/20070110154503/http://tokipona.esperanto-jeunes.org:80/lesson/lesson2.html
+    - https://web.archive.org/web/20070212222359/http://tokipona.esperanto-jeunes.org:80/lesson/lesson2.html
 ---
 
 There are fourteen letters in the Toki Pona alphabet: nine consonants (j k l m n p s t w), and five vowels (a e i o u).
@@ -14,15 +20,15 @@ Except for _j_, all the consonants are pronounced like any person who speaks a E
 
 |letter|pronounced as in|
 |------|----------------|
-|[k]() | **k**ill       |
-|[l]() | **l**et        |
-|[m]() | **m**et        |
-|[n]() | **n**et        |
-|[p]() | **p**it        |
-|[s]() | **s**ink       |
-|[t]() | **t**oo        |
-|[w]() | **w**et        |
-|[j]() | **y**et        |
+|[k](/audio/ka.wav) | **k**ill       |
+|[l](/audio/la.wav) | **l**et        |
+|[m](/audio/ma.wav) | **m**et        |
+|[n](/audio/na.wav) | **n**et        |
+|[p](/audio/pa.wav) | **p**it        |
+|[s](/audio/sa.wav) | **s**ink       |
+|[t](/audio/ta.wav) | **t**oo        |
+|[w](/audio/wa.wav) | **w**et        |
+|[j](/audio/ja.wav) | **y**et        |
 
 As you might have noticed, _j_ in Toki Pona isn't pronounced like the English _j_. Instead, it's always pronounced just like the letter _y_ in English. Languages such as Esperanto also have this feature; however, if you've never studied a language that uses _j_ like this, make sure to be careful so that you pronounce it right. If you see _j_, pretend that it's _y_.
  
@@ -35,11 +41,11 @@ If you're familiar with Italian, Spanish, Esperanto, or certain other languages,
 
 |letter|pronounced as in|
 |------|----------------|
-|[a]() | f**a**ther     |
-|[e]() | m**e**t        |
-|[i]() | p**ee**l       |
-|[o]() | m**o**re       |
-|[u]() | f**oo**d       |
+|[a](/audio/a.wav) | f**a**ther     |
+|[e](/audio/e.wav) | m**e**t        |
+|[i](/audio/i.wav) | p**ee**l       |
+|[o](/audio/o.wav) | m**o**re       |
+|[u](/audio/u.wav) | f**oo**d       |
 
 
 ## Practice
@@ -47,16 +53,16 @@ If you're familiar with Italian, Spanish, Esperanto, or certain other languages,
 So that you can practice pronunciation, I have made a list of words in Toki Pona. Download the list and practice saying each word, then play the audio file to compare your pronunciation. There will be a five second pause between each word on the audio file. Good luck!
 
 [Download the list of words!](prac1a) (221 bytes TXT)  
-[Download the audio file!]() (495kb MP3)
+[Download the audio file!](/audio/prac1a.mp3) (495kb MP3)
 
 So that you can practice listening skills, I have made an audio file of myself as I speak twelve different words in Toki Pona. Your job is to listen to each word, then write down the word that I said. Once you've done that, open up the text file and check your answers. Good luck!
 
-[Download the audio file!]() (1.24mb MP3)  
+[Download the audio file!](/audio/prac1b.mp3) (1.24mb MP3)  
 [Download the answers!](prac1b) (256 bytes TXT)
 
 Now that you've learned the alphabet, check out this neat little picture by Lament, a speaker of Toki Pona. It shows fourteen different Toki Pona words, each one beginning with one of the letters from the Toki Pona alphabet; there is also a picture of what each word represents.
 
-<img />
+![](/images/aei.jpg)
 
 >> (Note that Elena, the Toki Pona for "Greek," is not an actual Toki Pona word from the dictionary. It was used because there are no nouns in the Toki Pona dictionary that begin with e.)
 

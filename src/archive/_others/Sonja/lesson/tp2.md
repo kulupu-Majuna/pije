@@ -4,9 +4,10 @@ description: Basic Sentences
 captures:
   -
     - https://web.archive.org/web/20050214121509/http://tokipona.nytka.org:80/about/lesson/tp2.html
+    - https://web.archive.org/web/20070316193221/http://tokipona.esperanto-jeunes.org:80/about/lesson/tp2.html
 ---
 
-# <img alt="***" /> Lesson Two <img alt="***" />
+# ![***](/images/Sonja/swirl.gif) Lesson Two ![***](/images/Sonja/swirl.gif)
 
 ## Vocabulary
 |       |                                     |

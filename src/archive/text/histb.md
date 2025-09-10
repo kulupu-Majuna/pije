@@ -4,14 +4,15 @@ description: "This briefly explains, well, everything! It starts with the Big Ba
 captures:
   -
     - https://web.archive.org/web/20050211102218/http://tokipona.nytka.org/text/histb.html
+    - https://web.archive.org/web/20070318025638/http://tokipona.esperanto-jeunes.org:80/text/histb.html
 ---
-<img />
+![](/images/hist08.jpg)
 
 ## jan li sona.
 
 jan li pali e ilo li kepeken e ona. jan li ken moli e soweli kepeken ilo:
 
-<img />
+![](/images/hist09.jpg)
 
 tenpo suli la jan li kama jo e moku kepeken nasin ni: ona li moli e soweli li moku e kili. -- taso tenpo ali la jan li tawa. soweli li tawa la jan li wile tawa.
 
@@ -23,15 +24,14 @@ tenpo li pini la jan li lawa e soweli e kasi. ona li jo e soweli. jan li wile mo
 
 jan Masu li pali e ma tomo suli. jan mute li lon ma Masu. jan Masu li pali e tomo suli. tomo suli ni li pona tawa jan sewi Masu. tenpo suno ni la tomo suli ni li lon kin.
 
-<img />
+![](/images/hist10.jpg)
 
 jan mute li pali lon ma Masu. jan pi nasin sewi Jawatu li pali. jan lawa Masu taso li pali ala. -- jan Mose li jan lawa pi nasin sewi Jawatu. jan Lensi li jan lawa pi ma Masu. jan Mose li toki e ni tawa jan Lensi: "jan sewi mi li toki e ni: jan pi nasin sewi Jawatu li ken ala pali tawa sina. ona li wile tawa ma ante." jan Lensi li toki e ni: "ona li ken ala tawa." jan Mose li lawa e jan pi nasin sewi Jawatu tan ma Masu. jan Lensi li wile moli e jan ni. taso ona li ken ala.
 
 jan moli Masu li awen lon selo. jan pi nasin sewi Masu li pilin e ni: sijelo li awen lon selo ni la jan sewi li ken tawa e jan tawa ma sewi pona.
 
-<img />
-
-*ni li wan selo pi jan Tutankamun.*
+![](/images/hist11.jpg)
+> ni li wan selo pi jan Tutankamun.
 
 ## jan Loma
 
@@ -57,7 +57,7 @@ soweli li ike. ijo ike li lon insa pi soweli ni. ijo ike ni li moli e jan Elopa 
 
 jan Elopa li wile pona. ona li kalama musi li kama sona e ijo sin mute. jan Mikelanselo li sitelen pona:
 
-<img />
+![](/images/hist12.jpg)
 
 jan li ken musi li ken tawa li ken sona e ijo. pona! tenpo ni li pona. jan li sona e ijo mute. jan li tawa ma ante mute. jan Kitopakolunpu li tawa ma Amelika. pona! jan Elopa li tawa ma Amelika li awen lon ni.
 
@@ -81,20 +81,20 @@ jan Kanse mute li jo ala e mani. jan mute lili li jo e mani mute. ni li ike tawa
 
 jan li pali e tomo tawa pona. tenpo lili la jan li ken tawa mute. pona!
 
- 
+![](/images/hist16.jpg)
 
 ## utala suli tu li kama.
 
 jan Tosi en jan Osalasi li wawa li lawa e ma Sopisi. ni li ike tawa jan Sopisi. jan Sopisi li moli e jan suli pi ma Osalasi. jan Tosi en jan Osalasi li utala e jan Sopisi. taso jan Sopisi li pona tawa jan Piten. jan Piten li utala e jan Tosi e jan Osalasi. -- tenpo kama lili jan Elopa mute en jan Mewika li utala. ni li utala suli pi nanpa wan.
 
-<img />
+![](/images/hist13.jpg)
 
 jan Tosi li anpa. jan Kanse li wile e ni: jan Tosi li pana e mani mute. jan Piten li wile pakala mute e jan Tosi ali. jan Mewika taso li pona lili tawa jan Tosi.
 
 tenpo li pini. jan Tosi li pakala mute. ona li jo ala e moku e len pona. ali li ike tawa jan Tosi. taso jan Tosi wan li wile ante e ni. nimi ona li Ila. jan Ila li wile pona e ma Tosi li wile lawa e ma sin. jan Ila li kama lawa e ma mute. taso ona li tawa ma Posuka. ni li ike tawa jan Piten. jan Piten li utala e jan Tosi. ni li kama e utala suli pi nanpa tu.
 
-<img />
-<img />     
+![](/images/hist14.jpg)
+![](/images/hist15.jpg)  
 
  
 

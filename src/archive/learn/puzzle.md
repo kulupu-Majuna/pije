@@ -5,6 +5,9 @@ captures:
   - 
     - https://web.archive.org/web/20050112015521/http://tokipona.nytka.org:80/learn/puzzle.html
     - https://web.archive.org/web/20050212134945/http://tokipona.nytka.org:80/learn/puzzle.html
+    - https://web.archive.org/web/20060622040501/http://tokipona.esperanto-jeunes.org:80/learn/puzzle.html
+    - https://web.archive.org/web/20070311222847/http://tokipona.esperanto-jeunes.org:80/learn/puzzle.html
+    - https://web.archive.org/web/20070313203935/http://tokipona.esperanto-jeunes.org:80/learn/puzzle.html
 ---
 
 ## musi nimi suli

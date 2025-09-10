@@ -5,8 +5,10 @@ captures:
   -
     - https://web.archive.org/web/20050120183127/http://tokipona.nytka.org:80/text/meli.html
     - https://web.archive.org/web/20050207141440/http://tokipona.nytka.org:80/text/meli.html
+    - https://web.archive.org/web/20070312023438/http://tokipona.esperanto-jeunes.org:80/text/meli.html
+    - https://web.archive.org/web/20070314081440/http://tokipona.esperanto-jeunes.org:80/text/meli.html
 ---
-<img />
+![](/images/meli.jpg)
 
 > written: 9 October 2002  
 > last revised: 29 February 2004

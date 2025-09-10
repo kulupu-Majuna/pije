@@ -5,6 +5,8 @@ captures:
   -
     - https://web.archive.org/web/20041209222547/http://tokipona.nytka.org:80/about/lesson/learn.html
     - https://web.archive.org/web/20050214070004/http://tokipona.nytka.org:80/about/lesson/learn.html
+    - https://web.archive.org/web/20070311211139/http://tokipona.esperanto-jeunes.org:80/about/lesson/learn.html
+    - https://web.archive.org/web/20070313180259/http://tokipona.esperanto-jeunes.org:80/about/lesson/learn.html
 ---
 
 > **WARNING**! If you're actually interested in learning Toki Pona, do not study using the material below. Please leave this page and go to the [current, official lessons](/lesson/lesson0.html).
@@ -12,7 +14,7 @@ captures:
 > The lessons you see below were produced several years ago to help teach the language. They have been made available for conlangers and other curious people who would like to see how Toki Pona has progressed and changed over time. The language has changed vastly since these lessons were written, so you can not use these lessons to help you learn Toki Pona.
 
 
-# <img alt="***" />  Learn Toki Pona <img alt="***" />
+# ![***](/images/Sonja/swirl.gif)  Learn Toki Pona ![***](/images/Sonja/swirl.gif)
 
 - [Alphabet and Sounds](sounds)
 - [Lesson One: Basic Sentences](tp1)

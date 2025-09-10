@@ -56,8 +56,8 @@ img {
 	margin-inline: auto;
 	text-align: center;
 	align-content: center;
-	min-width: 10em;
-	min-height: 6em;
+	/* min-width: 10em;
+	min-height: 6em; */
 }
 img:not([src]) {
 	width: max-content;
@@ -71,6 +71,13 @@ img:not([src]) {
 }
 img:not([src])::after {
 	content: "missing image"
+}
+
+footer img, img.inline {
+	display: inline;
+	max-width: unset;
+	min-width: unset;
+	min-height: unset;
 }
 
 h1 img {
@@ -106,6 +113,7 @@ nav ul {
 	gap: 0 1em;
 	justify-content: center;
 	margin: 0.5em 0;
+	padding: 0;
 }
 nav > p {
 	display: none;

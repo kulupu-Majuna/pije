@@ -5,7 +5,9 @@ captures:
   -
     - https://web.archive.org/web/20041209223706/http://tokipona.nytka.org:80/image/boudreaux.html
     - https://web.archive.org/web/20050213005850/http://tokipona.nytka.org:80/image/boudreaux.html
-    - "@20050212/https://archive.today/EFif3"
+    - "@20050228/https://archive.today/EFif3"
+    - https://web.archive.org/web/20070312012736/http://tokipona.esperanto-jeunes.org:80/image/boudreaux.html
+    - https://web.archive.org/web/20070314040853/http://tokipona.esperanto-jeunes.org:80/image/boudreaux.html
 ---
 
 Back in spring 2004, a picture was found on the internet; it showed a U.S. Marine with two Iraqi boys, one of whom was holding a sign which read "Lcpl Boudreaux killed my dad then he knocked up my sister."

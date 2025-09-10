@@ -4,9 +4,10 @@ description: Going and For
 captures:
   -
     - https://web.archive.org/web/20050214120755/http://tokipona.nytka.org:80/about/lesson/tp4.html
+    - https://web.archive.org/web/20070316193323/http://tokipona.esperanto-jeunes.org:80/about/lesson/tp4.html
 ---
 
-# <img alt="***" /> Lesson Four <img alt="***" />
+# ![***](/images/Sonja/swirl.gif) Lesson Four ![***](/images/Sonja/swirl.gif)
 
 ## Vocabulary
 ### Things and Qualifiers

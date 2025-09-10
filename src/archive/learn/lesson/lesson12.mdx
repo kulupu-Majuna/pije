@@ -2,10 +2,25 @@
 title: Toki Pona Lesson 12
 description: Conjunctions, kin, Temperature
 captures:
-  -
+  - #0
     - https://web.archive.org/web/20050209035415/http://tokipona.nytka.org:80/lesson/lesson12.html
+  - #1: changes in where 'kin' is placed 
+    - https://web.archive.org/web/20060721142923/http://tokipona.esperanto-jeunes.org:80/lesson/lesson12.html
+    - https://web.archive.org/web/20060829112803/http://tokipona.esperanto-jeunes.org:80/lesson/lesson12.html
+    - https://web.archive.org/web/20060827131522/http://tokipona.esperanto-jeunes.org:80/lesson/lesson12.html
+    - https://web.archive.org/web/20060819175532/http://tokipona.esperanto-jeunes.org:80/lesson/lesson12.html
+    - https://web.archive.org/web/20060923070349/http://tokipona.esperanto-jeunes.org:80/lesson/lesson12.html
+    - https://web.archive.org/web/20060921000854/http://tokipona.esperanto-jeunes.org:80/lesson/lesson12.html
+    - https://web.archive.org/web/20060916232341/http://tokipona.esperanto-jeunes.org:80/lesson/lesson12.html
+    - https://web.archive.org/web/20060915163802/http://tokipona.esperanto-jeunes.org:80/lesson/lesson12.html
+    - https://web.archive.org/web/20060914131709/http://tokipona.esperanto-jeunes.org:80/lesson/lesson12.html
+    - https://web.archive.org/web/20060912203937/http://tokipona.esperanto-jeunes.org:80/lesson/lesson12.html
+    - https://web.archive.org/web/20060911132639/http://tokipona.esperanto-jeunes.org:80/lesson/lesson12.html
+    - https://web.archive.org/web/20070110154638/http://tokipona.esperanto-jeunes.org:80/lesson/lesson12.html
+    - https://web.archive.org/web/20070212222540/http://tokipona.esperanto-jeunes.org:80/lesson/lesson12.html
 ---
 import Spoiler from '@components/Spoiler.astro'
+import Change from '@components/Change.astro'
 
 ## Vocabulary
 **ante** - other, different  
@@ -84,11 +99,11 @@ And since it can be used as an adjective, of course it can be used as an adverb.
 ### kin
 _kin_ is used to mean _also_, _still_, or _indeed_. For example:
   1. mi tawa ma Elopa. -- I went to Europe.  
-     pona! mi kin tawa ma Elopa. -- Cool! I also went to Europe.  
+     pona! <Change till={1}>mi kin tawa ma Elopa.</Change><Change from={1}>mi tawa kin.</Change>. -- Cool! <Change till={1}>I also went to Europe.</Change><Change from={1}>I went too.</Change>         
   2. mi mute o tawa. -- Let's go.  
-     mi ken ala. mi kin moku. -- I can't. I'm still eating.  
+     mi ken ala. mi <Change till={1}>kin</Change> moku<Change from={1}> kin</Change>. -- I can't. I'm still eating.  
   3. a! sina lukin ala lukin e ijo nasa ni? -- Whoa! Do you see that weird thing?  
-     mi kin lukin e ona. -- I see it indeed.
+     mi <Change till={1}>kin</Change> lukin <Change from={1}>kin</Change> e ona. -- I see it indeed.
 
  
 

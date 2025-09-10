@@ -5,7 +5,9 @@ captures:
   -
     - https://web.archive.org/web/20050213010753/http://tokipona.nytka.org:80/image/fame.html
     - https://web.archive.org/web/20041209224116/http://tokipona.nytka.org:80/image/fame.html
-    - "@20050212/https://archive.today/y0MkB"
+    - "@20050228/https://archive.today/y0MkB"
+    - https://web.archive.org/web/20070312012611/http://tokipona.esperanto-jeunes.org:80/image/fame.html
+    - https://web.archive.org/web/20070314040729/http://tokipona.esperanto-jeunes.org:80/image/fame.html
 ---
 
 You probably already know that the Toki Pona smiley dude spends most of his days relaxing at tokipona.org. However, would you believe that he _also_ has been spreading his message of _pona_ in other places, too? In fact, he has been one of the most influential people of all history. Whenever something _pona_ happened in the world, chances are that the Toki Pona smiley dude was there. To prove it, I'd like you take a close, second look at these images below. They are pictures of famous events, and you've probably seen them before; however, if you look carefully, you'll see something new!

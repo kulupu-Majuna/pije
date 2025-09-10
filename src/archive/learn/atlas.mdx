@@ -2,16 +2,25 @@
 title: Maps in Toki Pona
 description: There are pictures of each of the seven continents, and on each one of them is written the Toki Ponized version of the names of the countries within that continent. 
 captures:
-  -
+  - #0
     - https://web.archive.org/web/20050212134835/http://tokipona.nytka.org:80/learn/atlas.html
-  -
+  - #1: Rename 'Maps in Toki Pona'
     - https://web.archive.org/web/20050418061332/http://www.geocities.com:80/tokipona/learn/atlas.html
     - https://web.archive.org/web/20050927035958/http://www.geocities.com:80/tokipona/learn/atlas.html
+  - #2: revert back to 0
+    - https://web.archive.org/web/20060622040529/http://tokipona.esperanto-jeunes.org:80/learn/atlas.html
+    - https://web.archive.org/web/20060716125355/http://tokipona.esperanto-jeunes.org:80/learn/atlas.html
+    - https://web.archive.org/web/20070311222828/http://tokipona.esperanto-jeunes.org:80/learn/atlas.html
+    - https://web.archive.org/web/20070313203908/http://tokipona.esperanto-jeunes.org:80/learn/atlas.html
+  - #3: links are green
+    - https://web.archive.org/web/20081120060449/http://tokipona.esperanto-jeunes.org/learn/atlas.html
 ---
 import Change from '@components/Change.astro'
 
-<Change till={1}><img /></Change>
-<Change from={1}><img /></Change>
+<Change till={1}>![](/images/atlas.jpg)</Change>
+<Change from={1} till={2}><img />{/*mapbanner.jpg*/}</Change>
+<Change from={2} till={3}>![](/images/atlas.jpg)</Change>
+<Change from={3}><img />{/*mapbanner.png*/}</Change>
 
 <Change till={1}>
 Here is a neat Toki Pona atlas.
@@ -19,17 +28,26 @@ Here is a neat Toki Pona atlas.
 If you're interested, the maps I used come from National Geographic's [Xpeditions maps](https://web.archive.org/web/20050212134835/http://www.nationalgeographic.com/xpeditions/atlas/).
 </Change>
 
-<Change from={1}>
+<Change from={1} till={2}>
 This basic atlas is an attempt to showcase the vocabulary for nations that Toki Pona has. For interests of space, the nations on these maps are not preceded by the word ma, as they should normally be included in writing and speaking. Keep that in mind if you want to use the maps as a resource to write about a certain nation.
 
 To see the maps, simply click the links below. Use your back button if you want to return to this page.
 </Change>
 
 
-[<Change from={1}>Africa - </Change> ma Apika]()  
-[<Change from={1}>Antarctica - </Change> ma Antasika]()  
-[<Change from={1}>Asia - </Change> ma Asija]()  
-[<Change from={1}>Australia and Oceania - </Change> ma Oselija <Change from={1}>en ma poka lili ona</Change>]()  
-[<Change from={1}>Europe - </Change> ma Elopa]()  
-<Change till={1}>[ma Amelika]()</Change><Change from={1}>[North America - ma Amelika lete]()</Change>  
-<Change from={1}>[South America - ma Amelika seli]()</Change>
+<Change from={2}>
+<Change till={3}>Here</Change> <Change from={3}>This</Change> is a <Change till={3}>neat</Change> Toki Pona atlas.
+
+If you're <Change till={3}>interested,</Change> <Change from={3}>curious,</Change> the maps <Change from={3}>that</Change> I used come from National Geographic's [Xpeditions maps](https://web.archive.org/web/20050212134835/http://www.nationalgeographic.com/xpeditions/atlas/).
+</Change>
+
+
+<Change till={1}>[ma Amelika](/images/atlasamelika.jpg)</Change>  
+<Change from={1} till={2}>[North America - ma Amelika lete]()</Change>  
+<Change from={1} till={2}>[South America - ma Amelika seli]()</Change>  
+<Change from={2}>[ma Amelika](/images/atlasamelika.jpg)</Change>  
+[<Change from={1} till={2}>Europe - </Change> ma Elopa](/images/atlaselopa.jpg)  
+[<Change from={1} till={2}>Africa - </Change> ma Apika](/images/atlasapika.jpg)  
+[<Change from={1} till={2}>Asia - </Change> ma Asija](/images/atlasasija.jpg)  
+[<Change from={1} till={2}>Australia and Oceania - </Change> ma Oselija <Change from={1} till={2}>en ma poka lili ona</Change>](/images/atlasoselija.jpg)  
+[<Change from={1} till={2}>Antarctica - </Change> ma Antasika](atlasantasika.jpg)  

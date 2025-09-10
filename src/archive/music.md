@@ -5,9 +5,10 @@ captures:
   -
     - https://web.archive.org/web/20041209121406/http://tokipona.nytka.org:80/music/music.html
     - https://web.archive.org/web/20050206234710/http://tokipona.nytka.org:80/music/music.html
+    - https://web.archive.org/web/20061231021520/http://tokipona.esperanto-jeunes.org:80/music/music.html
 ---
 
-<img />
+![](/images/music.jpg)
 
 > [This art](http://www.kofightclub.com/d/20030602.html) from Ko Fight Club
 
@@ -18,7 +19,7 @@ Here you will find original Toki Pona songs.
 
 
 ## sike tu li pona
-This is a neat song about bicycles made by Paul Goguen. It's electronic, but it's very smooth and flowing. If you'd like to, [download this song]() (684kb MP3). Then you can listen to the song and follow along with these lyrics:
+This is a neat song about bicycles made by Paul Goguen. It's electronic, but it's very smooth and flowing. If you'd like to, [download this song](/audio/siketu.mp3) (684kb MP3). Then you can listen to the song and follow along with these lyrics:
 
 <span class="original">sike tu li pona</span>  
 <span class="translation">Bicycles are good</span>  
@@ -32,7 +33,7 @@ This is a neat song about bicycles made by Paul Goguen. It's electronic, but it'
 
 
 ## toki pona li toki pona
-This song was made by Tobiah, and, like sike tu li pona, is an electronic song. However, unlike sike tu li pona, it uses techniques that are a bit heavier and more typical of electronic music. If you'd like to, [download this song]() (1.01mb ZIP containing an MPGA), Then you can listen to the song and follow along with these lyrics:
+This song was made by Tobiah, and, like sike tu li pona, is an electronic song. However, unlike sike tu li pona, it uses techniques that are a bit heavier and more typical of electronic music. If you'd like to, [download this song](/files/tokipona.zip) (1.01mb ZIP containing an MPGA), Then you can listen to the song and follow along with these lyrics:
 
 
 <span class="original">toki pona li toki pona.</span>  

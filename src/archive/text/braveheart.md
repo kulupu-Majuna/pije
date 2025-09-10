@@ -6,9 +6,23 @@ captures:
     - https://web.archive.org/web/20050114220241/http://tokipona.nytka.org:80/text/braveheart.html
     - https://web.archive.org/web/20050204104050/http://tokipona.nytka.org:80/text/braveheart.html
     - https://web.archive.org/web/20050303031645/http://tokipona.nytka.org:80/text/braveheart.html
+    - https://web.archive.org/web/20061230103019/http://tokipona.esperanto-jeunes.org:80/text/braveheart.html
+    - https://web.archive.org/web/20061224215140/http://tokipona.esperanto-jeunes.org:80/text/braveheart.html
+    - https://web.archive.org/web/20061220055413/http://tokipona.esperanto-jeunes.org:80/text/braveheart.html
+    - https://web.archive.org/web/20061215164606/http://tokipona.esperanto-jeunes.org:80/text/braveheart.html
+    - https://web.archive.org/web/20061210162135/http://tokipona.esperanto-jeunes.org:80/text/braveheart.html
+    - https://web.archive.org/web/20070128164753/http://tokipona.esperanto-jeunes.org:80/text/braveheart.html
+    - https://web.archive.org/web/20070123185548/http://tokipona.esperanto-jeunes.org:80/text/braveheart.html
+    - https://web.archive.org/web/20070118233838/http://tokipona.esperanto-jeunes.org:80/text/braveheart.html
+    - https://web.archive.org/web/20070114032517/http://tokipona.esperanto-jeunes.org:80/text/braveheart.html
+    - https://web.archive.org/web/20070109040715/http://tokipona.esperanto-jeunes.org:80/text/braveheart.html
+    - https://web.archive.org/web/20070104074046/http://tokipona.esperanto-jeunes.org:80/text/braveheart.html
+    - https://web.archive.org/web/20070317032415/http://tokipona.esperanto-jeunes.org:80/text/braveheart.html
+    - https://web.archive.org/web/20070314081625/http://tokipona.esperanto-jeunes.org:80/text/braveheart.html
+    - https://web.archive.org/web/20070312023623/http://tokipona.esperanto-jeunes.org:80/text/braveheart.html
 ---
 
-<img/>
+![](/images/braveheart.jpg)
 
 ## William Wallace's Speech before the Battle of Stirling in <u>Braveheart</u>
 

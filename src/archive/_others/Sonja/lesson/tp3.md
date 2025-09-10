@@ -4,9 +4,10 @@ description: Direct Objects
 captures:
   -
     - https://web.archive.org/web/20050214120822/http://tokipona.nytka.org:80/about/lesson/tp3.html
+    - https://web.archive.org/web/20070316193312/http://tokipona.esperanto-jeunes.org:80/about/lesson/tp3.html
 ---
 
-# <img alt="***" /> Lesson Three <img alt="***" />
+# ![***](/images/Sonja/swirl.gif) Lesson Three ![***](/images/Sonja/swirl.gif)
 
 ## Vocabulary
 ### Things and Qualifiers

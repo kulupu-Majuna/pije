@@ -8,7 +8,7 @@ captures:
 ---
 
 
-# <img alt="***" />  Learn Toki Pona <img alt="***" />
+# ![***](/images/Sonja/swirl.gif)  Learn Toki Pona ![***](/images/Sonja/swirl.gif)
 
 Toki Pona has a very simple sound system. There are only nine consonants and five vowels.
 

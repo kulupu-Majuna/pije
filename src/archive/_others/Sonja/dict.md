@@ -5,14 +5,16 @@ captures:
   -
     - https://web.archive.org/web/20041209222753/http://tokipona.nytka.org:80/about/olddict.html
     - https://web.archive.org/web/20050214070351/http://tokipona.nytka.org:80/about/olddict.html
+    - https://web.archive.org/web/20070311222858/http://tokipona.esperanto-jeunes.org:80/about/olddict.html
+    - https://web.archive.org/web/20070313204142/http://tokipona.esperanto-jeunes.org:80/about/olddict.html
 ---
 
-> **WARNING!** If you want to look up a word to help you say something in Toki Pona, do not use this wordlist. Please leave this page and go to the [current, official wordlist](https://web.archive.org/web/20041209222753/http://www.tokipona.org/nimi.html).
+> **WARNING!** If you want to look up a word to help you say something in Toki Pona, do not use this wordlist. Please leave this page and go to the [current, official wordlist](){/*www.tokipona.org/nimi.html*/}.
 
 > The wordlist you see below is how Toki Pona's vocabulary existed when the language was first presented on the internet, and has been made available for conlangers and other curious people who would like to see how Toki Pona has progressed and changed over time. The wordlist has changed vastly since first presented online, so you can not use this wordlist to help you figure out how to say something.
 
  
-# <img alt="***" />  Toki Pona Word List <img alt="***" />
+# ![***](/images/Sonja/swirl.gif)  Toki Pona Word List ![***](/images/Sonja/swirl.gif)
 
  
 

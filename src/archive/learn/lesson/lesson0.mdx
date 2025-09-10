@@ -10,11 +10,31 @@ captures: # Says moved to new address on [28 November 2004](https://web.archive.
   -
     - https://web.archive.org/web/20050211142448/http://tokipona.nytka.org:80/lesson/lesson0.html
     - https://web.archive.org/web/20050228092950/http://tokipona.nytka.org:80/lesson/lesson0.html
+    - https://web.archive.org/web/20050419101924/http://tokipona.esperanto-jeunes.org:80/lesson/lesson0.html
+  -
+    - https://web.archive.org/web/20050906090004/http://tokipona.esperanto-jeunes.org:80/lesson/lesson0.html
+    - https://web.archive.org/web/20050914212400/http://tokipona.esperanto-jeunes.org:80/lesson/lesson0.html
+    - https://web.archive.org/web/20051125204919/http://tokipona.esperanto-jeunes.org:80/lesson/lesson0.html
+    - https://web.archive.org/web/20060216222052/http://tokipona.esperanto-jeunes.org:80/lesson/lesson0.html
+    - https://web.archive.org/web/20060716125342/http://tokipona.esperanto-jeunes.org:80/lesson/lesson0.html
+    - https://web.archive.org/web/20061221010735/http://tokipona.esperanto-jeunes.org:80/lesson/lesson0.html
+    - https://web.archive.org/web/20061225150538/http://tokipona.esperanto-jeunes.org:80/lesson/lesson0.html
+    - https://web.archive.org/web/20061230102549/http://tokipona.esperanto-jeunes.org:80/lesson/lesson0.html
+    - https://web.archive.org/web/20070104074548/http://tokipona.esperanto-jeunes.org:80/lesson/lesson0.html
+    - https://web.archive.org/web/20070109040425/http://tokipona.esperanto-jeunes.org:80/lesson/lesson0.html
+    - https://web.archive.org/web/20070112131155/http://tokipona.esperanto-jeunes.org:80/lesson/lesson0.html
+    - https://web.archive.org/web/20070114032017/http://tokipona.esperanto-jeunes.org:80/lesson/lesson0.html
+    - https://web.archive.org/web/20070118233707/http://tokipona.esperanto-jeunes.org:80/lesson/lesson0.html
+    - https://web.archive.org/web/20070123185509/http://tokipona.esperanto-jeunes.org:80/lesson/lesson0.html
+    - https://web.archive.org/web/20070128164930/http://tokipona.esperanto-jeunes.org:80/lesson/lesson0.html
+    - https://web.archive.org/web/20070211001825/http://tokipona.esperanto-jeunes.org:80/lesson/lesson0.html
 
 ---
 import Change from '@components/Change.astro'
 
-<img />
+<Change till={2}>![](/images/field.jpg)</Change>
+
+<Change from={2}>![](/images/island.jpg)</Change>
 
 [1. Introduction](lesson1)  
 [2. Pronunciation](lesson2)  
@@ -35,5 +55,10 @@ import Change from '@components/Change.astro'
 [17. la](lesson17)  
 [18. Conclusion](lesson18)
 
-[List of which vocabulary are in which lessons](vocab)
+<Change from={2}>
+## Appendix
+</Change>
 
+- <Change from={2}>[Lesson summaries](summ)</Change>
+- <Change from={2}>[Official dictionary]()</Change>
+- [<Change from={2}>List of w</Change><Change till={2}>W</Change>hich vocabulary are in which lessons](vocab)

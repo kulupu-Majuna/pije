@@ -5,9 +5,10 @@ captures:
   -
     - https://web.archive.org/web/20050129011249/http://tokipona.nytka.org:80/about/lesson/tp1.html
     - https://web.archive.org/web/20050214120901/http://tokipona.nytka.org:80/about/lesson/tp1.html
+    - https://web.archive.org/web/20070316193303/http://tokipona.esperanto-jeunes.org:80/about/lesson/tp1.html
 ---
 
-# <img alt="***" />  Lesson One <img alt="***" />
+# ![***](/images/Sonja/swirl.gif)  Lesson One ![***](/images/Sonja/swirl.gif)
 
 ## Vocabulary
 ### People and Things

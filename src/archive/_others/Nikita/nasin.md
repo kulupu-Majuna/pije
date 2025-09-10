@@ -4,13 +4,14 @@ description: This is a collection of short prose by Nikita, one of the three flu
 captures:
   -
     - https://web.archive.org/web/20050210213952/http://tokipona.nytka.org:80/text/nasin/nasin.html
+    - https://web.archive.org/web/20061212031700/http://tokipona.esperanto-jeunes.org:80/text/nasin/nasin.html
 ---
 
 #  toki musi pi nasin pona
 
 ni li toki musi mi pi nasin pona (Daoism). tenpo pini la ona li kepeken e toki Inli. mi pana e toki pona tawa ona. 
 
-<img />
+![](/images/Nikita/dao.png)
 
 [moku en lape](moku)  
 

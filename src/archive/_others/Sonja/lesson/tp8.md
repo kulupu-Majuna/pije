@@ -4,9 +4,10 @@ description: Yes/No Questions
 captures:
   -
     - https://web.archive.org/web/20050214121521/http://tokipona.nytka.org:80/about/lesson/tp8.html
+    - https://web.archive.org/web/20070316193207/http://tokipona.esperanto-jeunes.org:80/about/lesson/tp8.html
 ---
 
-# <img alt="***" /> Lesson Eight <img alt="***" />
+# ![***](/images/Sonja/swirl.gif) Lesson Eight ![***](/images/Sonja/swirl.gif)
 
 ## Vocabulary
 |        |                                                         |

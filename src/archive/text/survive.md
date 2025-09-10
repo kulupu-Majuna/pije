@@ -1,13 +1,12 @@
 ---
 title: The Survivalist's TP Phrasebook
-description: If Toki Pona were spoken in a third world, anti-American country undergoing a violent revolution, you'd want to make sure to bring this phrasebook along.
+description: Just in case you come across Toki Pona guerilla rebels
 captures:
   -
     - https://web.archive.org/web/20050125205648/http://tokipona.nytka.org:80/text/survive.html
     - https://web.archive.org/web/20050208232925/http://tokipona.nytka.org:80/text/survive.html
 ---
-
-<img />
+![](/images/survive.jpg)
 
 ## Travel
 Get down.  

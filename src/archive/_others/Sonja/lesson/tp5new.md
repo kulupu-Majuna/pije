@@ -6,7 +6,7 @@ captures:
     - https://web.archive.org/web/20050214121219/http://tokipona.nytka.org:80/about/lesson/tp5new.html
 ---
 
-# <img alt="***" /> Lesson Five [new] <img alt="***" />
+# ![***](/images/Sonja/swirl.gif) Lesson Five [new] ![***](/images/Sonja/swirl.gif)
 
 ## Vocabulary
 

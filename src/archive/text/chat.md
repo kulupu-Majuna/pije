@@ -5,7 +5,8 @@ captures:
   -
     - https://web.archive.org/web/20050117005717/http://tokipona.nytka.org:80/text/chat.html
     - https://web.archive.org/web/20050204105252/http://tokipona.nytka.org:80/text/chat.html
-    - https://web.archive.org/web/20050303031645/http://tokipona.nytka.org:80/text/braveheart.html
+    - https://web.archive.org/web/20070311222743/http://tokipona.esperanto-jeunes.org:80/about/chat.html
+    - https://web.archive.org/web/20070313204126/http://tokipona.esperanto-jeunes.org:80/about/chat.html
 ---
 
 Don't forget you can join the chat room, too. Click [here](irc://irc.freenode.net/tokipona) to join if you have mIRC, or [download mIRC](https://www.mirc.com/get.html).

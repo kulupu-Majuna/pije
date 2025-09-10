@@ -1,12 +1,24 @@
 ---
 title: Lord of the Rings Poem
-description: "The popular (well, sorta popular) poem about Sauron's Ring. Woohoo."
+description: "The poem about Sauron's Ring. Woohoo."
 captures:
   -
     - https://web.archive.org/web/20050123184253/http://tokipona.nytka.org:80/text/ring.html
     - https://web.archive.org/web/20050207151415/http://tokipona.nytka.org:80/text/ring.html
+    - https://web.archive.org/web/20061230103739/http://tokipona.esperanto-jeunes.org:80/text/ring.html
+    - https://web.archive.org/web/20061225150454/http://tokipona.esperanto-jeunes.org:80/text/ring.html
+    - https://web.archive.org/web/20061221010724/http://tokipona.esperanto-jeunes.org:80/text/ring.html
+    - https://web.archive.org/web/20070128165729/http://tokipona.esperanto-jeunes.org:80/text/ring.html
+    - https://web.archive.org/web/20070123184445/http://tokipona.esperanto-jeunes.org:80/text/ring.html
+    - https://web.archive.org/web/20070118234202/http://tokipona.esperanto-jeunes.org:80/text/ring.html
+    - https://web.archive.org/web/20070114032035/http://tokipona.esperanto-jeunes.org:80/text/ring.html
+    - https://web.archive.org/web/20070109040303/http://tokipona.esperanto-jeunes.org:80/text/ring.html
+    - https://web.archive.org/web/20070104073742/http://tokipona.esperanto-jeunes.org:80/text/ring.html
+    - https://web.archive.org/web/20070314081500/http://tokipona.esperanto-jeunes.org:80/text/ring.html
+    - https://web.archive.org/web/20070312023459/http://tokipona.esperanto-jeunes.org:80/text/ring.html
 ---
-<img />
+
+![](/images/ring.jpg)
 
 > 1 July 2003
 
