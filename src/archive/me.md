@@ -8,6 +8,7 @@ captures:
     - https://web.archive.org/web/20050204041619/http://tokipona.nytka.org:80/me/me.html
   -
     - https://web.archive.org/web/20060216222014/http://tokipona.esperanto-jeunes.org:80/me/me.html
+    - https://web.archive.org/web/20060622063229/http://toki.dm7.net:80/me/me.html
     - https://web.archive.org/web/20061231021405/http://tokipona.esperanto-jeunes.org:80/me/me.html
     - https://web.archive.org/web/20070308231848/http://tokipona.esperanto-jeunes.org:80/me/me.html
     - https://web.archive.org/web/20070310111941/http://tokipona.esperanto-jeunes.org:80/me/me.html

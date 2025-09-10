@@ -5,6 +5,7 @@ captures:
   -
     - https://web.archive.org/web/20041209121406/http://tokipona.nytka.org:80/music/music.html
     - https://web.archive.org/web/20050206234710/http://tokipona.nytka.org:80/music/music.html
+    - https://web.archive.org/web/20060622063429/http://toki.dm7.net:80/music/music.html
     - https://web.archive.org/web/20061231021520/http://tokipona.esperanto-jeunes.org:80/music/music.html
 ---
 
