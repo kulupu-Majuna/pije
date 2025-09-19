@@ -5,9 +5,17 @@ captures:
   - 
     - https://web.archive.org/web/20050112015521/http://tokipona.nytka.org:80/learn/puzzle.html
     - https://web.archive.org/web/20050212134945/http://tokipona.nytka.org:80/learn/puzzle.html
-    - https://web.archive.org/web/20060622040501/http://tokipona.esperanto-jeunes.org:80/learn/puzzle.html
-    - https://web.archive.org/web/20070311222847/http://tokipona.esperanto-jeunes.org:80/learn/puzzle.html
-    - https://web.archive.org/web/20070313203935/http://tokipona.esperanto-jeunes.org:80/learn/puzzle.html
+    #- https://web.archive.org/web/20060622040501/http://tokipona.esperanto-jeunes.org:80/learn/puzzle.html
+    #- https://web.archive.org/web/20070311222847/http://tokipona.esperanto-jeunes.org:80/learn/puzzle.html
+    #- https://web.archive.org/web/20070313203935/http://tokipona.esperanto-jeunes.org:80/learn/puzzle.html
+    - https://web.archive.org/web/20090214231655/http://bknight0.myweb.uga.edu:80/toki/learn/puzzle.html
+    - https://web.archive.org/web/20090902103237/http://bknight0.myweb.uga.edu:80/toki/learn/puzzle.html
+    - https://web.archive.org/web/20091209103002/http://bknight0.myweb.uga.edu:80/toki/learn/puzzle.html
+    - https://web.archive.org/web/20100113051655/http://bknight0.myweb.uga.edu:80/toki/learn/puzzle.html
+    - https://web.archive.org/web/20100214123021/http://bknight0.myweb.uga.edu:80/toki/learn/puzzle.html
+    - https://web.archive.org/web/20100213070458/http://bknight0.myweb.uga.edu:80/toki/learn/puzzle.html
+    - https://web.archive.org/web/20100420023419/http://bknight0.myweb.uga.edu:80/toki/learn/puzzle.html
+    - https://web.archive.org/web/20100809160105/http://bknight0.myweb.uga.edu:80/toki/learn/puzzle.html
 ---
 
 ## musi nimi suli

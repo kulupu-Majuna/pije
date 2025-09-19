@@ -2,46 +2,72 @@
 title: Toki Pona Cartoons, Pictures, Etc.
 description: A collection of Toki Pona drawings and photos by various authors 
 captures:
-  -
+  - #0
     - https://web.archive.org/web/20041209115957/http://tokipona.nytka.org:80/image/image.html
     - https://web.archive.org/web/20050206233648/http://tokipona.nytka.org:80/image/image.html
-  -
+  - #1: +titles, changed descriptions. title="Images and Comics"
     - "@20050228/https://web.archive.org/web/20190910101546/http://tokipona.atspace.org/image/image.html"
-  -
-    - https://web.archive.org/web/20060216222040/http://tokipona.esperanto-jeunes.org:80/image/image.html
+  - #2: +/math, +/posterlotr3, +/postereurotrip
+    #- https://web.archive.org/web/20060216222040/http://tokipona.esperanto-jeunes.org:80/image/image.html
     - https://web.archive.org/web/20060622063400/http://toki.dm7.net:80/image/image.html
-    - https://web.archive.org/web/20061231021504/http://tokipona.esperanto-jeunes.org:80/image/image.html
-    - https://web.archive.org/web/20070308232022/http://tokipona.esperanto-jeunes.org:80/image/image.html
-    - https://web.archive.org/web/20070310112116/http://tokipona.esperanto-jeunes.org:80/image/image.html
+    #- https://web.archive.org/web/20061231021504/http://tokipona.esperanto-jeunes.org:80/image/image.html
+    #- https://web.archive.org/web/20070308232022/http://tokipona.esperanto-jeunes.org:80/image/image.html
+    #- https://web.archive.org/web/20070310112116/http://tokipona.esperanto-jeunes.org:80/image/image.html
+  - #3: +/poster28wklater 
+    - https://web.archive.org/web/20070624111415/http://bknight0.myweb.uga.edu/toki/image/image.html
+  - #4: +/vector, -descriptions, -pipipu, -lotr2, -palapiku. title="Comics, Images"
+    - https://web.archive.org/web/20071028152942/http://bknight0.myweb.uga.edu/toki/image/image.html
+    - https://web.archive.org/web/20080420054250/http://bknight0.myweb.uga.edu/toki/image/image.html
+    - https://web.archive.org/web/20080408081515/http://bknight0.myweb.uga.edu/toki/image/image.html
+    - https://web.archive.org/web/20080820061125/http://bknight0.myweb.uga.edu/toki/image/image.html
+    - https://web.archive.org/web/20080915172726/http://bknight0.myweb.uga.edu/toki/image/image.html
+    - https://web.archive.org/web/20090612230832/http://bknight0.myweb.uga.edu/toki/image/image.html
+  - #5: -politic, -boudreaux, -math, -len, -eofest, title="Images", changed header image
+    - https://web.archive.org/web/20090814165559/http://bknight0.myweb.uga.edu/toki/image/image.html
+    - https://web.archive.org/web/20090919044223/http://bknight0.myweb.uga.edu/toki/image/image.html
+    - https://web.archive.org/web/20091210012602/http://bknight0.myweb.uga.edu/toki/image/image.html
+    - https://web.archive.org/web/20100111041653/http://bknight0.myweb.uga.edu/toki/image/image.html
+    - https://web.archive.org/web/20100211022724/http://bknight0.myweb.uga.edu/toki/image/image.html
+    - https://web.archive.org/web/20100316153953/http://bknight0.myweb.uga.edu/toki/image/image.html
+    - https://web.archive.org/web/20100419221619/http://bknight0.myweb.uga.edu/toki/image/image.html
+    - https://web.archive.org/web/20110809135045/http://bknight0.myweb.uga.edu/toki/image/image.html
+    - https://web.archive.org/web/20110908081112/http://bknight0.myweb.uga.edu/toki/image/image.html
+    - https://web.archive.org/web/20120212091447/http://bknight0.myweb.uga.edu/toki/image/image.html
 ---
 import Change from '@components/Change.astro'
 
-![](/images/image.jpg)
+<Change till={5}>![](/images/image.jpg)</Change><Change from={5}>![](/images/image2.jpg)</Change>
 
 
-## <Change from={1}>Humor and Comics</Change>
+## <Change from={1} till={5}>Humor and Comics</Change>
 
+<Change till={5}>
 ### [Political Cartoons](/image/politic)
 <Change till={1}>See how you can bash all your favorite world leaders using Toki Pona!</Change>
-<Change from={1}>Making fun of dignitaries</Change>
+<Change from={1} till={4}>Making fun of dignitaries</Change>
+</Change>
 
-
+<Change till={4}>
 ### [pipi Pu en len noka Nu](/image/pipipu)
 <Change till={1}>This is a semi-simple comic featuring Pu, a bug, who tries to make his home in Nu, a shoe.</Change>
 <Change from={1}>Pu, a bug, tries to make his home in Nu, a shoe.</Change>
+</Change>
 
-
+<Change till={5}>
 ### [The Boudreaux Photo](/image/boudreaux)
 <Change till={1}>In spring 2004, a picture (that's probably fake) turned up which showed a U.S. Marine standing beside two Iraqi boys, who are holding a sign which says, "Lcpl Boudreaux killed my dad then he knocked up my sister." Many people have made fake versions of this sign as a joke, and so I figured I'd translate it into Toki Pona.</Change>
-<Change from={1}>A Marine with two Iraqi boys and a funny sign</Change>
+<Change from={1}>A Marine with two Iraqi boys and a <Change till={4}>funny</Change><Change from={4}>peculiar</Change> sign</Change>
+</Change>
 
+<Change till={4}>
 ### [The Smiley Face Dude](/image/fame)
 <Change till={1}>It seems that he's been spotted at places other than just tokipona.org!</Change>
 <Change from={1}>He gets around a lot.</Change>
+</Change>
 
-<Change from={2}>
+<Change from={2} till={5}>
 ### [Calculus in Toki Pona](/image/math)
-Who says you can't talk about complex stuff in Toki Pona?
+<Change till={4}>Who says you can't talk about complex stuff in Toki Pona?</Change>
 </Change>
 
 ### <Change from={1}>Russ Williams' comics</Change>
@@ -55,25 +81,33 @@ Who says you can't talk about complex stuff in Toki Pona?
 - [Comic 4](http://www.kofightclub.com/d/20030623.html)  
 - [Comic 5](http://www.kofightclub.com/d/20030630.html)  
 - [Comic 6](http://www.kofightclub.com/d/20030714.html)  
+  <Change from={5}><small>I believe that this comic has a mistake. _olin e tenpo_ should be _tenpo ni li pona_.</small></Change>
 - [Comic 7](http://www.kofightclub.com/d/20030721.html)  
 - [Comic 8](http://www.kofightclub.com/d/20030728.html)  
 - [Comic 9](http://www.kofightclub.com/d/20030811.html)  
 - [Comic 10](http://www.kofightclub.com/d/20031208.html)  
 - [Comic 11](http://www.kofightclub.com/d/20031229.html)  
 
+<Change from={5}>
 <Change till={1}>With all due respect to the author of the comics, I think there is one minor error:</Change>
 <Change from={1}>I feel that Russ' comics have one mistake:</Change>  
 _In comic 6, use "tenpo ni li pona" instead of "olin e tenpo"._
-
+</Change>
 
 ## <Change from={1}>Movie Posters</Change>
+
+<Change from={3}>
+### [28 Weeks Later](/image/poster28wklater)
+</Change>
 
 <Change from={2}>
 ### [Eurotrip](/image/postereurotrip)
 </Change>
 
+<Change till={4}>
 ### [<Change till={1}>Movie Poster for</Change> The Lord of the Rings: The Two Towers](/image/posterlotr2)
 <Change till={1}>See the original movie poster, then compare it with the Toki Pona version.</Change>
+</Change>
 
 <Change from={2}>
 ### [Lord of the Rings: The Return of the King](/image/posterlotr3)
@@ -85,18 +119,22 @@ _In comic 6, use "tenpo ni li pona" instead of "olin e tenpo"._
 
 ## <Change from={1}>Other</Change>
 
+<Change till={5}>
 ### [len pi toki pona](/image/shirt)
 <Change till={1}>I made a Toki Pona shirt and took some shots on my digital camera. It's a nice shirt; check it out.</Change>
-<Change from={1}>A Toki Pona shirt I made</Change>
+<Change from={1} till={4}>A Toki Pona shirt I made</Change>
+</Change>
 
 <Change till={1}>
 ### [Toki Pona Thanksgiving](/image/thanks)
 The day before Thanksgiving, I got a little bored, so I decided to make some comics. Check them out.
 </Change>
 
+<Change till={4}>
 ### [Tribute to Palapiku](/image/palapiku)
 <Change till={1}>This animation is a small tribute to Palapiku (For those of who you don't come to the Toki Pona chat room occasionally, Palapiku was a definition bot which would quickly translate a Toki Pona word on command). Click the link to be taken to the page where you can download the movie.</Change>
 <Change from={1}>A tribute to Palapiku. (If you don't know, Palapiku was a chat room definition bot. It got deleted accidentally.)</Change>
+</Change>
 
 <Change till={1}>
 ### [kasi nasa](/image/kasi)
@@ -106,7 +144,12 @@ These are some pictures honoring the famous little plant that helped create Toki
 This piece, created by Pije, shows a Klingon, an Elf, and Zamenhof (the creator of Esperanto) telling how they feel about Toki Pona.
 </Change>
 
+<Change till={5}>
 ### [Toki Pona Taught at Esperanto Festival](/image/eofest)
 <Change till={1}>See pictures of Toki Pona being taught at the event.</Change>
-<Change from={1}>Self-explanatory. I hope.</Change>
+<Change from={1} till={4}>Self-explanatory. I hope.</Change>
+</Change>
 
+<Change from={4}>
+### [Vector graphics of the Toki Pona smiley <Change till={5}>face</Change>](/image/vector)
+</Change>

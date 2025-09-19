@@ -4,7 +4,7 @@ description: "???"
 captures:
   -
     - https://web.archive.org/web/20050214032422/http://tokipona.nytka.org:80/text/nasin/kasi.html
-    - https://web.archive.org/web/20070320105427/http://tokipona.esperanto-jeunes.org:80/text/nasin/kasi.html
+    #- https://web.archive.org/web/20070320105427/http://tokipona.esperanto-jeunes.org:80/text/nasin/kasi.html
 ---
 
 # toki en sona

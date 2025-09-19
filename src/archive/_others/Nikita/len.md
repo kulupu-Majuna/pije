@@ -4,7 +4,7 @@ description: "???"
 captures:
   -
     - https://web.archive.org/web/20050214035622/http://tokipona.nytka.org:80/text/nasin/len.html
-    - https://web.archive.org/web/20070320105418/http://tokipona.esperanto-jeunes.org:80/text/nasin/len.html
+    #- https://web.archive.org/web/20070320105418/http://tokipona.esperanto-jeunes.org:80/text/nasin/len.html
 ---
 
 # tawa

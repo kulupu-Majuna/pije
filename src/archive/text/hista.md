@@ -5,8 +5,8 @@ captures:
   -
     - https://web.archive.org/web/20050117185834/http://tokipona.nytka.org:80/text/hista.html
     - https://web.archive.org/web/20050204110215/http://tokipona.nytka.org:80/text/hista.html
-    - https://web.archive.org/web/20070314081512/http://tokipona.esperanto-jeunes.org:80/text/hista.html
-    - https://web.archive.org/web/20070312023510/http://tokipona.esperanto-jeunes.org:80/text/hista.html
+    #- https://web.archive.org/web/20070314081512/http://tokipona.esperanto-jeunes.org:80/text/hista.html
+    #- https://web.archive.org/web/20070312023510/http://tokipona.esperanto-jeunes.org:80/text/hista.html
 ---
 
 <img />

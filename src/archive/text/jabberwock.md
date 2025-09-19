@@ -4,8 +4,8 @@ description: "A translation of Jabberwocky, the poem that Lewis Carroll probably
 captures:
   -
     - https://web.archive.org/web/20050118141808/http://tokipona.nytka.org:80/text/jabberwock.html
-    - https://web.archive.org/web/20070312023634/http://tokipona.esperanto-jeunes.org:80/text/jabberwock.html
-    - https://web.archive.org/web/20070314081635/http://tokipona.esperanto-jeunes.org:80/text/jabberwock.html
+    #- https://web.archive.org/web/20070312023634/http://tokipona.esperanto-jeunes.org:80/text/jabberwock.html
+    #- https://web.archive.org/web/20070314081635/http://tokipona.esperanto-jeunes.org:80/text/jabberwock.html
 ---
 
 You can compare this Toki Pona version to the original poem in English: [Jabberwocky](http://www.jabberwocky.com/carroll/jabber/jabberwocky.html)  

@@ -2,38 +2,75 @@
 title: About
 description: Miscellaneous descriptions and archives of Toki Pona  
 captures:
-  -
+  - #0
     - https://web.archive.org/web/20041209124809/http://tokipona.nytka.org:80/about/about.html
-  -
-    - https://web.archive.org/web/20060216222034/http://tokipona.esperanto-jeunes.org:80/about/about.html
+  - #1: +intro +chat logs (moved from /text)
+    #- https://web.archive.org/web/20060216222034/http://tokipona.esperanto-jeunes.org:80/about/about.html
     - https://web.archive.org/web/20060622063342/http://toki.dm7.net:80/about/about.html
-    - https://web.archive.org/web/20061231021456/http://tokipona.esperanto-jeunes.org:80/about/about.html
-    - https://web.archive.org/web/20070308232014/http://tokipona.esperanto-jeunes.org:80/about/about.html
-    - https://web.archive.org/web/20070310112104/http://tokipona.esperanto-jeunes.org:80/about/about.html
+    #- https://web.archive.org/web/20061231021456/http://tokipona.esperanto-jeunes.org:80/about/about.html
+    #- https://web.archive.org/web/20070308232014/http://tokipona.esperanto-jeunes.org:80/about/about.html
+    #- https://web.archive.org/web/20070310112104/http://tokipona.esperanto-jeunes.org:80/about/about.html
+  - #2: -wikipedia
+    - https://web.archive.org/web/20070624111348/http://bknight0.myweb.uga.edu/toki/about/about.html
+    - https://web.archive.org/web/20070716081806/http://bknight0.myweb.uga.edu/toki/about/about.html
+  - #3: -Tokiponization Guidelines, simpler descriptions
+    - https://web.archive.org/web/20071028152932/http://bknight0.myweb.uga.edu/toki/about/about.html
+    - https://web.archive.org/web/20080730035549/http://bknight0.myweb.uga.edu/toki/about/about.html
+    - https://web.archive.org/web/20080729024452/http://bknight0.myweb.uga.edu/toki/about/about.html
+    - https://web.archive.org/web/20080820061450/http://bknight0.myweb.uga.edu/toki/about/about.html
+    - https://web.archive.org/web/20080819235438/http://bknight0.myweb.uga.edu/toki/about/about.html
+    - https://web.archive.org/web/20080814203137/http://bknight0.myweb.uga.edu/toki/about/about.html
+    - https://web.archive.org/web/20080813020059/http://bknight0.myweb.uga.edu/toki/about/about.html
+    - https://web.archive.org/web/20080812015856/http://bknight0.myweb.uga.edu/toki/about/about.html
+    - https://web.archive.org/web/20080811013544/http://bknight0.myweb.uga.edu/toki/about/about.html
+    - https://web.archive.org/web/20080809221737/http://bknight0.myweb.uga.edu/toki/about/about.html
+    - https://web.archive.org/web/20080808203500/http://bknight0.myweb.uga.edu/toki/about/about.html
+    - https://web.archive.org/web/20080807174404/http://bknight0.myweb.uga.edu/toki/about/about.html
+    - https://web.archive.org/web/20080806095342/http://bknight0.myweb.uga.edu/toki/about/about.html
+    - https://web.archive.org/web/20080805030027/http://bknight0.myweb.uga.edu/toki/about/about.html
+    - https://web.archive.org/web/20090612230819/http://bknight0.myweb.uga.edu/toki/about/about.html
+  - #4: "in a more general way" ~> "in a general way"
+    - https://web.archive.org/web/20090819063425/http://bknight0.myweb.uga.edu/toki/about/about.html
+    - https://web.archive.org/web/20090919044218/http://bknight0.myweb.uga.edu/toki/about/about.html
+    - https://web.archive.org/web/20091207235015/http://bknight0.myweb.uga.edu/toki/about/about.html
+    - https://web.archive.org/web/20100113103803/http://bknight0.myweb.uga.edu/toki/about/about.html
+    - https://web.archive.org/web/20100213042746/http://bknight0.myweb.uga.edu/toki/about/about.html
+    - https://web.archive.org/web/20100316160856/http://bknight0.myweb.uga.edu/toki/about/about.html
+    - https://web.archive.org/web/20100420121402/http://bknight0.myweb.uga.edu/toki/about/about.html
+    - https://web.archive.org/web/20110809134526/http://bknight0.myweb.uga.edu/toki/about/about.html
+    - https://web.archive.org/web/20120212091436/http://bknight0.myweb.uga.edu/toki/about/about.html
 ---
 import Change from '@components/Change.astro'
 
 ![](/images/about.jpg)
 
-<Change from={1}>This section of the site is devoted to storing various documents, some of which archive "classical" Toki Pona while others provide insight into some of the details of the language in its current state. If you're curious to learn more about the language in a broader sense, check out [the official site]() or [the Wikipedia article on Toki Pona](http://web.archive.org/web/20060216222034/http://en.wikipedia.org/wiki/Toki_Pona).</Change>
+<Change from={3}></Change>
+<Change till={3}></Change>
 
-### [Original Version of the Dictionary](/_others/sonja/dict)  
+<Change from={1} till={3}>This section of the site is devoted to storing various documents, some of which archive "classical" Toki Pona while others provide insight into some of the details of the language in its current state. If you're curious to learn more about the language in a broader sense, check out [the official site]()<Change till={2}> or [the Wikipedia article on Toki Pona](http://web.archive.org/web/20060216222034/http://en.wikipedia.org/wiki/Toki_Pona)</Change>.</Change>
+<Change from={3}>This section contains old documents that show how Toki Pona has changed over time. If you're curious to learn more about the language in a <Change till={4}>more</Change> general way, check out [the official site](){/* www.tokipona.org */}</Change>
 
-This is the vocabulary of Toki Pona as it existed when first presented online. It has been placed here for nostalgia and the curious. (Note: This is **not** to be used for writing Toki Pona the currently accepted way. For that, go to the [official dictionary]().)
+### [Original <Change till={3}>Version of the</Change> Dictionary](/_others/sonja/dict)  
+<Change from={3}>This is the vocabulary of Toki Pona as it existed when first presented online. It has been placed here for nostalgia and the curious. (Note: This is **not** to be used for writing Toki Pona the currently accepted way. For that, go to the [official dictionary]().)</Change>
+<Change till={3}>The Toki Pona vocabulary as it was first presented online</Change>
 
-### [Original Version of the Lessons](/_others/Sonja/learn)
-This is the first set of lessons that were made to teach Toki Pona. It has been placed here for nostalgia and the curious. (Note: This is **not** to be used for learning Toki Pona as it is currently accepted. For that, see the lessons in the learning section of this site.)
+### [Original <Change till={3}>Version of the</Change> Lessons](/_others/Sonja/learn)
+<Change from={3}>This is the first set of lessons that were made to teach Toki Pona. It has been placed here for nostalgia and the curious. (Note: This is **not** to be used for learning Toki Pona as it is currently accepted. For that, see the lessons in the learning section of this site.)</Change>
+<Change till={3}>The first set of lessons for learning Toki Pona<Change till={4}>.</Change></Change>
 
 ### [Old Words](/oldword)  
-This page contains a list of words in Toki Pona that have been removed from usage, as well as information on their meanings and approximate dates of removal.
+<Change from={3}>This page contains a list of words in Toki Pona that have been removed from usage, as well as information on their meanings and approximate dates of removal.</Change>
+<Change till={3}>Toki Pona words that have been abolished</Change>
 
-### [Why Toki Pona?](/_others/sonja/why)
-This is an earlier version of the [_toki pona li seme?_]() article which Sonja wrote for tokipona.org.
+### [Why Toki Pona?](/_others/sonja/why) <Change from={3}>by Sonja Kisa</Change>
+<Change from={3}>This is a</Change><Change till={3}>A</Change>n earlier version of the [_toki pona li seme?_]() {/*www.tokipona.org/intro*/} article <Change till={3}>which Sonja wrote<Change till={1}> for tokipona.org</Change>.</Change>
 
+<Change till={3}>
 ### [Tokiponization Guidelines](/learn/tpize)  
 This provides some help in deciding how make a foreign word fit Toki Pona's word structure.
+</Change>
 
 <Change from={1}>
 ### [Chat logs](/text/chat)
-A small collection of chat logs from the Toki Pona chat room
+<Change till={3}>A small collection of chat logs from the Toki Pona chat room</Change>
 </Change>

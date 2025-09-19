@@ -4,7 +4,7 @@ description: "???"
 captures:
   -
     - https://web.archive.org/web/20050214035558/http://tokipona.nytka.org:80/text/nasin/moku.html
-    - https://web.archive.org/web/20070320105452/http://tokipona.esperanto-jeunes.org:80/text/nasin/moku.html
+    #- https://web.archive.org/web/20070320105452/http://tokipona.esperanto-jeunes.org:80/text/nasin/moku.html
 ---
 
 # moku en lape

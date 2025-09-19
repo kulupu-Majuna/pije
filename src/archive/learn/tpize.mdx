@@ -7,16 +7,29 @@ captures:
     - https://web.archive.org/web/20050113002656/http://tokipona.nytka.org:80/learn/tpize.html
     - https://web.archive.org/web/20050212133817/http://tokipona.nytka.org:80/learn/tpize.html
     - https://web.archive.org/web/20050214070434/http://tokipona.nytka.org:80/about/tpize.html
-    # - https://web.archive.org/web/20070311222817/http://tokipona.esperanto-jeunes.org:80/about/tpize.html
-    # - https://web.archive.org/web/20070313203858/http://tokipona.esperanto-jeunes.org:80/about/tpize.html
+    #- https://web.archive.org/web/20070311222817/http://tokipona.esperanto-jeunes.org:80/about/tpize.html
+    #- https://web.archive.org/web/20070313203858/http://tokipona.esperanto-jeunes.org:80/about/tpize.html
   - #1: "becomes" ~> ">"
-    - https://web.archive.org/web/20060622040541/http://tokipona.esperanto-jeunes.org:80/learn/tpize.html 
-    - https://web.archive.org/web/20070311222837/http://tokipona.esperanto-jeunes.org:80/learn/tpize.html # "Chrétien"~> "Chr�tien"
-    - https://web.archive.org/web/20070313203955/http://tokipona.esperanto-jeunes.org:80/learn/tpize.html
+    - "@20051001/https://web.archive.org/web/20060622040541/http://tokipona.esperanto-jeunes.org:80/learn/tpize.html "
+    #- https://web.archive.org/web/20070311222837/http://tokipona.esperanto-jeunes.org:80/learn/tpize.html # "Chrétien"~> "Chr�tien"
+    #- https://web.archive.org/web/20070313203955/http://tokipona.esperanto-jeunes.org:80/learn/tpize.html
+  - #2: new banner image
+    - https://web.archive.org/web/20090214231700/http://bknight0.myweb.uga.edu:80/toki/learn/tpize.html
+    - https://web.archive.org/web/20090719075638/http://bknight0.myweb.uga.edu:80/toki/learn/tpize.html
+    - https://web.archive.org/web/20090902103242/http://bknight0.myweb.uga.edu:80/toki/learn/tpize.html
+    - https://web.archive.org/web/20091209234147/http://bknight0.myweb.uga.edu:80/toki/learn/tpize.html
+    - https://web.archive.org/web/20100114151554/http://bknight0.myweb.uga.edu:80/toki/learn/tpize.html
+    - https://web.archive.org/web/20100214120427/http://bknight0.myweb.uga.edu:80/toki/learn/tpize.html
+    - https://web.archive.org/web/20100318025250/http://bknight0.myweb.uga.edu:80/toki/learn/tpize.html
+    - https://web.archive.org/web/20100420201801/http://bknight0.myweb.uga.edu:80/toki/learn/tpize.html
+    - https://web.archive.org/web/20110725102633/http://bknight0.myweb.uga.edu:80/toki/learn/tpize.html
+    - https://web.archive.org/web/20110809134452/http://bknight0.myweb.uga.edu:80/toki/learn/tpize.html
+    - https://web.archive.org/web/20120212091052/http://bknight0.myweb.uga.edu:80/toki/learn/tpize.html
+    - https://web.archive.org/web/20120722182812/http://bknight0.myweb.uga.edu:80/toki/learn/tpize.html
 ---
 import Change from '@components/Change.astro'
 
-![](/images/tpize.jpg)
+<Change till={2}>![](/images/tpize.jpg)</Change><Change till={2}>![](/images/tpize2.png)</Change>
 
 It is always better to translate the "idea" of a foreign word before attempting to create a new phonetic transcription that may not be recognizable by everyone. (Example: Jean Chrétien, Prime Minister of Canada, becomes jan lawa pi ma Kanata, rather than jan Kesijen)
 

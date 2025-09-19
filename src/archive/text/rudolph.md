@@ -5,9 +5,10 @@ captures:
   -
     - https://web.archive.org/web/20050124084237/http://tokipona.nytka.org:80/text/rudolph.html
     - https://web.archive.org/web/20050207152616/http://tokipona.nytka.org:80/text/rudolph.html
-    - https://web.archive.org/web/20061210162048/http://tokipona.esperanto-jeunes.org:80/text/rudolph.html
-    - https://web.archive.org/web/20070312023530/http://tokipona.esperanto-jeunes.org:80/text/rudolph.html
-    - https://web.archive.org/web/20070314081535/http://tokipona.esperanto-jeunes.org:80/text/rudolph.html
+    #- https://web.archive.org/web/20061210162048/http://tokipona.esperanto-jeunes.org:80/text/rudolph.html
+    #- https://web.archive.org/web/20070312023530/http://tokipona.esperanto-jeunes.org:80/text/rudolph.html
+    #- https://web.archive.org/web/20070314081535/http://tokipona.esperanto-jeunes.org:80/text/rudolph.html
+    - https://web.archive.org/web/20070728134656/http://bknight0.myweb.uga.edu/toki/text/rudolph.html
 ---
 
 ![](/images/rudolph.jpg)

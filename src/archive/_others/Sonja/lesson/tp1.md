@@ -5,7 +5,11 @@ captures:
   -
     - https://web.archive.org/web/20050129011249/http://tokipona.nytka.org:80/about/lesson/tp1.html
     - https://web.archive.org/web/20050214120901/http://tokipona.nytka.org:80/about/lesson/tp1.html
-    - https://web.archive.org/web/20070316193303/http://tokipona.esperanto-jeunes.org:80/about/lesson/tp1.html
+    #- https://web.archive.org/web/20070316193303/http://tokipona.esperanto-jeunes.org:80/about/lesson/tp1.html
+    - https://web.archive.org/web/20090823012007/http://bknight0.myweb.uga.edu:80/toki/about/lesson/tp1.html
+    - https://web.archive.org/web/20110611160849/http://bknight0.myweb.uga.edu:80/toki/about/lesson/tp1.html
+    - https://web.archive.org/web/20110715022748/http://bknight0.myweb.uga.edu:80/toki/about/lesson/tp1.html
+    - https://web.archive.org/web/20130310060143/http://bknight0.myweb.uga.edu:80/toki/about/lesson/tp1.html
 ---
 
 # ![***](/images/Sonja/swirl.gif)  Lesson One ![***](/images/Sonja/swirl.gif)

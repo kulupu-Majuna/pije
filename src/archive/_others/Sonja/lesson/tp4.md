@@ -4,7 +4,11 @@ description: Going and For
 captures:
   -
     - https://web.archive.org/web/20050214120755/http://tokipona.nytka.org:80/about/lesson/tp4.html
-    - https://web.archive.org/web/20070316193323/http://tokipona.esperanto-jeunes.org:80/about/lesson/tp4.html
+    #- https://web.archive.org/web/20070316193323/http://tokipona.esperanto-jeunes.org:80/about/lesson/tp4.html
+    - https://web.archive.org/web/20090821024454/http://bknight0.myweb.uga.edu:80/toki/about/lesson/tp4.html
+    - https://web.archive.org/web/20120905051228/http://bknight0.myweb.uga.edu:80/toki/about/lesson/tp4.html
+    - https://web.archive.org/web/20121127120700/http://bknight0.myweb.uga.edu:80/toki/about/lesson/tp4.html
+    - https://web.archive.org/web/20130310221155/http://bknight0.myweb.uga.edu:80/toki/about/lesson/tp4.html
 ---
 
 # ![***](/images/Sonja/swirl.gif) Lesson Four ![***](/images/Sonja/swirl.gif)

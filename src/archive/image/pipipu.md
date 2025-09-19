@@ -7,8 +7,8 @@ captures:
     - https://web.archive.org/web/20050106100331/http://tokipona.nytka.org:80/image/pipipu.html
     - https://web.archive.org/web/20050213010106/http://tokipona.nytka.org:80/image/pipipu.html
     - "@20050228/http://web.archive.org/web/20210909055023/http://tokipona.atspace.org/image/pipipu.html"
-    - https://web.archive.org/web/20070312012704/http://tokipona.esperanto-jeunes.org:80/image/pipipu.html
-    - https://web.archive.org/web/20070314040823/http://tokipona.esperanto-jeunes.org:80/image/pipipu.html
+    #- https://web.archive.org/web/20070312012704/http://tokipona.esperanto-jeunes.org:80/image/pipipu.html
+    #- https://web.archive.org/web/20070314040823/http://tokipona.esperanto-jeunes.org:80/image/pipipu.html
 ---
 
 ![](/images/pipipu.jpg)

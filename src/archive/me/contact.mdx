@@ -2,32 +2,46 @@
 title: Contact Me
 description: List of jan Pije's social media contacts
 captures:
-  -
+  - #0
     - https://web.archive.org/web/20041209120758/http://tokipona.nytka.org:80/me/contact.html
     - https://web.archive.org/web/20050204040324/http://tokipona.nytka.org:80/me/contact.html
-  -
+  - #1: removed AIM remote, add Google Talk, ICQ, MSN, Skype 
     - https://web.archive.org/web/20060216222007/http://tokipona.esperanto-jeunes.org:80/me/contact.html
     - https://web.archive.org/web/20060622063111/http://toki.dm7.net:80/me/contact.html
     - https://web.archive.org/web/20061231021448/http://tokipona.esperanto-jeunes.org:80/me/contact.html
     - https://web.archive.org/web/20070308232000/http://tokipona.esperanto-jeunes.org:80/me/contact.html
     - https://web.archive.org/web/20070310112054/http://tokipona.esperanto-jeunes.org:80/me/contact.html 
+  - #2: turned each "bknight009" into an image of the text, presumably to stop spammers crawling the site. (technically these use hide.png until={4}, but this is the same as hide2.png just for the dark colour scheme)
+    - https://web.archive.org/web/20060821204425/http://bknight0.myweb.uga.edu:80/toki/me/contact.html
+    - https://web.archive.org/web/20070117184008/http://bknight0.myweb.uga.edu:80/toki/me/contact.html
+    - https://web.archive.org/web/20070220114419/http://bknight0.myweb.uga.edu:80/toki/me/contact.html
+    - https://web.archive.org/web/20070624111323/http://bknight0.myweb.uga.edu:80/toki/me/contact.html
+    - https://web.archive.org/web/20071028152947/http://bknight0.myweb.uga.edu:80/toki/me/contact.html
+  - #3: -Google Talk, -ICQ, -MSN, -Skype
+    - https://web.archive.org/web/20080820061512/http://bknight0.myweb.uga.edu:80/toki/me/contact.html
+    - https://web.archive.org/web/20090211013356/http://bknight0.myweb.uga.edu:80/toki/me/contact.html
+    - https://web.archive.org/web/20090612231054/http://bknight0.myweb.uga.edu:80/toki/me/contact.html
+  - #4: new image, new email, +facebook. light colour scheme
+    - https://web.archive.org/web/20110809135557/http://bknight0.myweb.uga.edu:80/toki/me/contact.html
+    - https://web.archive.org/web/20120212091916/http://bknight0.myweb.uga.edu:80/toki/me/contact.html
 ---
 import Change from '@components/Change.astro'
 
-![](/images/contact.jpg)
+<Change till={4}>![](/images/contact.jpg)</Change><Change from={4}>![](/images/contact2.png)</Change>
 > Image from Kazaa. If copyrighted, tell me so I can remove it.
 
 <Change till={1}>You can use the info I wrote below or the convenient AIM remote to contact me.</Change>
 
-**E-mail:** bknight009@yahoo.com  
-**AIM:** bknight009  
-**Google Talk:** bknight009@gmail.com  
+**E-mail:** <Change till={4}><Change till={2}>bknight009</Change><Change from={2}>![](/hide2.png)</Change>@yahoo.com</Change> <Change from={4}>![](/hide3.png) -- To reduce spam, please do not repost my email address as text on any websites, message boards, etc.</Change>  
+**AIM:** <Change till={2}>bknight009</Change><Change from={2}>![](/hide2.png)</Change>  
+<Change from={1} till={3}>**Google Talk:** <Change till={2}>bknight009</Change><Change from={2}>![](/hide2.png)</Change>@gmail.com  
 _(I only use Google Talk for text chats, not voicechat. Also, please send email to the Yahoo address, not to this Gmail address.)_  
-**ICQ:** 241633785  
-**IRC:** Pije  
-**MSN:** bknight009@hotmail.com  
-**Skype:** bknight009  
-_(I am seldom connected to Skype. If you want to voicechat, please contact me with one of the services listed above and ask about it.)_  
+**ICQ:** 241633785</Change>  
+<Change from={4}>Facebook: [Bryant Knight](){/* http://www.facebook.com/bryantknight */}</Change>  
+**IRC<Change from={3}> <Change till={4}>nick on</Change> Freenode</Change>:** Pije  
+<Change from={1} till={3}>**MSN:** <Change till={2}>bknight009</Change><Change from={2}>![](/hide2.png)</Change>@hotmail.com  
+**Skype:** <Change till={2}>bknight009</Change><Change from={2}>![](/hide2.png)</Change>  
+_(I am seldom connected to Skype. If you want to voicechat, please contact me with one of the services listed above and ask about it.)</Change>  
 
 
 <Change till={1}>
@@ -37,5 +51,5 @@ td \{ padding: 0; }
 </style>
 | | | | |
 |-|-|-|-|
-|![](/images/AIM-remote/hoceanhd.gif)|[![I am Online](/images/AIM-remote/hocean1.gif)](aim:goim?screenname=bknight009&message=toki!+are+you+there?)|[![Add me to your Buddy List](/images/AIM-remote/hocean2.gif)](aim:addbuddy?screenname=bknight009)|[![Send me E-mail](/images/AIM-remote/hocean4.gif)](mailto:bknight009@yahoo.com)|
+|![](/images/AIM-remote/hoceanhd.gif)|[![I am Online](/images/AIM-remote/hocean1.gif)](aim:goim?screenname=<Change till={2}>bknight009</Change><Change from={2}>![](/hide2.png)</Change>&message=toki!+are+you+there?)|[![Add me to your Buddy List](/images/AIM-remote/hocean2.gif)](aim:addbuddy?screenname=<Change till={2}>bknight009</Change><Change from={2}>![](/hide2.png)</Change>)|[![Send me E-mail](/images/AIM-remote/hocean4.gif)](mailto:<Change till={2}>bknight009</Change><Change from={2}>![](/hide2.png)</Change>@yahoo.com)|
 </Change>

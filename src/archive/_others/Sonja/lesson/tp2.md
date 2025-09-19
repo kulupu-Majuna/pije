@@ -4,7 +4,11 @@ description: Basic Sentences
 captures:
   -
     - https://web.archive.org/web/20050214121509/http://tokipona.nytka.org:80/about/lesson/tp2.html
-    - https://web.archive.org/web/20070316193221/http://tokipona.esperanto-jeunes.org:80/about/lesson/tp2.html
+    #- https://web.archive.org/web/20070316193221/http://tokipona.esperanto-jeunes.org:80/about/lesson/tp2.html
+    - https://web.archive.org/web/20090821024444/http://bknight0.myweb.uga.edu:80/toki/about/lesson/tp2.html
+    - https://web.archive.org/web/20110611163139/http://bknight0.myweb.uga.edu:80/toki/about/lesson/tp2.html
+    - https://web.archive.org/web/20110715022816/http://bknight0.myweb.uga.edu:80/toki/about/lesson/tp2.html
+    - https://web.archive.org/web/20130310060148/http://bknight0.myweb.uga.edu:80/toki/about/lesson/tp2.html
 ---
 
 # ![***](/images/Sonja/swirl.gif) Lesson Two ![***](/images/Sonja/swirl.gif)

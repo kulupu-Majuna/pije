@@ -5,8 +5,29 @@ captures:
   -
     - https://web.archive.org/web/20041209222753/http://tokipona.nytka.org:80/about/olddict.html
     - https://web.archive.org/web/20050214070351/http://tokipona.nytka.org:80/about/olddict.html
-    - https://web.archive.org/web/20070311222858/http://tokipona.esperanto-jeunes.org:80/about/olddict.html
-    - https://web.archive.org/web/20070313204142/http://tokipona.esperanto-jeunes.org:80/about/olddict.html
+    #- https://web.archive.org/web/20070311222858/http://tokipona.esperanto-jeunes.org:80/about/olddict.html
+    #- https://web.archive.org/web/20070313204142/http://tokipona.esperanto-jeunes.org:80/about/olddict.html
+    - https://web.archive.org/web/20080731055455/http://bknight0.myweb.uga.edu:80/toki/about/olddict.html
+    - https://web.archive.org/web/20080730002711/http://bknight0.myweb.uga.edu:80/toki/about/olddict.html
+    - https://web.archive.org/web/20080827121818/http://bknight0.myweb.uga.edu:80/toki/about/olddict.html
+    - https://web.archive.org/web/20080822224425/http://bknight0.myweb.uga.edu:80/toki/about/olddict.html
+    - https://web.archive.org/web/20080819163738/http://bknight0.myweb.uga.edu:80/toki/about/olddict.html
+    - https://web.archive.org/web/20080818142319/http://bknight0.myweb.uga.edu:80/toki/about/olddict.html
+    - https://web.archive.org/web/20080817012423/http://bknight0.myweb.uga.edu:80/toki/about/olddict.html
+    - https://web.archive.org/web/20080815201659/http://bknight0.myweb.uga.edu:80/toki/about/olddict.html
+    - https://web.archive.org/web/20080813065412/http://bknight0.myweb.uga.edu:80/toki/about/olddict.html
+    - https://web.archive.org/web/20080812032207/http://bknight0.myweb.uga.edu:80/toki/about/olddict.html
+    - https://web.archive.org/web/20080809082529/http://bknight0.myweb.uga.edu:80/toki/about/olddict.html
+    - https://web.archive.org/web/20080807060458/http://bknight0.myweb.uga.edu:80/toki/about/olddict.html
+    - https://web.archive.org/web/20080805145019/http://bknight0.myweb.uga.edu:80/toki/about/olddict.html
+    - https://web.archive.org/web/20090819071614/http://bknight0.myweb.uga.edu:80/toki/about/olddict.html
+    - https://web.archive.org/web/20090919041849/http://bknight0.myweb.uga.edu:80/toki/about/olddict.html
+    - https://web.archive.org/web/20091209102957/http://bknight0.myweb.uga.edu:80/toki/about/olddict.html
+    - https://web.archive.org/web/20100114160509/http://bknight0.myweb.uga.edu:80/toki/about/olddict.html
+    - https://web.archive.org/web/20100214134836/http://bknight0.myweb.uga.edu:80/toki/about/olddict.html
+    - https://web.archive.org/web/20100318042351/http://bknight0.myweb.uga.edu:80/toki/about/olddict.html
+    - https://web.archive.org/web/20100420115006/http://bknight0.myweb.uga.edu:80/toki/about/olddict.html
+    - https://web.archive.org/web/20110809140333/http://bknight0.myweb.uga.edu:80/toki/about/olddict.html
 ---
 
 > **WARNING!** If you want to look up a word to help you say something in Toki Pona, do not use this wordlist. Please leave this page and go to the [current, official wordlist](){/*www.tokipona.org/nimi.html*/}.

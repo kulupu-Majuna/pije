@@ -95,6 +95,9 @@ blockquote {
 .translation {
   font-style: italic;
 }
+.literal {
+  color: #787a7a;
+}
 .alt {
   color: #3399ff;
 }
@@ -121,3 +124,9 @@ nav > p {
 nav li {
 	list-style: none;
 }
+
+table {	border-collapse: collapse; }
+table h3 { display: inline; } 
+td { vertical-align: top; } 
+td[colspan] { text-align: center } 
+tr:nth-child(2n-1) { background: #00000005; }

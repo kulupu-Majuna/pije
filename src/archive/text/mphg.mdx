@@ -9,9 +9,11 @@ captures:
     - https://web.archive.org/web/20050207141724/http://tokipona.nytka.org:80/text/mphg.html
     - https://web.archive.org/web/20050209103452/http://tokipona.nytka.org:80/text/mphg.html
   - #2: First three scenes are edited in various ways. Mostly expanding implications. Using sentence fragments. Updating punctuation to match the original. Changing multiple predicates with sina/mi to use repeated li. & less use of kama (jo)
-    - https://web.archive.org/web/20061210162148/http://tokipona.esperanto-jeunes.org:80/text/mphg.html
-    - https://web.archive.org/web/20070312023450/http://tokipona.esperanto-jeunes.org:80/text/mphg.html
-    - https://web.archive.org/web/20070314081450/http://tokipona.esperanto-jeunes.org:80/text/mphg.html
+    - "@20051001/https://web.archive.org/web/20061210162148/http://tokipona.esperanto-jeunes.org:80/text/mphg.html"
+    #- https://web.archive.org/web/20070312023450/http://tokipona.esperanto-jeunes.org:80/text/mphg.html
+    #- https://web.archive.org/web/20070314081450/http://tokipona.esperanto-jeunes.org:80/text/mphg.html
+  - #3: First scene is edited in various minor ways. Most notably: shortening "waso pi ma Apika" to "waso Apika", and changing polite requests from "o ..." to "mi wile e ni: sina ..." 
+    - https://web.archive.org/web/20070728134517/http://bknight0.myweb.uga.edu/toki/text/mphg.html
 ---
 import Change from '@components/Change.astro'
 
@@ -75,13 +77,13 @@ ARTHUR: I am. And this my trusty servant Patsy.
 jan Asa: ni li jan Pesi. ona li <Change till={2}>pali tawa mi</Change><Change from={2}>jan pali pona mi</Change>.  
 
 We have ridden the length and breadth of the land in search of knights who will join me in my court of Camelot.  
-mi mute li tawa <Change from={2}>mute lon</Change> ma <Change till={2}>Kamela</Change> li wile e ni: jan utala <Change till={2}>pona</Change> li <Change till={2}>kama</Change><Change from={2}>wile lon kulupu Kamela mi</Change>.  
+mi mute li tawa <Change from={2}>mute lon</Change> ma <Change till={2}>Kamela</Change> li wile e ni: jan utala <Change till={2}>pona</Change> <Change from={3}>pona</Change> li <Change till={2}>kama</Change><Change from={2}>wile lon kulupu Kamela mi</Change>.  
 
 I must speak with your lord and master.  
 mi wile toki tawa jan lawa sina.  
 
 GUARD #1: What, ridden on a horse?  
-jan utala pi nanpa wan: sina kama<Change till={2}> ala kama</Change> kepeken soweli<Change till={2}>?</Change><Change from={2}>. a.</Change>  
+jan utala pi nanpa wan: sina kama<Change till={2}> ala kama</Change> <Change till={3}>kepeken</Change><Change from={3}>lon</Change> soweli<Change till={2}>?</Change><Change from={2}>. a.</Change>  
 
 ARTHUR: Yes!  
 jan Asa: <Change till={2}>kama</Change><Change from={2}>kin</Change>.  
@@ -99,13 +101,13 @@ ARTHUR: So? We have ridden since the snows of winter covered this land, through 
 jan Asa: ni li <Change till={2}>suli tan seme?</Change><Change from={2}>lili.</Change> tenpo <Change till={2}>mute</Change><Change from={2}>lete</Change> la mi <Change from={2}>open</Change> tawa. mi tawa ma Mesija li tawa--  
 
 GUARD #1: Where'd you get the coconut?  
-jan utala pi nanpa wan: kili ni li kama tan seme?  
+jan utala pi nanpa wan: <Change till={3}>kili ni li kama</Change> <Change from={3}>sina jo e kili</Change> tan <Change from={3}>ma</Change> seme?  
 
 ARTHUR: We found them.  
 jan Asa: mi mute li lukin e ona li kama jo e ona.  
 
 GUARD #1: Found them? In Mercea? The coconut's tropical!  
-jan utala pi nanpa wan: <Change till={2}>kili ni li</Change><Change from={2}>sina lukin e ona</Change> lon ma Mesija? kili ni li awen lon ma seli<Change till={2}>.</Change><Change from={2}>!</Change>  
+jan utala pi nanpa wan: <Change till={2}>kili ni li</Change><Change from={2}>sina lukin e ona</Change> lon ma Mesija<Change till={3}>.</Change><Change from={3}>. a?</Change> kili ni li awen lon ma seli<Change till={2}>.</Change><Change from={2}>!</Change>  
 
 ARTHUR: What do you mean?  
 jan Asa: sina toki e seme?  
@@ -141,13 +143,13 @@ ARTHUR: Well, it doesn't matter.
 jan Asa: ni li lili.  
 
 Will you go and tell your master that Arthur from the Court of Camelot is here?  
-o tawa jan lawa sina. o toki e ni tawa <Change till={2}>sina</Change><Change from={2}>ona</Change>: jan Asa <Change from={2}>pi kulupu Kamela</Change> li lon.  
+<Change till={3}>o</Change> <Change from={3}>mi wile e ni: sina</Change> tawa jan lawa sina. o toki e ni tawa <Change till={2}>sina</Change><Change from={2}>ona</Change>: jan Asa <Change from={2}>pi kulupu Kamela</Change> li lon.  
 
 GUARD #1: Listen, in order to maintain air-speed velocity, a swallow needs to beat its wings 43 times every second, right?  
 jan utala pi nanpa wan: <Change from={2}>o kute.</Change> waso li wile <Change till={2}></Change>tawa<Change from={2}>awen</Change> lon kon la ona li <Change till={2}>pali mute</Change>wile tawa mute e luka ona<Change from={2}></Change>. <Change from={2}>ni li lon ala lon?</Change>  
 
 ARTHUR: Please!  
-jan Asa: o tawa!  
+jan Asa: <Change till={3}>o tawa!</Change> <Change from={3}>mi wile!</Change> 
 
 GUARD #1: Am I right?  
 jan utala pi nanpa wan: mi toki<Change till={2}> ala toki</Change> e lon<Change from={2}> anu seme</Change>?  
@@ -156,19 +158,19 @@ ARTHUR: I'm not interested!
 jan Asa: ni li lili tawa mi<Change till={2}>.</Change><Change from={2}>!</Change>  
 
 GUARD #2: It could be carried by an African swallow!  
-jan utala pi nanpa tu: waso pi ma Apika li ken tawa e ona!  
+jan utala pi nanpa tu: waso <Change till={3}>pi ma </Change>Apika li ken tawa e ona!  
 
 GUARD #1: Oh, yeah, an African swallow maybe, but not a European swallow, that's my point.  
-jan utala pi nanpa wan: <Change from={2}>a.</Change> waso pi ma Apika li ken tawa e ona. <Change from={2}>taso</Change> waso pi ma Elopa li ken ala.  
+jan utala pi nanpa wan: <Change from={2}>a.</Change> waso <Change till={3}>pi ma </Change>Apika li ken tawa e ona. <Change from={2}>taso</Change> waso <Change till={3}>pi ma </Change>Elopa li ken ala.  
 
 GUARD #2: Oh, yeah, I agree with that...  
-jan utala pi nanpa tu: a. sina toki e lon...  
+jan utala pi nanpa tu: a. <Change from={3}>kin.</Change> sina toki e lon...  
 
 ARTHUR: Will you ask your master if he wants to join my court at Camelot?!  
-jan Asa: o toki tawa jan lawa sina! <Change from={2}>ken la ona li wile lon kulupu Kamela mi.</Change>  
+jan Asa: <Change till={3}>o</Change> <Change from={3}>mi wile e ni: sina</Change> toki tawa jan lawa sina! <Change from={2}>ken la ona li wile lon kulupu Kamela mi<Change till={3}>.</Change><Change from={3}>!</Change></Change>  
 
 GUARD #1: But then of course African swallows are not migratory.  
-jan utala pi nanpa wan: <Change from={2}>taso</Change> waso pi ma Apika li tawa ala ma ante.  
+jan utala pi nanpa wan: <Change from={2}>taso</Change> waso <Change till={3}>pi ma </Change>Apika li tawa ala ma ante.  
 
 GUARD #2: Oh, yeah...  
 jan utala pi nanpa tu: a. <Change till={2}>ni li lon.</Change><Change from={2}>kin.</Change>  
@@ -192,7 +194,7 @@ GUARD #1: What, held under the dorsal guiding feathers?
 jan utala pi nanpa wan: ona li awen e linja kepeken luka <Change from={2}>lawa</Change> ona anu seme?  
 
 GUARD #2: Well, why not?  
-jan utala pi nanpa wan: <Change till={2}>ona li ken awen e ona kepeken luka</Change><Change from={2}>sina pilin ala pilin ante?</Change>.  
+jan utala pi nanpa wan: <Change till={2}>ona li ken awen e ona kepeken luka.</Change> <Change from={2} till={3}>sina pilin ala pilin ante?</Change> <Change from={3}>ona li ken anu seme?</Change>  
 
    
 

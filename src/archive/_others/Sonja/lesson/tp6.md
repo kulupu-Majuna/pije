@@ -4,7 +4,11 @@ description: Gender, Adverbs and Negation
 captures:
   -
     - https://web.archive.org/web/20050214121111/http://tokipona.nytka.org:80/about/lesson/tp6.html
-    - https://web.archive.org/web/20070316193333/http://tokipona.esperanto-jeunes.org:80/about/lesson/tp6.html
+    #- https://web.archive.org/web/20070316193333/http://tokipona.esperanto-jeunes.org:80/about/lesson/tp6.html
+    - https://web.archive.org/web/20090823164037/http://bknight0.myweb.uga.edu:80/toki/about/lesson/tp6.html
+    - https://web.archive.org/web/20120905060830/http://bknight0.myweb.uga.edu:80/toki/about/lesson/tp6.html
+    - https://web.archive.org/web/20121101193416/http://bknight0.myweb.uga.edu:80/toki/about/lesson/tp6.html
+    - https://web.archive.org/web/20130310060158/http://bknight0.myweb.uga.edu:80/toki/about/lesson/tp6.html
 ---
 
 # ![***](/images/Sonja/swirl.gif) Lesson Six ![***](/images/Sonja/swirl.gif)

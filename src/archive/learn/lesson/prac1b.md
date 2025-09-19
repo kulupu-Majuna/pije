@@ -4,8 +4,8 @@ description: A list of words read aloud in Lesson 2 of jan Pije's toki pona cour
 captures:
   -
     - https://web.archive.org/web/20050212191812/http://tokipona.nytka.org:80/lesson/prac1b.txt
-    - https://web.archive.org/web/20070112153836/http://tokipona.esperanto-jeunes.org:80/lesson/prac1b.txt
-    - https://web.archive.org/web/20070216063341/http://tokipona.esperanto-jeunes.org:80/lesson/prac1b.txt
+    #- https://web.archive.org/web/20070112153836/http://tokipona.esperanto-jeunes.org:80/lesson/prac1b.txt
+    #- https://web.archive.org/web/20070216063341/http://tokipona.esperanto-jeunes.org:80/lesson/prac1b.txt
 
 ---
 <pre>1. toki		(language, talk)

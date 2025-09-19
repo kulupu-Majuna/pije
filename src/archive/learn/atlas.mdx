@@ -8,19 +8,27 @@ captures:
     - https://web.archive.org/web/20050418061332/http://www.geocities.com:80/tokipona/learn/atlas.html
     - https://web.archive.org/web/20050927035958/http://www.geocities.com:80/tokipona/learn/atlas.html
   - #2: revert back to 0
-    - https://web.archive.org/web/20060622040529/http://tokipona.esperanto-jeunes.org:80/learn/atlas.html
-    - https://web.archive.org/web/20060716125355/http://tokipona.esperanto-jeunes.org:80/learn/atlas.html
-    - https://web.archive.org/web/20070311222828/http://tokipona.esperanto-jeunes.org:80/learn/atlas.html
-    - https://web.archive.org/web/20070313203908/http://tokipona.esperanto-jeunes.org:80/learn/atlas.html
-  - #3: links are green
-    - https://web.archive.org/web/20081120060449/http://tokipona.esperanto-jeunes.org/learn/atlas.html
+    - "@20051001/https://web.archive.org/web/20060622040529/http://tokipona.esperanto-jeunes.org:80/learn/atlas.html"
+    #- https://web.archive.org/web/20060716125355/http://tokipona.esperanto-jeunes.org:80/learn/atlas.html
+    #- https://web.archive.org/web/20070311222828/http://tokipona.esperanto-jeunes.org:80/learn/atlas.html
+    #- https://web.archive.org/web/20070313203908/http://tokipona.esperanto-jeunes.org:80/learn/atlas.html
+  - #3: links are green + new banner image
+    #- https://web.archive.org/web/20081120060449/http://tokipona.esperanto-jeunes.org/learn/atlas.html
+    - https://web.archive.org/web/20090214231650/http://bknight0.myweb.uga.edu:80/toki/learn/atlas.html
+  - #4: -intro
+    - https://web.archive.org/web/20090902103232/http://bknight0.myweb.uga.edu:80/toki/learn/atlas.html
+    - https://web.archive.org/web/20091210011401/http://bknight0.myweb.uga.edu:80/toki/learn/atlas.html
+    - https://web.archive.org/web/20100113185922/http://bknight0.myweb.uga.edu:80/toki/learn/atlas.html
+    - https://web.archive.org/web/20100214003604/http://bknight0.myweb.uga.edu:80/toki/learn/atlas.html
+    - https://web.archive.org/web/20100421070811/http://bknight0.myweb.uga.edu:80/toki/learn/atlas.html
+    - https://web.archive.org/web/20100811225718/http://bknight0.myweb.uga.edu:80/toki/learn/atlas.html
 ---
 import Change from '@components/Change.astro'
 
 <Change till={1}>![](/images/atlas.jpg)</Change>
 <Change from={1} till={2}><img />{/*mapbanner.jpg*/}</Change>
 <Change from={2} till={3}>![](/images/atlas.jpg)</Change>
-<Change from={3}><img />{/*mapbanner.png*/}</Change>
+<Change from={3}>![](/images/atlas.png)</Change>
 
 <Change till={1}>
 Here is a neat Toki Pona atlas.
@@ -36,9 +44,10 @@ To see the maps, simply click the links below. Use your back button if you want 
 
 
 <Change from={2}>
-<Change till={3}>Here</Change> <Change from={3}>This</Change> is a <Change till={3}>neat</Change> Toki Pona atlas.
+<Change till={4}><Change till={3}>Here</Change> <Change from={3}>This</Change> is a <Change till={3}>neat</Change> Toki Pona atlas.</Change>
 
-If you're <Change till={3}>interested,</Change> <Change from={3}>curious,</Change> the maps <Change from={3}>that</Change> I used come from National Geographic's [Xpeditions maps](https://web.archive.org/web/20050212134835/http://www.nationalgeographic.com/xpeditions/atlas/).
+<Change till={4}>If you're <Change till={3}>interested,</Change> <Change from={3}>curious,</Change></Change>
+<Change from={4}>T</Change><Change till={4}>t</Change>he maps <Change from={3} till={4}>that</Change> <Change till={4}>I</Change> used come from National Geographic's [Xpeditions maps](https://web.archive.org/web/20050212134835/http://www.nationalgeographic.com/xpeditions/atlas/).
 </Change>
 
 

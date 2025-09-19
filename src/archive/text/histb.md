@@ -4,7 +4,7 @@ description: "This briefly explains, well, everything! It starts with the Big Ba
 captures:
   -
     - https://web.archive.org/web/20050211102218/http://tokipona.nytka.org/text/histb.html
-    - https://web.archive.org/web/20070318025638/http://tokipona.esperanto-jeunes.org:80/text/histb.html
+    #- https://web.archive.org/web/20070318025638/http://tokipona.esperanto-jeunes.org:80/text/histb.html
 ---
 ![](/images/hist08.jpg)
 

@@ -4,6 +4,14 @@ description: Location and Pronouns
 captures:
   -
     - https://web.archive.org/web/20050214121602/http://tokipona.nytka.org:80/about/lesson/tp7.html
+    - https://web.archive.org/web/20090819071609/http://bknight0.myweb.uga.edu:80/toki/about/lesson/tp7.html
+    - https://web.archive.org/web/20090919033908/http://bknight0.myweb.uga.edu:80/toki/about/lesson/tp7.html
+    - https://web.archive.org/web/20091210055042/http://bknight0.myweb.uga.edu:80/toki/about/lesson/tp7.html
+    - https://web.archive.org/web/20100113154838/http://bknight0.myweb.uga.edu:80/toki/about/lesson/tp7.html
+    - https://web.archive.org/web/20100214141241/http://bknight0.myweb.uga.edu:80/toki/about/lesson/tp7.html
+    - https://web.archive.org/web/20100318115519/http://bknight0.myweb.uga.edu:80/toki/about/lesson/tp7.html
+    - https://web.archive.org/web/20100420095543/http://bknight0.myweb.uga.edu:80/toki/about/lesson/tp7.html
+    - https://web.archive.org/web/20130311122840/http://bknight0.myweb.uga.edu:80/toki/about/lesson/tp7.html
 ---
 
 # ![***](/images/Sonja/swirl.gif) Lesson Seven ![***](/images/Sonja/swirl.gif)

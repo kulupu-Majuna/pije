@@ -5,6 +5,13 @@ captures:
   -
     - https://web.archive.org/web/20050128101515/http://tokipona.nytka.org:80/about/lesson/sounds.html
     - https://web.archive.org/web/20050214121513/http://tokipona.nytka.org:80/about/lesson/sounds.html
+    - https://web.archive.org/web/20090821024439/http://bknight0.myweb.uga.edu:80/toki/about/lesson/sounds.html
+    - https://web.archive.org/web/20111213023421/http://bknight0.myweb.uga.edu:80/toki/about/lesson/sounds.html
+    - https://web.archive.org/web/20120421094849/http://bknight0.myweb.uga.edu:80/toki/about/lesson/sounds.html
+    - https://web.archive.org/web/20120401112522/http://bknight0.myweb.uga.edu:80/toki/about/lesson/sounds.html
+    - https://web.archive.org/web/20120905035043/http://bknight0.myweb.uga.edu:80/toki/about/lesson/sounds.html
+    - https://web.archive.org/web/20121101192536/http://bknight0.myweb.uga.edu:80/toki/about/lesson/sounds.html
+    - https://web.archive.org/web/20130311122629/http://bknight0.myweb.uga.edu:80/toki/about/lesson/sounds.html
 ---
 
 

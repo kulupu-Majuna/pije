@@ -5,8 +5,24 @@ captures:
   -
     - https://web.archive.org/web/20041209223431/http://tokipona.nytka.org:80/about/why.html
     - https://web.archive.org/web/20050214065446/http://tokipona.nytka.org:80/about/why.html
-    - https://web.archive.org/web/20070311222720/http://tokipona.esperanto-jeunes.org:80/about/why.html
-    - https://web.archive.org/web/20070313204037/http://tokipona.esperanto-jeunes.org:80/about/why.html
+    #- https://web.archive.org/web/20070311222720/http://tokipona.esperanto-jeunes.org:80/about/why.html
+    #- https://web.archive.org/web/20070313204037/http://tokipona.esperanto-jeunes.org:80/about/why.html
+    - https://web.archive.org/web/20080731084926/http://bknight0.myweb.uga.edu:80/toki/about/why.html
+    - https://web.archive.org/web/20080730063113/http://bknight0.myweb.uga.edu:80/toki/about/why.html
+    - https://web.archive.org/web/20080827121828/http://bknight0.myweb.uga.edu:80/toki/about/why.html
+    - https://web.archive.org/web/20080822224435/http://bknight0.myweb.uga.edu:80/toki/about/why.html
+    - https://web.archive.org/web/20080819163748/http://bknight0.myweb.uga.edu:80/toki/about/why.html
+    - https://web.archive.org/web/20080818142329/http://bknight0.myweb.uga.edu:80/toki/about/why.html
+    - https://web.archive.org/web/20080817012433/http://bknight0.myweb.uga.edu:80/toki/about/why.html
+    - https://web.archive.org/web/20080815201709/http://bknight0.myweb.uga.edu:80/toki/about/why.html
+    - https://web.archive.org/web/20080813065422/http://bknight0.myweb.uga.edu:80/toki/about/why.html
+    - https://web.archive.org/web/20080812032217/http://bknight0.myweb.uga.edu:80/toki/about/why.html
+    - https://web.archive.org/web/20080809082539/http://bknight0.myweb.uga.edu:80/toki/about/why.html
+    - https://web.archive.org/web/20080807235235/http://bknight0.myweb.uga.edu:80/toki/about/why.html
+    - https://web.archive.org/web/20080806225720/http://bknight0.myweb.uga.edu:80/toki/about/why.html
+    - https://web.archive.org/web/20080805133707/http://bknight0.myweb.uga.edu:80/toki/about/why.html
+    - https://web.archive.org/web/20090821024509/http://bknight0.myweb.uga.edu:80/toki/about/why.html
+    - https://web.archive.org/web/20110809140301/http://bknight0.myweb.uga.edu:80/toki/about/why.html
 ---
 
 ![](/images/Sonja/why.jpg)

@@ -4,7 +4,7 @@ description: This is a collection of short prose by Nikita, one of the three flu
 captures:
   -
     - https://web.archive.org/web/20050210213952/http://tokipona.nytka.org:80/text/nasin/nasin.html
-    - https://web.archive.org/web/20061212031700/http://tokipona.esperanto-jeunes.org:80/text/nasin/nasin.html
+    #- https://web.archive.org/web/20061212031700/http://tokipona.esperanto-jeunes.org:80/text/nasin/nasin.html
 ---
 
 #  toki musi pi nasin pona

@@ -4,6 +4,8 @@ description: "Answers to the practice questions in lesson 7 of Sonja's original 
 captures:
   -
     - https://web.archive.org/web/20050214190625/http://tokipona.nytka.org:80/about/lesson/ans7.html
+    - https://web.archive.org/web/20120905064743/http://bknight0.myweb.uga.edu:80/toki/about/lesson/ans7.html
+    - https://web.archive.org/web/20090821024434/http://bknight0.myweb.uga.edu:80/toki/about/lesson/ans7.html
 ---
 
 # Lesson Seven Answers

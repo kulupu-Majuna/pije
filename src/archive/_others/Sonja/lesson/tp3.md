@@ -4,7 +4,10 @@ description: Direct Objects
 captures:
   -
     - https://web.archive.org/web/20050214120822/http://tokipona.nytka.org:80/about/lesson/tp3.html
-    - https://web.archive.org/web/20070316193312/http://tokipona.esperanto-jeunes.org:80/about/lesson/tp3.html
+    #- https://web.archive.org/web/20070316193312/http://tokipona.esperanto-jeunes.org:80/about/lesson/tp3.html
+    - https://web.archive.org/web/20130310221150/http://bknight0.myweb.uga.edu:80/toki/about/lesson/tp3.html
+    - https://web.archive.org/web/20110611164950/http://bknight0.myweb.uga.edu/toki/about/lesson/tp3.html
+    - https://web.archive.org/web/20090821024449/http://bknight0.myweb.uga.edu:80/toki/about/lesson/tp3.html
 ---
 
 # ![***](/images/Sonja/swirl.gif) Lesson Three ![***](/images/Sonja/swirl.gif)

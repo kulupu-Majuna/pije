@@ -6,8 +6,10 @@ captures:
     - https://web.archive.org/web/20050109100027/http://tokipona.nytka.org:80/image/shirt.html
     - https://web.archive.org/web/20050213011455/http://tokipona.nytka.org:80/image/shirt.html
     - "@20050228/https://archive.today/rdKZq"
-    - https://web.archive.org/web/20070312012644/http://tokipona.esperanto-jeunes.org:80/image/shirt.html
-    - https://web.archive.org/web/20070314040803/http://tokipona.esperanto-jeunes.org:80/image/shirt.html
+    #- https://web.archive.org/web/20070312012644/http://tokipona.esperanto-jeunes.org:80/image/shirt.html
+    #- https://web.archive.org/web/20070314040803/http://tokipona.esperanto-jeunes.org:80/image/shirt.html
+    - https://web.archive.org/web/20080420054315/http://bknight0.myweb.uga.edu:80/toki/image/shirt.html
+    - https://web.archive.org/web/20080921154354/http://bknight0.myweb.uga.edu:80/toki/image/shirt.html
 ---
 
 ![](/images/shirt.jpg)

@@ -2,112 +2,258 @@
 title: TP Video Games
 description: A collection of NES and SNES ROMs with text translated into toki pona
 captures:
-  -
+  - #0
     - https://web.archive.org/web/20040708083332/http://www.geocities.com/tokipona/game/game.html
     - https://web.archive.org/web/20041111094918/http://www.geocities.com/tokipona/game/game.html
     - https://web.archive.org/web/20041124085558/http://www.geocities.com/tokipona/game/game.html
     - https://web.archive.org/web/20041209124959/http://tokipona.nytka.org:80/game/game.html
     - https://web.archive.org/web/20050204035115/http://tokipona.nytka.org:80/game/game.html
     - https://web.archive.org/web/20050409070914/http://tokipona.esperanto-jeunes.org/game/game.html
-  -
+  - #1: +batman
     - https://web.archive.org/web/20050910052246/http://tokipona.esperanto-jeunes.org/game/game.html
+    # 2006/06/09 index says 'video game files are currently offline'
     - https://web.archive.org/web/20060622063329/http://toki.dm7.net:80/game/game.html
-    - https://web.archive.org/web/20061231021437/http://tokipona.esperanto-jeunes.org:80/game/game.html
-    - https://web.archive.org/web/20070308231939/http://tokipona.esperanto-jeunes.org:80/game/game.html
-    - https://web.archive.org/web/20070310112031/http://tokipona.esperanto-jeunes.org:80/game/game.html
+    #- https://web.archive.org/web/20061231021437/http://tokipona.esperanto-jeunes.org:80/game/game.html
+    #- https://web.archive.org/web/20070308231939/http://tokipona.esperanto-jeunes.org:80/game/game.html
+    #- https://web.archive.org/web/20070310112031/http://tokipona.esperanto-jeunes.org:80/game/game.html
+  - #2: IPS patches. Less chatter about each game.
+    - https://web.archive.org/web/20070210094834/http://bknight0.myweb.uga.edu:80/toki/game/game.html
+    - https://web.archive.org/web/20070427121613/http://bknight0.myweb.uga.edu:80/toki/game/game.html
+    - https://web.archive.org/web/20070402151610/http://bknight0.myweb.uga.edu:80/toki/game/game.html
+    - https://web.archive.org/web/20070624111033/http://bknight0.myweb.uga.edu:80/toki/game/game.html
+    - https://web.archive.org/web/20070827202926/http://bknight0.myweb.uga.edu:80/toki/game/game.html
+    - https://web.archive.org/web/20071028152937/http://bknight0.myweb.uga.edu:80/toki/game/game.html
+    - https://web.archive.org/web/20071207184622/http://bknight0.myweb.uga.edu:80/toki/game/game.html
+    - https://web.archive.org/web/20080107074821/http://bknight0.myweb.uga.edu:80/toki/game/game.html
+    - https://web.archive.org/web/20080225073530/http://bknight0.myweb.uga.edu:80/toki/game/game.html
+    - https://web.archive.org/web/20080820061247/http://bknight0.myweb.uga.edu:80/toki/game/game.html
+    - https://web.archive.org/web/20080917015812/http://bknight0.myweb.uga.edu:80/toki/game/game.html
+    - https://web.archive.org/web/20090612230826/http://bknight0.myweb.uga.edu:80/toki/game/game.html
+  - #3: new banner image, no nes rom site link, minor rewording
+    - https://web.archive.org/web/20090813105242/http://bknight0.myweb.uga.edu:80/toki/game/game.html
+    - https://web.archive.org/web/20090919070709/http://bknight0.myweb.uga.edu:80/toki/game/game.html
+    - https://web.archive.org/web/20091209232652/http://bknight0.myweb.uga.edu:80/toki/game/game.html
+    - https://web.archive.org/web/20100114151548/http://bknight0.myweb.uga.edu:80/toki/game/game.html
+    - https://web.archive.org/web/20100214064756/http://bknight0.myweb.uga.edu:80/toki/game/game.html
+    - https://web.archive.org/web/20100318012728/http://bknight0.myweb.uga.edu:80/toki/game/game.html
+    - https://web.archive.org/web/20100420104024/http://bknight0.myweb.uga.edu:80/toki/game/game.html
+    - https://web.archive.org/web/20100814182937/http://bknight0.myweb.uga.edu:80/toki/game/game.html
+    - https://web.archive.org/web/20110809134628/http://bknight0.myweb.uga.edu:80/toki/game/game.html
+    - https://web.archive.org/web/20120212091704/http://bknight0.myweb.uga.edu:80/toki/game/game.html
 ---
 import Change from '@components/Change.astro'
 
-![](/images/game.jpg)
+<Change till={3}>![](/images/game.jpg)</Change><Change from={3}>![o musi kepeken toki pona](/images/game.png)</Change>
 
 ## What is Emulation?
 As far as we're concerned, emulation is a way for you to play video games from systems like Nintendo on your computer. In order to play the video games, you must have two things: a ROM for the game you want to play; and an emulator to make the ROM run.
 
-## NES Video Games
-**Get an emulator**: My favorite NES emulator for Windows is [Nestron](http://nestron.emuunlim.com/files.htm). To download it, scroll to the heading that says _Files/Downloads_. There are also [other NES emulators for Windows](http://www.zophar.net/nes.html).. If you don't use Windows, check out some [NES emulators for Unix/Linux](http://www.zophar.net/unix/nes.html) or some [NES emulators for Mac](http://www.zophar.net/mac/nes.html).
+<Change from={2}>Unfortunately, sharing ROMs on the internet is technically illegal. To get around this problem, video game translators who want to distribute their translations often use IPS patches (which are legal) instead of ROMs. An IPS patch is a small file that contains all the data that is needed to convert a ROM's original text into translated text. Using an IPS patch to change a ROM's text only takes a few seconds.</Change>
 
-**Get ROMs**: Once you have an emulator, open up the emulator and load one of the ROMs available for download below. The Toki Pona ROMs we have for the NES so far are: <Change from={1}>Batman,</Change> Jaws, The Legend of Zelda, Super Mario Brothers, Super Mario Brothers 2, Super Mario Brothers 3, Teenage Mutant Ninja Turtles 2, Toki, Zelda 2, and Duck Hunt.
+## NES Video Games
+**<Change from={2}>Step 1:</Change> Get an emulator**<Change till={2}>:</Change>  
+My favorite NES emulator for Windows is [Nestron](http://nestron.emuunlim.com/files.htm). To download it, scroll to the heading that says _Files/Downloads_. There are also [other NES emulators for Windows](http://www.zophar.net/nes.html).. If you don't use Windows, check out some [NES emulators for Unix/Linux](http://www.zophar.net/unix/nes.html) or some [NES emulators for Mac](http://www.zophar.net/mac/nes.html).
+
+**<Change from={2}>Step 2:</Change> Get** <Change till={2}>**ROMs**:</Change> <Change from={2}>**an IPS patch**</Change>  
+<Change till={2}>Once you have an emulator, open up the emulator and load one of the ROMs available for download below.</Change>
+<Change till={2}>The Toki Pona ROMs we have for the NES so far are</Change><Change from={2}>So far, IPS patches to translate a video game's text from English to Toki Pona are available for the following games</Change>:
+<Change from={1}>Batman,</Change> Jaws, The Legend of Zelda, Super Mario Brothers, Super Mario Brothers 2, Super Mario Brothers 3, Teenage Mutant Ninja Turtles 2, Toki, Zelda 2, and Duck Hunt.
 
 <Change from={1}>
+<Change from={2}>
+### Batman
+</Change>
+
 ![](/images/batman.jpg)
 
-> [Download this game](https://web.archive.org/web/20070308231939/http://tokipona.esperanto-jeunes.org:80/game/batman.zip)
 
-This is a pretty straight-forward game and doesn't require too much strategy. However, that doesn't mean it's easy. There are tons of enemies everywhere, and once you get into the game a few levels, you have to make these amazingly hard stunts to get through certain parts. I would suggest using [Game Genie codes](http://web.archive.org/web/20050910052246/http://www.gamegenie.com/cheats/gamegenie/nes/batman.shtml).
+> <Change till={2}> [Download this game](https://web.archive.org/web/20070308231939/http://tokipona.esperanto-jeunes.org:80/game/batman.zip)</Change>
+> <Change from={2}>[IPS patch](/files/batman.ips)</Change>
+
+
+<Change from={2}>[Wikipedia article](https://web.archive.org/web/20070210094834/http://en.wikipedia.org/wiki/Batman_%28video_game%29#NES_version)<br/></Change>
+<Change till={2}>This is a pretty straight-forward game and doesn't require too much strategy. However, that doesn't mean it's easy. There are tons of enemies everywhere, and once you get into the game a few levels, you have to make these amazingly hard stunts to get through certain parts. I would suggest using </Change>
+[Game Genie codes](http://web.archive.org/web/20050910052246/http://www.gamegenie.com/cheats/gamegenie/nes/batman.shtml)<Change till={2}>.</Change>
+
+</Change>
+
+<Change from={2}>
+### Jaws
 </Change>
 
 ![](/images/jaws.jpg)
 
-> [Download this game](https://web.archive.org/web/20070308231939/http://tokipona.esperanto-jeunes.org:80/game/jaws.zip)
+> <Change till={2}> [Download this game](https://web.archive.org/web/20070308231939/http://tokipona.esperanto-jeunes.org:80/game/jaws.zip)</Change>
+> <Change from={2}>[IPS patch](/files/jaws.ips)</Change>
 
-Jaws is a neat game made in 1987 for the movie of the same name. To beat the game, you have to build strength by fighting lots of evil fish. As you gain strength, it becomes easier and easier to attack Jaws. Once you wear Jaws' strength down you go to a final fight with him where you have to stab him with your ship. It's a tough game if you don't cheat. -- As for cheating, you can use [Game Genie codes](https://web.archive.org/web/20040708083332/http://www.gamegenie.com/cheats/gamegenie/nes/jaws.shtml).
+<Change from={2}>[Wikipedia article](https://web.archive.org/web/20070210094834/http://en.wikipedia.org/wiki/Jaws_%28video_game%29)<br/></Change>
+<Change till={2}>Jaws is a neat game made in 1987 for the movie of the same name. To beat the game, you have to build strength by fighting lots of evil fish. As you gain strength, it becomes easier and easier to attack Jaws. Once you wear Jaws' strength down you go to a final fight with him where you have to stab him with your ship. It's a tough game if you don't cheat. -- As for cheating, you can use </Change>
+[Game Genie codes](https://web.archive.org/web/20040708083332/http://www.gamegenie.com/cheats/gamegenie/nes/jaws.shtml)<Change till={2}>.</Change>
+
+
+<Change from={2}>
+### The Legend of Zelda
+</Change>
 
 ![](/images/zelda.jpg)
 
-> [Download this game](https://web.archive.org/web/20070308231939/http://tokipona.esperanto-jeunes.org:80/game/zelda.zip)
+> <Change till={2}> [Download this game](https://web.archive.org/web/20070308231939/http://tokipona.esperanto-jeunes.org:80/game/zelda.zip)</Change>
+> <Change from={2}>[IPS patch](/files/zelda.ips)</Change>
 
-Ahh, wonderful Zelda! This game, made in 1986, definitely is a part of video game history. It's the first widely used game that had a battery so that players could save their game progress. -- In the game itself, you're the hero and you have to save Princess Zelda, who has been kidnapped by the evil Ganon. However, to save her, you must collect the pieces of a sacred triangle that has been shattered. -- You might find the [Game Genie codes](https://web.archive.org/web/20040708083332/http://www.gamegenie.com/cheats/gamegenie/nes/legend_of_zelda.shtml) helpful.
+<Change from={2}>[Wikipedia article](https://web.archive.org/web/20070210094834/http://en.wikipedia.org/wiki/The_Legend_of_Zelda)<br/></Change>
+<Change till={2}>Ahh, wonderful Zelda! This game, made in 1986, definitely is a part of video game history. It's the first widely used game that had a battery so that players could save their game progress. -- In the game itself, you're the hero and you have to save Princess Zelda, who has been kidnapped by the evil Ganon. However, to save her, you must collect the pieces of a sacred triangle that has been shattered. -- You might find the </Change>
+[Game Genie codes](https://web.archive.org/web/20040708083332/http://www.gamegenie.com/cheats/gamegenie/nes/legend_of_zelda.shtml)<Change till={2}> helpful.</Change>
 
+
+
+<Change from={2}>
+### Super Mario Brothers
+</Change>
 
 ![](/images/mario1.jpg)
 
-> [Download this game](https://web.archive.org/web/20070308231939/http://tokipona.esperanto-jeunes.org:80/game/mario1.zip)
+> <Change till={2}> [Download this game](https://web.archive.org/web/20070308231939/http://tokipona.esperanto-jeunes.org:80/game/mario1.zip)</Change>
+> <Change from={2}>[IPS patch](/files/mario1.ips)</Change>
 
-This game has a pretty simple plot: You're Mario and you have to save the princess from the evil guy, Bowser. If you want, you can use [Game Genie codes](https://web.archive.org/web/20040708083332/http://www.gamegenie.com/cheats/gamegenie/nes/super_mario_bros.shtml). -- I'd also like to thank Stephen for pointing out an error that I had overlooked in my translation of the game.
+<Change from={2}>[Wikipedia article](https://web.archive.org/web/20070210094834/http://en.wikipedia.org/wiki/Super_Mario_Bros._2)<br/></Change>
+<Change till={2}>This game has a pretty simple plot: You're Mario and you have to save the princess from the evil guy, Bowser. If you want, you can use </Change>
+[Game Genie codes](https://web.archive.org/web/20040708083332/http://www.gamegenie.com/cheats/gamegenie/nes/super_mario_bros.shtml)<Change till={2}>. -- I'd also like to thank Stephen for pointing out an error that I had overlooked in my translation of the game.</Change>
 
+
+
+<Change from={2}>
+### Super Mario Brothers 2
+</Change>
 
 ![](/images/mario2.jpg)
 
-> [Download this game](https://web.archive.org/web/20070308231939/http://tokipona.esperanto-jeunes.org:80/game/mario2.zip)
+> <Change till={2}> [Download this game](https://web.archive.org/web/20070308231939/http://tokipona.esperanto-jeunes.org:80/game/mario2.zip)</Change>
+> <Change from={2}>[IPS patch](/files/mario2.ips)</Change>
 
-The plot for this story doesn't even really make sense. Mario has a dream and then just tromps off into the wilderness with no foreseeable end. At any rate, it's still a fun game, and in this one you can play as Mario, Luigi, Toad, or the Princess. Maybe some [Game Genie codes](https://web.archive.org/web/20040708083332/http://www.gamegenie.com/cheats/gamegenie/nes/super_mario_bros_2.shtml) will help you. -- There were two parts of this game that I couldn't manage to translate: On the Bonus Chance screen, if you get a match, it reads `SINA PO1A` rather than `SINA PONA`. Also, at the end of the game, I couldn't find the hex code for the word `C A S T`. If you are a game hacker and can give some insight, I'd be most appreciative.
+<Change from={2}>[Wikipedia article]()<br/></Change>
+<Change till={2}>The plot for this story doesn't even really make sense. Mario has a dream and then just tromps off into the wilderness with no foreseeable end. At any rate, it's still a fun game, and in this one you can play as Mario, Luigi, Toad, or the Princess. Maybe some </Change>
+[Game Genie codes](https://web.archive.org/web/20040708083332/http://www.gamegenie.com/cheats/gamegenie/nes/super_mario_bros_2.shtml)<Change till={2}> will help you. -- There were two parts of this game that I couldn't manage to translate:</Change> <Change from={2}><br/>Translation problems:</Change> On the Bonus Chance screen, if you get a match, it reads `SINA PO1A` rather than `SINA PONA`. Also, at the end of the game, I couldn't find the hex code for the word `C A S T`. <Change till={2}>If you are a game hacker and can give some insight, I'd be most appreciative.</Change>
 
+
+<Change from={2}>
+### Super Mario Brothers 3
+</Change>
 
 ![](/images/mario3.jpg)
 
-> [Download this game](https://web.archive.org/web/20070308231939/http://tokipona.esperanto-jeunes.org:80/game/mario3.zip)
+> <Change till={2}> [Download this game](https://web.archive.org/web/20070308231939/http://tokipona.esperanto-jeunes.org:80/game/mario3.zip)</Change>
+> <Change from={2}>[IPS patch](/files/mario3.ips)</Change>
 
-Yep, yep. This game was really cool back in the day. It's even been recently rereleased for the Gameboy Advance. I have many fond memories from when I was little of using cheat codes to start on world four (my favorite). Speaking of cheat codes, you can use the [Game Genie codes](https://web.archive.org/web/20040708083332/http://www.gamegenie.com/cheats/gamegenie/nes/super_mario_bros_3.shtml). And if you get bored, there are some really fun (but not too useful) [weird Game Genie codes](https://web.archive.org/web/20040708083332/http://www.nww.silius.net/ggw/smb3.html) for this game.
+<Change from={2}>[Wikipedia article](https://web.archive.org/web/20070210094834/http://www.gamegenie.com/cheats/gamegenie/nes/super_mario_bros_3.shtml)<br/></Change>
+<Change till={2}>Yep, yep. This game was really cool back in the day. It's even been recently rereleased for the Gameboy Advance. I have many fond memories from when I was little of using cheat codes to start on world four (my favorite). Speaking of cheat codes, you can use the </Change>
+[Game Genie codes](https://web.archive.org/web/20040708083332/http://www.gamegenie.com/cheats/gamegenie/nes/super_mario_bros_3.shtml)<Change till={2}>. And if you get bored, there are some really fun (but not too useful)</Change>[<Change from={2}><br/>W</Change><Change till={2}>w</Change>eird Game Genie codes](https://web.archive.org/web/20040708083332/http://www.nww.silius.net/ggw/smb3.html) <Change till={2}>for this game.</Change>
+
+
+<Change from={2}>
+### Teenage Mutant Ninja Turtles II: The Arcade Game
+</Change>
 
 ![](/images/tmnt2.jpg)
 
-> [Download this game](https://web.archive.org/web/20070308231939/http://tokipona.esperanto-jeunes.org:80/game/tmnt2.zip)
+> <Change till={2}> [Download this game](https://web.archive.org/web/20070308231939/http://tokipona.esperanto-jeunes.org:80/game/tmnt2.zip)</Change>
+> <Change from={2}>[IPS patch](/files/tmnt2.ips)</Change>
 
-This is a side-scrolling game where you, playing as any one of the Turtles, fight a bunch of the Foot clan, rescue April and Splinter, and blow up Shredder's Technodrome. The Ninja Turtles were my idols when I was a kid, and so naturally I have to pay homage to them with a Toki Pona translation of the game! Swing by and check out the [Game Genie codes](https://web.archive.org/web/20040708083332/http://www.gamegenie.com/cheats/gamegenie/nes/tmnt_2-the_arcade_game.shtml) for this game. -- Unfortunately, I could not figure out how to change the big `G A M E O V E R` text. If you know how I might go about this, please contact me.
+<Change from={2}>[Wikipedia article](https://web.archive.org/web/20070210094834/http://en.wikipedia.org/wiki/Teenage_Mutant_Ninja_Turtles_%28arcade_game%29)<br/></Change>
+<Change till={2}>This is a side-scrolling game where you, playing as any one of the Turtles, fight a bunch of the Foot clan, rescue April and Splinter, and blow up Shredder's Technodrome. The Ninja Turtles were my idols when I was a kid, and so naturally I have to pay homage to them with a Toki Pona translation of the game! Swing by and check out the </Change>
+[Game Genie codes](https://web.archive.org/web/20040708083332/http://www.gamegenie.com/cheats/gamegenie/nes/tmnt_2-the_arcade_game.shtml)<Change till={2}> for this game. -- Unfortunately,</Change> <Change from={2}><br/>Translation problems:</Change> I could not figure out how to change the big `G A M E O V E R` text. <Change till={2}>If you know how I might go about this, please contact me.</Change>
+
+
+<Change from={2}>
+### Toki
+</Change>
 
 ![](/images/toki.jpg)
 
-> [Download this game](https://web.archive.org/web/20070308231939/http://tokipona.esperanto-jeunes.org:80/game/toki.zip)
+> <Change till={2}> [Download this game](https://web.archive.org/web/20070308231939/http://tokipona.esperanto-jeunes.org:80/game/toki.zip)</Change>
+> <Change from={2}>[IPS patch](/files/toki.ips)</Change>
 
-This game wasn't really wildly popular like most of the other games that Pije has translated. But, as you've probably noticed, its name shares a connection with our beloved conlang. :) -- There are a few [Game Genie codes](https://web.archive.org/web/20040708083332/http://www.gamegenie.com/cheats/gamegenie/nes/toki.shtml).
+<Change from={2}>[Wikipedia article](https://web.archive.org/web/20070210094834/http://en.wikipedia.org/wiki/Toki_%28video_game%29)<br/></Change>
+<Change till={2}>This game wasn't really wildly popular like most of the other games that Pije has translated. But, as you've probably noticed, its name shares a connection with our beloved conlang. :) -- There are a few </Change>
+[Game Genie codes](https://web.archive.org/web/20040708083332/http://www.gamegenie.com/cheats/gamegenie/nes/toki.shtml)<Change till={2}>.</Change>
+
+
+<Change from={2}>
+### Zelda II: The Adventure of Link
+</Change>
 
 ![](/images/zelda2.jpg)
 
-> [Download this game](https://web.archive.org/web/20070308231939/http://tokipona.esperanto-jeunes.org:80/game/zelda2.zip)
+> <Change till={2}> [Download this game](https://web.archive.org/web/20070308231939/http://tokipona.esperanto-jeunes.org:80/game/zelda2.zip)</Change>
+> <Change from={2}>[IPS patch](/files/zelda2.ips)</Change>
 
-This game, the less successful sequel to _The Legend of Zelda_, is pretty cool once you get into it, but it's nearly impossible to beat. If you don't use Game Genie codes, plan on locking yourself in a room for the next four or five years, and you **might** be able to beat this game in that time. -- The story goes like this: Zelda has been put under a spell and won't wake up unless someone brings a missing piece of the Triforce. Unfortunately for you, that piece has been sealed away. To break the seal, you have to distribute crystals to six palaces throughout the kingdom. And it's not easy. Welcome to hell--er, I mean Hyrule.
+<Change from={2}>[Wikipedia article](https://web.archive.org/web/20070210094834/http://en.wikipedia.org/wiki/Zelda_II:_The_Adventure_of_Link)<br/></Change>
+<Change till={2}>This game, the less successful sequel to _The Legend of Zelda_, is pretty cool once you get into it, but it's nearly impossible to beat. If you don't use Game Genie codes, plan on locking yourself in a room for the next four or five years, and you **might** be able to beat this game in that time. -- The story goes like this: Zelda has been put under a spell and won't wake up unless someone brings a missing piece of the Triforce. Unfortunately for you, that piece has been sealed away. To break the seal, you have to distribute crystals to six palaces throughout the kingdom. And it's not easy. Welcome to hell--er, I mean Hyrule.</Change>
+
+<Change from={2}>[Game Genie codes](https://web.archive.org/web/20060325033525/http://www.gamegenie.com/cheats/gamegenie/nes/zelda_2-the_adv_of_link.shtml)</Change>
+
+<Change from={2}>
+### Duck Hunt
+</Change>
 
 ![](/images/duckhunt.jpg)
 
-> [Download this game](https://web.archive.org/web/20070308231939/http://tokipona.esperanto-jeunes.org:80/game/duckhunt.zip)
+> <Change till={2}> [Download this game](https://web.archive.org/web/20070308231939/http://tokipona.esperanto-jeunes.org:80/game/duckhunt.zip)</Change>
+> <Change from={2}>[IPS patch](/files/duckhunt.ips)</Change>
 
-Duck Hunt. To play this game on the original NES, you plug in a little gun into the front of the NES, and your shots on the gun get registered and will shoot down the ducks flying around on the screen. It's pretty fun. Nowadays on the computer you just use your mouse to kill the ducks. Not all emulators support this feature, so you will have to get one with **zapper support**, such as the [FCE Ultra](https://web.archive.org/web/20040708083332/http://fceultra.sourceforge.net/releases/). If you want to play this game but are having a hard time getting it to work right, let me know.
+<Change till={2}></Change> <Change from={2}></Change>
+
+<Change from={2}>[Wikipedia article](https://web.archive.org/web/20070210094834/http://en.wikipedia.org/wiki/Duck_Hunt)<br/></Change>
+<Change till={2}>Duck Hunt. To play this game on the original NES, you plug in a little gun into the front of the NES, and your shots on the gun get registered and will shoot down the ducks flying around on the screen. It's pretty fun.</Change> <Change from={2}>On the original NES, you use a gun controller to shoot the ducks.</Change> <Change till={2}>Nowadays on the computer</Change> <Change from={2}>On the PC,</Change> you <Change till={2}>just</Change><Change from={2}>must</Change> use your mouse to <Change till={2}>kill the ducks.</Change> <Change from={2}>click on them.</Change> Not all emulators support this feature, so you will have to get <Change till={2}>one</Change> <Change from={2}>an emulator</Change> with **zapper support**, such as the [FCE Ultra](https://web.archive.org/web/20040708083332/http://fceultra.sourceforge.net/releases/). <Change till={2}>If you want to play this game but are having a hard time getting it to work right, let me know.</Change>  
+
+<Change till={2}>Translation problems: I didn't translate the game's title on the title screen.</Change>
+
+
+<Change from={2}>
+**Step 3: Get the original ROM**  
+Whatever IPS patch you downloaded above, you now need that IPS patch's corresponding ROM. The ROMs can be found at many different sites online. <Change till={3}>For example, [this site](http://www.theoldcomputer.com/Libarary's/Emulation/NES/ROMs/NES_roms_summary.htm) has lots of NES ROMs.</Change> <Change from={3}>Just look around.</Change>
+
+**Step 4: Apply the IPS patch to the patch's corresponding ROM**  
+You will need an IPS patcher to do this. If you use Windows, I recommend [Lunar IPS](https://web.archive.org/web/20070212000451/http://fusoya.panicus.org/lips/index.html). In Lunar IPS, just click "Apply IPS patch" and then locate the IPS patch and its corresponding ROM when the program asks you to. Once you've done this, the program will create the Toki Pona ROM for you. If you use Mac, you can find several IPS patchers for the Mac [here](https://web.archive.org/web/20070205173256/http://www.zophar.net/utilities/patchutil.html).
+
+**Step 5: Play the video game in Toki Pona**  
+Use the emulator you downloaded earlier (in step 1) to load the Toki Pona version of the ROM.
+</Change>
 
 ## SNES Video Games
-**Get an emulator**: All the games listed above are games for the original Nintendo, which was eventually replaced by the Super Nintendo. Because Super Nintendo games are different, you need a different type of emulator to play them.  
+**<Change from={2}>Step 1: </Change>Get an emulator**:  
+All the games listed above are games for the original Nintendo, which was eventually replaced by the Super Nintendo. Because Super Nintendo games are different, you need a different type of emulator to play them.  
 - [SNES emulators for Windows](http://www.zophar.net/snes.html). I recommend SNES9X.
 - [SNES emulators for Unix/Linux](http://www.zophar.net/unix/snes.html)
 - [SNES emulators for Mac](http://www.zophar.net/mac/snes.html)
 
-**Get a ROM**: Right now, the only SNES game translated to Toki Pona is Super Mario World.
+**<Change from={2}>Step 2: </Change>Get a ROM**:  
+Right now, the only SNES game translated to Toki Pona is Super Mario World.
 
+
+<Change from={2}>
+### Super Mario World
+</Change>
 
 ![](/images/mariosmw.jpg)
 
-> [Download this game](https://web.archive.org/web/20070308231939/http://tokipona.esperanto-jeunes.org:80/game/mariosmw.zip)
+> <Change till={2}> [Download this game](https://web.archive.org/web/20070308231939/http://tokipona.esperanto-jeunes.org:80/game/mariosmw.zip)</Change>
+> <Change from={2}>[IPS patch](/files/mariosmw.ips)</Change>
 
-This game has always been really fun for me. It offers 96 levels of fun that only Mario can give and is packed with extra secrets and side events. -- For your enjoyment I have included a savefile that should work with any SNES emulator; the game is completely beaten so that you can play any level you want. Simply keep the two files from the ZIP together in the same folder. -- You might want to use [Game Genie codes](https://web.archive.org/web/20040708083332/http://www.gamewinners.com/gamegenie.php?game=blssmarioworld.htm). -- Much to my chagrin, I couldn't translate the `MARIO START!` message you see when starting a level. Similarly, I couldn't translate the `TIME UP!` and `GAME OVER` messages either.
+<Change from={2}>[Wikipedia article](https://web.archive.org/web/20070210094834/http://en.wikipedia.org/wiki/Super_Mario_World)<br/></Change>
+<Change till={2}>This game has always been really fun for me. It offers 96 levels of fun that only Mario can give and is packed with extra secrets and side events. -- For your enjoyment I have included a savefile that should work with any SNES emulator; the game is completely beaten so that you can play any level you want. Simply keep the two files from the ZIP together in the same folder. -- You might want to use </Change>
+[Game Genie codes](https://web.archive.org/web/20040708083332/http://www.gamewinners.com/gamegenie.php?game=blssmarioworld.htm)<Change till={2}>. -- Much to my chagrin,</Change><Change from={2}><br/>Translation problems:</Change> I couldn't translate the `MARIO START!`<Change from={2}>,</Change> <Change till={2}>message you see when starting a level. Similarly, I couldn't translate the</Change> `TIME UP!`<Change from={2}>,</Change> and `GAME OVER` messages<Change from={2}> either</Change>.
 
+<Change from={2}>Download [this savefile](/files/mariosmw.srm), rename it to have the same file name as your video game ROM, and put it in the same folder as the ROM. If you do this, the game will be completely beaten so that you can play any level you want.</Change>
+
+<Change from={2}>
+**Step 3: Get the original ROM**  
+This ROM <Change till={3}>is a bit</Change> <Change from={3}>can be somewhat</Change> hard to find. If you<Change till={3}>'re familiar with</Change> <Change from={3}>know</Change> how to decompress 7-zip files, you may want to check [this site](https://web.archive.org/web/20070210014441/http://romhustler.net/rom/snes/1504). Otherwise, <Change till={3}>you can</Change> look around online or <Change till={3}>try searching the</Change> <Change from={3}>on</Change> filesharing networks for <Change till={3}>this specific</Change> <Change from={3}>the</Change> ROM<Change till={3}> or a collection of many SNES ROMs</Change>.
+<Change till={3}></Change> <Change from={3}></Change>
+
+**Step 4: Apply the IPS patch to the patch's corresponding ROM**
+
+**Step 5: Play the video game in Toki Pona**
+</Change>
 
 ---
 

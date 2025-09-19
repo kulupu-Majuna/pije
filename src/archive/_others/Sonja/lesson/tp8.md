@@ -4,7 +4,13 @@ description: Yes/No Questions
 captures:
   -
     - https://web.archive.org/web/20050214121521/http://tokipona.nytka.org:80/about/lesson/tp8.html
-    - https://web.archive.org/web/20070316193207/http://tokipona.esperanto-jeunes.org:80/about/lesson/tp8.html
+    #- https://web.archive.org/web/20070316193207/http://tokipona.esperanto-jeunes.org:80/about/lesson/tp8.html
+    - https://web.archive.org/web/20090828022821/http://bknight0.myweb.uga.edu:80/toki/about/lesson/tp8.html
+    - https://web.archive.org/web/20111106124135/http://bknight0.myweb.uga.edu:80/toki/about/lesson/tp8.html
+    - https://web.archive.org/web/20120905064941/http://bknight0.myweb.uga.edu:80/toki/about/lesson/tp8.html
+    - https://web.archive.org/web/20121127120720/http://bknight0.myweb.uga.edu:80/toki/about/lesson/tp8.html
+    - https://web.archive.org/web/20121101193547/http://bknight0.myweb.uga.edu:80/toki/about/lesson/tp8.html
+    - https://web.archive.org/web/20130311122845/http://bknight0.myweb.uga.edu:80/toki/about/lesson/tp8.html
 ---
 
 # ![***](/images/Sonja/swirl.gif) Lesson Eight ![***](/images/Sonja/swirl.gif)

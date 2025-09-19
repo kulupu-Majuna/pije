@@ -4,6 +4,9 @@ description: Greetings, Expressions, and Multiple Verbs
 captures:
   -
     - https://web.archive.org/web/20050214121219/http://tokipona.nytka.org:80/about/lesson/tp5new.html
+    - https://web.archive.org/web/20090821024504/http://bknight0.myweb.uga.edu:80/toki/about/lesson/tp5new.html
+    - https://web.archive.org/web/20120905052222/http://bknight0.myweb.uga.edu:80/toki/about/lesson/tp5new.html
+    - https://web.archive.org/web/20130310221200/http://bknight0.myweb.uga.edu:80/toki/about/lesson/tp5new.html
 ---
 
 # ![***](/images/Sonja/swirl.gif) Lesson Five [new] ![***](/images/Sonja/swirl.gif)

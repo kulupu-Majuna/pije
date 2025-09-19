@@ -5,8 +5,8 @@ captures:
   -
     - https://web.archive.org/web/20050213010857/http://tokipona.nytka.org:80/image/palapiku.html
     - "@20050228/https://archive.today/IEg6R"
-    - https://web.archive.org/web/20070312012726/http://tokipona.esperanto-jeunes.org:80/image/palapiku.html
-    - https://web.archive.org/web/20070314040843/http://tokipona.esperanto-jeunes.org:80/image/palapiku.html
+    #- https://web.archive.org/web/20070312012726/http://tokipona.esperanto-jeunes.org:80/image/palapiku.html
+    #- https://web.archive.org/web/20070314040843/http://tokipona.esperanto-jeunes.org:80/image/palapiku.html
 ---
 
 ![](/images/palapiku.jpg)

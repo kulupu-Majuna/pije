@@ -5,16 +5,44 @@ captures:
   - #0
     - https://web.archive.org/web/20041209122343/http://tokipona.nytka.org:80/text/text.html
     - https://web.archive.org/web/20050204041949/http://tokipona.nytka.org:80/text/text.html
-  - #1
-    - https://web.archive.org/web/20060216222028/http://tokipona.esperanto-jeunes.org:80/text/text.html
+  - #1: +/olape, +/kute, +/jan, +/chew. renamed /lape, /jabberwock. new headers & descriptions. -/chat (moved to /about)
+    #- https://web.archive.org/web/20060216222028/http://tokipona.esperanto-jeunes.org:80/text/text.html
     - https://web.archive.org/web/20060622063024/http://toki.dm7.net:80/text/text.html
-    - https://web.archive.org/web/20061207003221/http://tokipona.esperanto-jeunes.org:80/text/text.html
-    - https://web.archive.org/web/20070308231949/http://tokipona.esperanto-jeunes.org:80/text/text.html
-    - https://web.archive.org/web/20070310112043/http://tokipona.esperanto-jeunes.org:80/text/text.html
+    #- https://web.archive.org/web/20061207003221/http://tokipona.esperanto-jeunes.org:80/text/text.html
+    #- https://web.archive.org/web/20070308231949/http://tokipona.esperanto-jeunes.org:80/text/text.html
+    #- https://web.archive.org/web/20070310112043/http://tokipona.esperanto-jeunes.org:80/text/text.html
+  - #2: +/allman
+    - https://web.archive.org/web/20070624111307/http://bknight0.myweb.uga.edu/toki/text/text.html
+    - https://web.archive.org/web/20070703050045/http://bknight0.myweb.uga.edu/toki/text/text.html
+  - #3: changed descriptions. renamed /braveheart, /ring, /chew, /mphg (& put a disclaimer on it), /tokisewi. -/jabberwock, -/hista
+    - https://web.archive.org/web/20071028153007/http://bknight0.myweb.uga.edu/toki/text/text.html
+    - https://web.archive.org/web/20080517102507/http://bknight0.myweb.uga.edu/toki/text/text.html
+    - https://web.archive.org/web/20080731055522/http://bknight0.myweb.uga.edu/toki/text/text.html
+    - https://web.archive.org/web/20080820061646/http://bknight0.myweb.uga.edu/toki/text/text.html
+    - https://web.archive.org/web/20090211124320/http://bknight0.myweb.uga.edu/toki/text/text.html
+    - https://web.archive.org/web/20090617180335/http://bknight0.myweb.uga.edu/toki/text/text.html
+  - #4: new image. rearranged texts, removed wikipedia links. -/olape, -/meli
+    - https://web.archive.org/web/20090918163922/http://bknight0.myweb.uga.edu/toki/text/text.html
+  - #5: +/uga
+    - https://web.archive.org/web/20091126102905/http://bknight0.myweb.uga.edu/toki/text/text.html
+    - https://web.archive.org/web/20110809140019/http://bknight0.myweb.uga.edu/toki/text/text.html
+    - https://web.archive.org/web/20110909025505/http://bknight0.myweb.uga.edu/toki/text/text.html
+    - https://web.archive.org/web/20111108212940/http://bknight0.myweb.uga.edu/toki/text/text.html
+    - https://web.archive.org/web/20120109035933/http://bknight0.myweb.uga.edu/toki/text/text.html
+    - https://web.archive.org/web/20120212091120/http://bknight0.myweb.uga.edu/toki/text/text.html
+    - https://web.archive.org/web/20120708174819/http://bknight0.myweb.uga.edu/toki/text/text.html
+    - https://web.archive.org/web/20120908211226/http://bknight0.myweb.uga.edu/toki/text/text.html
+    - https://web.archive.org/web/20121227130508/http://bknight0.myweb.uga.edu/toki/text/text.html
+    - https://web.archive.org/web/20130831111210/http://bknight0.myweb.uga.edu/toki/text/text.html
+    - https://web.archive.org/web/20131031023419/http://bknight0.myweb.uga.edu/toki/text/text.html
+    - https://web.archive.org/web/20131101024610/http://bknight0.myweb.uga.edu/toki/text/text.html
+    - https://web.archive.org/web/20140218225856/http://bknight0.myweb.uga.edu/toki/text/text.html
+    - https://web.archive.org/web/20140417174455/http://bknight0.myweb.uga.edu/toki/text/text.html
+    - https://web.archive.org/web/20140624022412/http://bknight0.myweb.uga.edu/toki/text/text.html
 ---
 import Change from '@components/Change.astro'
 
-![](/images/text.jpg)
+<Change till={4}>![](/images/text.jpg)</Change><Change from={4}>![](/images/text2.png)</Change>
 
 <Change till={1}>
 ### [Logs from the Chat Room](/text/chat)
@@ -25,52 +53,63 @@ Here is a small collection of logs made in the Toki Pona chat room. Hopefully yo
 ## In Toki Pona
 </Change>
 
-<Change from={1}>
+<Change from={1} till={4}>
 ## Original Poetry
 </Change>
 
 ### [<Change till={1}>My First Poem in Toki Pona</Change><Change from={1}>ma mi li pimeja</Change>](/text/lape)
 <Change till={1}>I'm quite proud of this poem! Rather than simply writing the poem, I also tried to use different colors and arrangements of the words and letters to convey meanings.</Change>
-<Change from={1}>A simple but beautiful poem, enhanced by using color and shape</Change>
+<Change from={1} till={3}>A simple but beautiful poem, enhanced by using color and shape</Change>
 
-<Change from={1}>
-### [o lape](/text/olape)
-A sweet poem by Agneau about trying to get his baby to sleep
+<Change from={1} till={4}>
+### [o lape](/text/olape)<Change from={3}>, by Agneau</Change>
+<Change till={3}>A sweet poem by Agneau about trying to get his baby to sleep</Change>
 </Change>
 
 ### [kili lili](/text/kili)
-A short, rhyming poem about a piece of fruit.
+<Change till={3}>A short, rhyming poem about a piece of fruit.</Change>
 
+<Change till={4}>
 ### [meli pona](/text/meli)
-A love poem from a man to his meli.
+<Change till={3}>A love poem from a man to his meli.</Change>
+</Change>
+
+<Change from={1} till={4}>
+## Translated Poetry
+</Change>
 
 <Change from={1}>
 ### [mi kute e kalama musi pi ma Mewika](/text/kute)
-Inspired by ["I Hear America Singing"](http://web.archive.org/web/20060216222028/http://www.daypoems.net/poems/1892.html) by [Walt Whitman](http://web.archive.org/web/20060216222028/http://en.wikipedia.org/wiki/Walt_Whitman)
+<Change till={1}>Inspired by ["I Hear America Singing"](http://web.archive.org/web/20060216222028/http://www.daypoems.net/poems/1892.html) by [Walt Whitman](http://web.archive.org/web/20060216222028/http://en.wikipedia.org/wiki/Walt_Whitman)</Change>
+<Change from={1}>A loose translation of <Change till={4}>[Walt Whitman](https://web.archive.org/web/20071028153007/http://en.wikipedia.org/wiki/Walt_Whitman)</Change><Change from={4}>Walt Whitman</Change>'s poem "[I Hear America Singing](https://web.archive.org/web/20071028153007/http://www.daypoems.net/poems/1892.html)"</Change>
 </Change>
 
 <Change from={1}>
 ### [jan li awen a](/text/jan)
-inspired by [107](http://web.archive.org/web/20060216222028/http://www.geocities.com/martyhillary/ThePeople.html) (also known as "The People Will Live On") by [Carl Sandburg](http://web.archive.org/web/20060216222028/http://en.wikipedia.org/wiki/Carl_Sandburg)
+<Change till={1}>inspired by [107](http://web.archive.org/web/20060216222028/http://www.geocities.com/martyhillary/ThePeople.html) (also known as "The People Will Live On") by [Carl Sandburg](http://web.archive.org/web/20060216222028/http://en.wikipedia.org/wiki/Carl_Sandburg)</Change>
+<Change from={1}>A loose translation of <Change till={4}>[Carl Sandburg](https://web.archive.org/web/20071028153007/http://en.wikipedia.org/wiki/Carl_Sandburg)</Change><Change from={4}>Carl Sandburg</Change>'s poem [107](https://web.archive.org/web/20071028153007/http://www.geocities.com/martyhillary/ThePeople.html) (also known as "The People Will Live On")</Change>
 </Change>
 
-<Change from={1}>
-## Translated Poetry
-</Change>
-
-### [<Change till={1}>Jabberwocky</Change><Change from={1}>ijo Sepawa</Change>](/text/jabberwock)
+<Change till={3}>
+### <Change till={1}>[Jabberwocky](/text/jabberwock)</Change> <Change from={1}>[ijo Sepawa]((/text/jabberwock)</Change>
 <Change till={1}>Now you can read a Toki Pona translation of</Change> <Change from={1}>A translation of Jabberwocky,</Change> the poem that Lewis Carroll probably wrote during a serious high.
+</Change>
 
 ### [sina suno mi](/text/sun)
-A translation of the children's song You are my Sunshine.
-
+A translation of the <Change from={3}>chorus of the</Change> children's song <Change till={4}>_You are my Sunshine_</Change><Change from={4}>"[You are my Sunshine](https://web.archive.org/web/20071028153007/http://www.geocities.com/EnchantedForest/Cottage/3192/YouRsunshine.html)"</Change>.
 
 ### [soweli Luta](/text/rudolph)
-<Change till={1}>This is an</Change><Change from={1}>An</Change> adaptation of the Christmas song Rudolph the Red-Nosed Reindeer.
+<Change till={1}>This is an</Change><Change from={1}>An</Change> adaptation of the Christmas song <Change till={4}_Rudolph the Red-Nosed Reindeer_></Change><Change from={4}>"[Rudolph the Red-Nosed Reindeer](https://web.archive.org/web/20071028153007/http://www.carols.org.uk/rudolf_the_red_nosed_reindeer.htm)"</Change>.
+
+### <Change till={3}>[Ring poem from _The Lord of the Rings_](/text/ring)</Change> <Change from={3}>[sike wan](/text/ring)</Change>
+<Change till={3}>The <Change till={1}>popular (well, sorta popular)</Change> poem about Sauron's Ring. Woohoo.</Change>
+<Change from={3}>A translation of the [poem about Sauron's ring](https://web.archive.org/web/20071028153007/http://www.cs.rice.edu/%7Essiyer/minstrels/poems/257.html) from <Change till={4}>[_The Lord of the Rings_](https://web.archive.org/web/20071028153007/http://en.wikipedia.org/wiki/The_Lord_of_the_Rings)</Change> <Change from={4}>_The Lord of the Rings_</Change></Change>
 
 
-### [Ring poem from _The Lord of the Rings_](/text/ring)
-The <Change till={1}>popular (well, sorta popular)</Change> poem about Sauron's Ring. Woohoo.
+<Change from={2}>
+### [Allman Brothers Band Lyrics](/text/allman)
+<Change till={3}>Translated lyrics of a few</Change><Change from={3}>Translations of the lyrics from several</Change> songs by the [Allman Brothers Band](https://web.archive.org/web/20070624111307/http://en.wikipedia.org/wiki/The_Allman_Brothers_Band)
+</Change>
 
 <Change from={1}>
 ## Phrasebooks
@@ -78,49 +117,65 @@ The <Change till={1}>popular (well, sorta popular)</Change> poem about Sauron's 
 
 ### [Zompist phrasebook <Change from={1}>in Toki Pona</Change>](/text/zompist)
 <Change till={1}>If you've ever read the handy-dandy Zompist phrasebook, you should be happy to know that now you can use all of those phrases in Toki Pona as well. (If you have never heard of the Zompist phrasebook, you can check out the original [here](https://web.archive.org/web/20041209122343/http://www.zompist.com/phrases.html).)</Change>
-<Change from={1}>A Toki Pona version of the [original Zompist Phrasebook](http://web.archive.org/web/20060216222028/http://www.zompist.com/phrases.html)</Change>
+<Change from={1}><Change till={3}>A Toki Pona version of</Change> <Change from={3}>Translated from</Change> the [original Zompist Phrasebook](http://web.archive.org/web/20060216222028/http://www.zompist.com/phrases.html)</Change>
 
 ### [Survivalist's Phrasebook](/text/survive)
 <Change till={1}>If Toki Pona were spoken in a third world, anti-American country undergoing a violent revolution, you'd want to make sure to bring this phrasebook along.</Change>
-<Change from={1}>Just in case you come across Toki Pona guerilla rebels</Change>
+<Change from={1} till={3}>Just in case you come across Toki Pona guerilla rebels</Change>
 
 
-<Change from={1}>
-## Movie and TV Texts
-</Change>
-
-### [William Wallace's Speech in Braveheart](/text/braveheart)
-<Change till={1}>If you've seen Braveheart, you might recollect this rousing speech. As the English are marching onto the battlefield, the much smaller Scottish rebel army becomes frightened and wants to run away into the hills. Then, Wallace arrives and gives this speech, which inspires the Scottish and leads them to victory.</Change>
-<Change from={1}>The famous speech delivered before the first major battle of the movie</Change>
-
-
-<Change from={1}>
-### [The Chewbacca Defense](/text/chew)
-Attorney [Johnnie Cochran](http://web.archive.org/web/20060216222028/http://en.wikipedia.org/wiki/Johnnie_Cochran)'s [Chewbacca defense](http://web.archive.org/web/20060216222028/http://en.wikipedia.org/wiki/Chewbacca_Defense) used on [South Park](http://web.archive.org/web/20060216222028/http://en.wikipedia.org/wiki/South_Park)
-</Change>
-
-### [Script for _Monty Python and the Holy Grail_](/text/mphg)
-<Change till={1}>Yes, it's the script for the entire movie, and it took a long time. But now you can enjoy all your favorite scenes like the one with the killer bunny rabbit or the anarcho-syndicalist peasant or the lengthy discourses on swallows!</Change>
-<Change from={1}>Killer bunny rabbits and anarcho-syndicalist peasants in Toki Pona</Change>
-
-<Change from={1}>
+<Change from={1} till={4}>
 ## Other
 </Change>
 
-
-### [nasin pona](/_others/nikita/intro)
+### [nasin pona](/_others/nikita/intro)<Change from={3} till={4}>, by Nikita</Change>
 <Change till={1}>This is a collection of short prose by Nikita, one of the three fluent Toki Pona speakers. These texts are short, but they are perfect examples of the ideology behind Toki Pona, not to mention how inspiring they are.</Change>
-<Change from={1}>A collection of short prose by Nikita that exemplifies the Toki Pona ideology</Change>
+<Change from={1} till={3}>A collection of short prose by Nikita that exemplifies the Toki Pona ideology</Change>
+<Change from={4}>Parables translated by Nikita Ayzikovsky</Change>
 
 ### [Toki Pona Quickies](/text/quickies)
 <Change till={1}>If you've ever seen the funny Book-A-Minute site online, this follows the same idea but in Toki Pona.</Change>
-<Change from={1}>Like a Toki Pona version of the Book-A-Minute site</Change>
+<Change from={1} till={3}>Like a Toki Pona version of the Book-A-Minute site</Change>
+<Change from={3}>Similar to [Book-A-Minute](https://web.archive.org/web/20071028153007/http://www.rinkworks.com/bookaminute/)</Change>
 
+<Change from={5}>
+### [University of Georgia's Battle Hymn](/text/uga)
+A translation of the speech that is recited before each football game at the University of Georgia
+</Change>
+
+<Change till={3}>
 ### [Brief History of Everything](/text/hista)
 <Change till={1}>This briefly explains, well, everything! It starts with the Big Bang and discusses the major topics in history up until today.</Change>
 <Change from={1}>Starts with the Big Bang and highlights everything since then</Change>
+</Change>
 
+<Change till={3}>
 ### [toki pi nasin sewi](/text/tokisewi)
-<Change till={1}>Translations of various religions' most important texts. Currently contains these translations: </Change>
-<Change from={1}>Translations of:</Change> the Shma, the Babel Text, the Ten Commandments, the Lord's Prayer, the Islamic Declaration of Faith, a quote by Buddha, and the Five Fundamental Beliefs of Creativity.
+<Change till={1}>Translations of various religions' most important texts. Currently contains these translations:</Change> <Change from={1}>Translations of:</Change>
+the Shma, the Babel Text, the Ten Commandments, the Lord's Prayer, the Islamic Declaration of Faith, a quote by Buddha, and the Five Fundamental Beliefs of Creativity.
+</Change>
 
+<Change from={3}>
+### [Religious texts](/text/tokisewi)
+<Change from={4}>The Sermon on the Mount and the Shahadah</Change>
+</Change>
+
+<Change from={1}>
+## Movie and TV <Change till={4}>Texts</Change>
+</Change>
+
+### [<Change till={3}>William Wallace's Speech in </Change>_Braveheart_<Change from={3}>: Speech before the Battle of Stirling Bridge</Change>](/text/braveheart)
+<Change till={1}>If you've seen Braveheart, you might recollect this rousing speech. As the English are marching onto the battlefield, the much smaller Scottish rebel army becomes frightened and wants to run away into the hills. Then, Wallace arrives and gives this speech, which inspires the Scottish and leads them to victory.</Change>
+<Change from={1} till={3}>The famous speech delivered before the first major battle of the movie</Change>
+<Change from={3}><Change till={4}>[William Wallace](https://web.archive.org/web/20071028153007/http://en.wikipedia.org/wiki/William_Wallace)</Change><Change from={4}>William Wallace</Change>'s speech before the <Change till={4}>[Battle of Stirling Bridge](https://web.archive.org/web/20071028153007/http://en.wikipedia.org/wiki/Battle_of_Stirling_Bridge)</Change><Change from={4}>Battle of Stirling Bridge</Change> in <Change till={4}>[_Braveheart_](https://web.archive.org/web/20071028153007/http://en.wikipedia.org/wiki/Braveheart)</Change><Change from={4}>Braveheart</Change></Change>
+
+<Change from={1}>
+### [<Change from={3}>_South Park_:</Change> The Chewbacca Defense](/text/chew)
+Attorney [Johnnie Cochran](http://web.archive.org/web/20060216222028/http://en.wikipedia.org/wiki/Johnnie_Cochran)'s [Chewbacca defense](http://web.archive.org/web/20060216222028/http://en.wikipedia.org/wiki/Chewbacca_Defense) <Change till={3}>used on</Change> <Change from={3}>from</Change> [_South Park_](http://web.archive.org/web/20060216222028/http://en.wikipedia.org/wiki/South_Park)
+</Change>
+
+### [<Change till={3}>Script for</Change> _Monty Python and the Holy Grail_<Change from={3}>: Entire Movie Script</Change>](/text/mphg)
+<Change till={1}>Yes, it's the script for the entire movie, and it took a long time. But now you can enjoy all your favorite scenes like the one with the killer bunny rabbit or the anarcho-syndicalist peasant or the lengthy discourses on swallows!</Change>
+<Change from={1} till={3}>Killer bunny rabbits and anarcho-syndicalist peasants in Toki Pona</Change>
+<Change from={3}>Movie script for [_Monty Python and the Holy Grail_](https://web.archive.org/web/20071028153007/http://en.wikipedia.org/wiki/Monty_Python_and_the_Holy_Grail)</Change>  
+<Change from={3}>Toki Pona has had some small changes since the movie script was first translated. I have tried to keep the text reasonably current and updated, but you may find a few phrases that are outdated or inefficient.</Change>
